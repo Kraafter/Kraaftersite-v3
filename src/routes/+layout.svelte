@@ -29,7 +29,7 @@
         </div>
     </nav>
     {#key data.url}
-        <div style="height: fit-content; min-height:1000px; width: 100%; display:flex; align:center; padding:0" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
+        <div style="height: fit-content; min-height:500px; width: 100%; display:flex; align:center; padding:0" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
             <slot />
         </div>
     {/key}
