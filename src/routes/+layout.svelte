@@ -1,21 +1,38 @@
+<script>
+    export let data;
+  
+    import { fly } from "svelte/transition";
+    import { cubicIn, cubicOut } from "svelte/easing";
+
+    import splashes from '$lib/file/splash.json';
+    const splash = splashes.splashes[Math.floor(Math.random() * splashes.splashes.length)];;
+
+  </script>
+
 <main class="body">
     <nav class="nav">
-        <div class="logo"></div>
-        <div style="display: flex; align-items:baseline; gap:10px">
-            <h1 class="text1" style="font-size: 60px;">Kraaftersite</h1>
-            <p class="textmc" style="font-size: 20px;">Powered by Indomie! (not sponsored)</p>
-        </div>
+        <a href="/">
+            <div class="logo"></div>
+        </a>
+        <a href="/" style="text-decoration: none;">
+            <div style="display: flex; align-items:baseline; gap:10px">
+                <h1 class="text1" style="font-size: 60px;">Kraaftersite</h1>
+                <p class="textmc" style="font-size: 20px;">{String(splash)}</p>
+            </div>
+        </a>
         <div class="navlayout">
-            <a href=placeholder> <p class="text1" style="font-size: 20px">Home</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href=placeholder> <p class="text1" style="font-size: 20px">Blog</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href=placeholder> <p class="text1" style="font-size: 20px">Projects</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href=placeholder> <p class="text1" style="font-size: 20px">Gallery</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href=placeholder> <p class="text1" style="font-size: 20px">Links</p></a>
+            <a href="/"> <p class="text1" style="font-size: 20px">Home</p></a><p class="text1" style="font-size: 20px">  |  </p>
+            <a href="/blog"> <p class="text1" style="font-size: 20px">Blog</p></a><p class="text1" style="font-size: 20px">  |  </p>
+            <a href="/projects"> <p class="text1" style="font-size: 20px">Projects</p></a><p class="text1" style="font-size: 20px">  |  </p>
+            <a href="/gallery"> <p class="text1" style="font-size: 20px">Gallery</p></a><p class="text1" style="font-size: 20px">  |  </p>
+            <a href="/link"> <p class="text1" style="font-size: 20px">Links</p></a>
         </div>
     </nav>
-
-    <slot />
-
+    {#key data.url}
+        <div style="height: fit-content; min-height:1000px; width: 100%; display:flex; align:center; padding:0" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
+            <slot />
+        </div>
+    {/key}
 </main>
 
 <style>
@@ -23,16 +40,21 @@
 
     :global(html,body) {
         margin:0;
+        background-color: rgb(31, 31, 31);
+        min-height: 300px;
+        height: fit-content;
     }
 
     .body {
-        background-color: rgb(31, 31, 31);
+        min-height: 300px;
+        height: fit-content;
     }
 
     .nav {
-        width: 100%-30px;
+        width:100vw-20px;
+        max-width: 100vw;
         height: 100px;
-        padding: 10px;
+        padding:20px;
         gap: 10px;
         display: flex;
         align-items: center;
@@ -58,8 +80,26 @@
 
     .textmc {
         font-family: 'Minecraft';
+        text-align: center;
         color: rgb(221, 255, 0);
+        margin: -20.5% 0 0 -10%;
+        transform: rotate(-10deg);
+        animation: FlashingText ease-in-out 0.5s infinite;
+        z-index:3;
+        position: relative;
     }
+
+    @keyframes FlashingText {
+	0% {
+		transform: scale(1) rotate(-10deg);
+	}
+	50% {
+		transform: scale(1.05) rotate(-10deg);
+	}
+	100% {
+		transform: scale(1) rotate(-10deg);
+	}
+}
     
     
 </style>
