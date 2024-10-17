@@ -33,6 +33,18 @@
             <slot />
         </div>
     {/key}
+
+    <footer>
+        <div class='foot'>
+            <iframe title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;margin-top:20px"></iframe>
+            <div class="footlink">
+                <a href='/privacy'><p class='text1'>Privacy Policy</p></a>
+                <a href='/contact'><p class='text1'>Contact Me</p></a>
+                <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text1'>Source Code</p></a>
+            </div>
+            <p class='text1'>Copyright © 2024 Kraafter</p>
+        </div>
+    </footer>
 </main>
 
 <style>
@@ -59,6 +71,25 @@
         display: flex;
         align-items: center;
         background: linear-gradient(180deg, rgba(46, 46, 46, 0.8) 0%, rgba(46, 46, 46,0.6) 80%, rgba(46, 46, 46,0.5) 87%, rgba(46, 46, 46,0.35) 94%, rgba(46, 46, 46,0) 100%);
+    }
+
+    .foot {
+        width: 100%;
+        height: fit-content;
+        background-color: rgba(46, 46, 46,1);
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .footlink {
+        width: fit-content;
+        align-items:center;
+        display: flex;
+        flex-direction: row;
+        gap: 10px
     }
 
     .logo {
@@ -90,16 +121,15 @@
     }
 
     @keyframes FlashingText {
-	0% {
-		transform: scale(1) rotate(-10deg);
-	}
-	50% {
-		transform: scale(1.05) rotate(-10deg);
-	}
-	100% {
-		transform: scale(1) rotate(-10deg);
-	}
-}
-    
-    
+        0% {
+            transform: scale(1) rotate(-10deg);
+        }
+        50% {
+            transform: scale(1.05) rotate(-10deg);
+        }
+        100% {
+            transform: scale(1) rotate(-10deg);
+        }
+    }
+
 </style>

@@ -1,0 +1,33 @@
+<script>
+	import { page } from '$app/stores'
+</script>
+
+<div class="error">
+	<h1 class="text1" style="font-size: 40px;">{$page.status}: {$page.error?.message}</h1>
+    <span>
+        <a href='/'><p class='text1'>Go Home</p></a>
+        <a href='javascript:history.back()'><p class='text1'>Last page</p></a>
+    </span>
+</div>
+
+<style>
+	.error {
+		height: 100%;
+        width: fit-content;
+		display: flex;
+        flex-direction: column;
+        margin: 0 auto auto;
+	}
+
+    .text1 {
+        font-family: monospace;
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+    }
+
+    span {
+        width: fit-content;
+        margin: 0 auto auto;
+    }
+</style>

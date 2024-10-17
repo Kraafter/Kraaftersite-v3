@@ -9,7 +9,11 @@ categories:
 published: true
 ---
 
-## Markdown
+Soo as everyone has known, I've already had two past versions of my website. The first one being absolutely barebones and unresponsive while
+the next one being responsive but limited. Now don't get me wrong my past two sites had been really fun to make and I've learnt a lot while
+making them.
 
-Welp, this is my first post here i think
-Indomie seleraku
+## The 3rd Regeneration
+
+Now, originally my 3rd iteration of my website (what you are seeing right now) was suppose to be for <https://mc.kraafter.me> so that I can
+try out Svelte before actually applicating it, but my mind decided to just start making this for v3.

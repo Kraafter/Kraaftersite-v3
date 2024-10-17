@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
-
+	import * as config from '$lib/config'
 	export let data
 </script>
 
 <!-- SEO -->
 <svelte:head>
-	<title>{data.meta.title}</title>
+	<title>{data.meta.title} - {config.title}</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
@@ -33,6 +33,16 @@
 	<div class="prose text1" style="font-size: 20px;">
 		<svelte:component this={data.content}/>
 	</div>
+
+	<!-- Utterances -->
+	<script src="https://utteranc.es/client.js"
+		repo="Kraafter/Kraaftersite-v3"
+		issue-term="url"
+		label="uttered"
+		theme="github-dark"
+		crossorigin="anonymous"
+		async>
+	</script>
 </article>
 
 <style>
@@ -51,6 +61,9 @@
 
 	}
 
+	.prose p a, a:link, a:visited, a:focus, a:hover, a:active {
+		color: aliceblue !important;
+	}
 
 
     .blur{
@@ -66,7 +79,7 @@
     }
 
     .main{
-        margin: 100px;
+        margin: 300px;
         margin-top: 5px;
         background-color: rgba(80, 80, 80, 0.6);
         display:flex;

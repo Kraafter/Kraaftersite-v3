@@ -19,7 +19,7 @@
 	<ul class="posts" style="list-style-type: none; padding-left:0">
         {#if repos}
             {#each repos as repo}
-                {#if repo.archived == false}
+                {#if repo.archived == true}
                     <li class="posts">
                         <a href="{repo.html_url}" class="text1 title" target="_blank">{repo.full_name}</a>
                         {#if repo.description}
@@ -37,7 +37,7 @@
             
 	</ul>
 
-    <a href='/projects/archive'><p class='text1' style="font-size: 20px;">Archive →</p></a>
+    <a href='/projects'><p class='text1' style="font-size: 20px;">← Back</p></a>
 </section>
 
 <style>

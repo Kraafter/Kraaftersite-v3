@@ -1,6 +1,17 @@
+<script>
+    import * as config from '$lib/config'
+</script>
+
+<svelte:head>
+    <title>Links - {config.title}</title>
+</svelte:head>
+
 <main class="blur full">
     <div class="main">
         <h1 class="text1" style="font-size:40px">Social links</h1>
+
+        
+
     </div>
 </main>
 

@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{config.title}</title>
+	<title>Blog - {config.title}</title>
 </svelte:head>
 
 <!-- Posts -->
@@ -21,6 +21,7 @@
             <hr>
 		{/each}
 	</ul>
+    <a style="margin-top: auto;" href='/blog/rss.xml'><p class='text1'>RSS</p></a>
 </section>
 
 <style>
