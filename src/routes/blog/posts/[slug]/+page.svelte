@@ -13,24 +13,26 @@
 
 <article class="main blur full">
 
-	<p><a class="text1" style="font-size: 20px" href="/blog">← back to blog</a></p>
+	<p><a class="text2" href="/blog">← back to blog</a></p>
   <!-- Title -->
 	<hgroup>
-		<h1 class="text1" style="font-size: 30px;">{data.meta.title}</h1>
-		<p class="text1" style="font-size: 20px;">Published at {formatDate(data.meta.date)}</p>
+		<h1 class="text1">{data.meta.title}</h1>
+		<p class="text2">Published at {formatDate(data.meta.date)}</p>
 	</hgroup>
 
   <!-- Tags -->
 	<div class="tags">
-		{#each data.meta.categories as category}
-			<span class="surface-4 text1" style="font-size: 20px;">&num;{category}</span>
-		{/each}
+		<span class="surface-4 text2">
+			{#each data.meta.categories as category}
+				&num;{category}&ensp;
+			{/each}
+		</span>
 	</div>
 
     <hr style="width: 100%;">
 
   <!-- Post -->
-	<div class="prose text1" style="font-size: 20px;">
+	<div class="prose text2">
 		<svelte:component this={data.content}/>
 	</div>
 
@@ -53,6 +55,12 @@
 	h1 {
 		text-transform: capitalize;
 	}
+
+	hr {
+        width: 100% !important;
+        border-top: 1px solid aliceblue !important;
+        height: 1px !important;
+    }
 
 
 	.tags {
@@ -81,7 +89,7 @@
     .main{
         margin: 300px;
         margin-top: 5px;
-        background-color: rgba(80, 80, 80, 0.6);
+        background-color: rgba(50,50,50, 0.6);
         display:flex;
         flex-direction: column;
     }
@@ -89,5 +97,68 @@
     .text1 {
         font-family: monospace;
         color: aliceblue;
+		font-size: 30px;
+    }
+
+	
+    .text2 {
+        font-family: monospace;
+        color: aliceblue;
+		font-size: 20px;
+    }
+
+
+	        /* X-Small devices (portrait phones, less than 576px) */
+	@media (max-width: 575.98px) {
+        .main {
+            margin: 30px !important;
+        }
+
+        .full {
+            padding: 5px !important;
+        }
+
+        .text1 {
+            font-size: 25px;
+        }
+
+        .text2 {
+            font-size: 15px;
+        }
+    
+	}
+
+        /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 768px) {
+
+    }
+
+        /* Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
+        .full {
+            padding: 10px;
+            padding-top: 5px;
+        }
+
+        .main {
+            margin: 60px;
+        }
+    }
+
+        /* Large devices (desktops, less than 1200px) */
+    @media (max-width: 1199.98px) {
+        .full {
+            padding: 20px;
+            padding-top: 5px;
+        }
+
+        .main {
+            margin: 100px;
+        }
+    }
+
+        /* X-Large devices (large desktops, less than 1400px) */
+    @media (max-width: 1399.98px) {
+
     }
 </style>

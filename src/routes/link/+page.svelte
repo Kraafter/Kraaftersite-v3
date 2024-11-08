@@ -38,11 +38,6 @@
         padding: 20px;
     }
 
-    .main2{
-        display:flex;
-        flex-direction: row;
-    }
-
     .text1 {
         font-family: monospace;
         color: aliceblue;

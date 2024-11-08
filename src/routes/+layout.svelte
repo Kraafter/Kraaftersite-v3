@@ -11,25 +11,25 @@
 
 <main class="body">
     <nav class="nav">
-        <a href="/">
-            <div class="logo"></div>
-        </a>
         <a href="/" style="text-decoration: none;">
-            <div style="display: flex; align-items:baseline; gap:10px">
-                <h1 class="text1" style="font-size: 60px;">Kraaftersite</h1>
-                <p class="textmc" style="font-size: 20px;">{String(splash)}</p>
+            <div style="display: flex; align-items:center; gap:10px">
+                <a href="/">
+                    <div class="logo"><img alt="kraafter logo" src="/assets/logo/dark/medium_300.webp"></div>
+                </a>
+                <h1 class="text1">Kraaftersite</h1>
+                <p class="textmc">{String(splash)}</p>
             </div>
         </a>
         <div class="navlayout">
-            <a href="/"> <p class="text1" style="font-size: 20px">Home</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href="/blog"> <p class="text1" style="font-size: 20px">Blog</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href="/projects"> <p class="text1" style="font-size: 20px">Projects</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href="/gallery"> <p class="text1" style="font-size: 20px">Gallery</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href="/link"> <p class="text1" style="font-size: 20px">Links</p></a>
+            <a href="/"> <p class="text2">Home</p></a><p class="text1" style="font-size: 20px">  |  </p>
+            <a href="/blog"> <p class="text2">Blog</p></a><p class="text1" style="font-size: 20px">  |  </p>
+            <a href="/projects"> <p class="text2">Projects</p></a><p class="text1" style="font-size: 20px">  |  </p>
+            <a href="/gallery"> <p class="text2">Gallery</p></a><p class="text1" style="font-size: 20px">  |  </p>
+            <a href="/link"> <p class="text2">Links</p></a>
         </div>
     </nav>
     {#key data.url}
-        <div style="height: fit-content; min-height:500px; width: 100%; display:flex; align:center; padding:0" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
+        <div class="slotcontain" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
             <slot />
         </div>
     {/key}
@@ -38,11 +38,11 @@
         <div class='foot'>
             <iframe title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;margin-top:20px"></iframe>
             <div class="footlink">
-                <a href='/privacy'><p class='text1'>Privacy Policy</p></a>
-                <a href='/contact'><p class='text1'>Contact Me</p></a>
-                <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text1'>Source Code</p></a>
+                <a href='/privacy'><p class='text3'>Privacy Policy</p></a>
+                <a href='/contact'><p class='text3'>Contact Me</p></a>
+                <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3'>Source Code</p></a>
             </div>
-            <p class='text1'>Copyright © 2024 Kraafter</p>
+            <p class='text3'>Copyright © 2024 Kraafter</p>
         </div>
     </footer>
 </main>
@@ -50,22 +50,27 @@
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
 
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
     :global(html,body) {
         margin:0;
         background-color: rgb(31, 31, 31);
         min-height: 300px;
         height: fit-content;
+        width:100%
     }
 
     .body {
         min-height: 300px;
         height: fit-content;
+        width: 100%;
     }
 
     .nav {
-        width:100vw-20px;
-        max-width: 100vw;
-        height: 100px;
+        height: fit-content;
         padding:20px;
         gap: 10px;
         display: flex;
@@ -107,28 +112,98 @@
     .text1 {
         font-family: monospace;
         color: aliceblue;
+        font-size: 40px;
+    }
+
+    .text2 {
+        font-family: monospace;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    .text3 {
+        font-family: monospace;
+        color: aliceblue;
+        font-size: 20px;
     }
 
     .textmc {
         font-family: 'Minecraft';
         text-align: center;
         color: rgb(221, 255, 0);
-        margin: -20.5% 0 0 -10%;
-        transform: rotate(-10deg);
+        margin: 0 0 0 -10%;
+        transform: rotate(-10deg) skew(10deg);
         animation: FlashingText ease-in-out 0.5s infinite;
         z-index:3;
         position: relative;
+        font-size: 20px;
+    }
+
+    .slotcontain {
+        height: fit-content;
+        min-height:calc(100vh - 300px);
+        width: 100%;
+        display:flex;
+        align-self:center;
+        padding:0
+    }
+
+    /* X-Small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) {
+
+    }
+
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 768px) {
+        .textmc {
+            margin: 10% 0 0 -20%;
+            font-size: 10px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        }
+
+        .text1 {
+            font-size: 30px;
+        }
+
+        .text2 {
+            font-size: 15px;
+        }
+
+        .text3 {
+            font-size: 10px;
+        }
+
+    }
+
+    /* Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
+
+    }
+
+    /* Large devices (desktops, less than 1200px) */
+    @media (max-width: 1199.98px) {
+
+    }
+
+    /* X-Large devices (large desktops, less than 1400px) */
+    @media (max-width: 1399.98px) {
+
     }
 
     @keyframes FlashingText {
         0% {
-            transform: scale(1) rotate(-10deg);
+            transform: scale(1) rotate(-10deg) skew(10deg);
         }
         50% {
-            transform: scale(1.05) rotate(-10deg);
+            transform: scale(1.05) rotate(-10deg) skew(10deg);
         }
         100% {
-            transform: scale(1) rotate(-10deg);
+            transform: scale(1) rotate(-10deg) skew(10deg);
         }
     }
 

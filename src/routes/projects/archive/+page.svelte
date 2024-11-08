@@ -2,7 +2,14 @@
 	import * as config from '$lib/config'
     import { onMount } from 'svelte';
 
-    let repos;
+    interface repot {
+        archived: boolean;
+        html_url: string;
+        full_name: string;
+        description: string;
+    }
+    
+    let repos: repot[];
 
     onMount(async () => {
         const res = await fetch('https://api.github.com/users/kraafter/repos');
@@ -16,16 +23,17 @@
 
 
 <section class="main blur full">
+    <p><a class="text2" href="/projects">← back to projects</a></p>
 	<ul class="posts" style="list-style-type: none; padding-left:0">
         {#if repos}
             {#each repos as repo}
                 {#if repo.archived == true}
                     <li class="posts">
-                        <a href="{repo.html_url}" class="text1 title" target="_blank">{repo.full_name}</a>
+                        <a href="{repo.html_url}" class="text1 title" target="_blank"><span style="width: 100%;">{repo.full_name}</span></a>
                         {#if repo.description}
-                            <span><p class="text1" style="font-size: 20px;">{repo.description}</p></span>
+                            <span><p class="text2">{repo.description}</p></span>
                         {:else}
-                            <p class="text1" style="font-size: 20px;">This repository has no description</p>
+                            <p class="text2">This repository has no description</p>
                         {/if}
                     </li>
                     <hr>
@@ -36,11 +44,14 @@
         {/if}
             
 	</ul>
-
-    <a href='/projects'><p class='text1' style="font-size: 20px;">← Back</p></a>
 </section>
 
 <style>
+
+        li {
+            width: auto;
+        }
+
 	.posts {
 		display: grid;
 		gap: 0;
@@ -49,15 +60,16 @@
     .posts hr {
         visibility: hidden;
         width: 100%;
+        border-top: 1px solid aliceblue !important;
+        height: 1px !important;
     }
 
 	.posts hr:not(:last-child) {
-        visibility: unset;
+        visibility:visible;
 	}
 
 	.title {
 		text-transform: capitalize;
-        font-size: 30px;
 	}
 
 
@@ -78,7 +90,7 @@
     .main{
         margin: 100px;
         margin-top: 5px;
-        background-color: rgba(80, 80, 80, 0.6);
+        background-color: rgba(50,50,50, 0.6);
         display:flex;
         flex-direction: column;
     }
@@ -86,5 +98,50 @@
     .text1 {
         font-family: monospace;
         color: aliceblue;
+        font-size: 30px;
+    }
+
+    .text2 {
+        font-family: monospace;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+
+    /* X-Small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) {
+
+    }
+
+/* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 768px) {
+
+        .main {
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .text1 {
+            font-size: 25px;
+        }
+
+        .text2 {
+            font-size: 15px;
+        }
+    }
+
+    /* Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
+
+    }
+
+    /* Large devices (desktops, less than 1200px) */
+    @media (max-width: 1199.98px) {
+
+    }
+
+    /* X-Large devices (large desktops, less than 1400px) */
+    @media (max-width: 1399.98px) {
+
     }
 </style>
