@@ -1,7 +1,7 @@
 ---
 title: Making a website is a fun type of pain
 description: The ups and downs of website development, for me
-date: '2023-4-14'
+date: '2024-10-09'
 categories:
   - sveltekit
   - svelte
@@ -15,5 +15,5 @@ making them.
 
 ## The 3rd Regeneration
 
-Now, originally my 3rd iteration of my website (what you are seeing right now) was suppose to be for <https://mc.kraafter.me> so that I can
-try out Svelte before actually applicating it, but my mind decided to just start making this for v3.
+Now, originally my 3rd iteration of my website (what you are seeing right now) was suppose to be for <https://mc.kraafter.me> (cancelled sadly) so that I can
+try out Svelte before actually applicating it, but my mind decided to just start making this for v3. Soo thats what im doing.
