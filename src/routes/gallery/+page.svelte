@@ -28,7 +28,10 @@
     <title>Gallery - {config.title}</title>
 </svelte:head>
 
-<div class="main full ">
+<div class="main full">
+    <p class="text1" style="text-align: left;">Gallery</p>
+    <p class="text2" style="text-align: left;">This is where i showcase my art and my photographs. The gallery is divided into two for easier classification and viewing. Theres also an archive for my older art inside the art gallery.</p>
+    <div class="main2">
         <div class="gallery art" style="background-image: url('{ arturl }');">
             <a href="gallery/art">
                 <div class="darken">
@@ -41,20 +44,25 @@
             <a href="gallery/photo">
                 <div class="darken">
                     <p class="text1">Photography</p>
-                    <p class="text2">Photographs which I took and color graded</p>
+                    <p class="text2">Photographs I took and color graded</p>
                 </div>
             </a>
         </div>
+    </div>
 </div>
 
 <style>
     .main{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin: 80px;
         margin-top: 5px;
-        background-color: rgba(50,50,50,0);
-        background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(50,50,50,1) 1%, rgba(50,50,50,1) 2%, rgba(50,50,50,1) 4%, rgba(50,50,50,1) 5%, rgba(50,50,50,1) 7%, rgba(50,50,50,1) 93%, rgba(50,50,50,1) 95%, rgba(50,50,50,1) 96%, rgba(50,50,50,1) 98%, rgba(50,50,50,1) 99%, rgba(50,50,50,1) 100%);
+        background: linear-gradient(90deg, rgba(50,50,50,0) 0%, rgba(50,50,50,0.31) 1%, rgba(50,50,50,0.4542836421678046) 2%, rgba(50,50,50,0.54) 4%, rgba(50,50,50,0.59) 5%, rgba(50,50,50,0.6) 7%, rgba(50,50,50,0.6) 93%, rgba(50,50,50,0.59) 95%, rgba(50,50,50,0.54) 96%, rgba(50,50,50,0.45) 98%, rgba(50,50,50,0.31) 99%, rgba(50,50,50,0) 100%);
+    }
+
+    .main2{
+        display: flex;
+        flex-direction: row;
     }
 
     .full{
@@ -111,6 +119,10 @@
 
         /* Small devices (landscape phones, less than 768px) */
     @media (max-width: 768px) {
+        .main2 {
+            margin: 10px !important;
+        }
+
         .main {
             margin: 30px !important;
             margin-top: 10px !important;
@@ -119,7 +131,7 @@
 
     /* Medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
-        .main {
+        .main2 {
             margin: 80px;
             margin-top: 10px;
             flex-direction: column;
@@ -133,6 +145,16 @@
             width: 100%;
             width: calc(100% - 20px);
             margin: 8px;
+        }
+
+        .text1 {
+            font-size: 25px;
+            padding-bottom: 0px;
+        }
+
+        .text2 {
+            font-size: 15px;
+            padding-top: 0px;
         }
     }
 
