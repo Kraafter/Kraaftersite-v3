@@ -22,6 +22,7 @@
             </div>
             <div class="mainimg">
                 <img class="gliveimg" alt="Glive the protogen greeting visitors with a beep!" src='/assets/media/site/glivebeep.webp' />
+                <p class="text2" style="width: 100%; text-align:center;">Glive, the protogen</p>
             </div>
         </div>
 
