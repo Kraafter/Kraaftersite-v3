@@ -37,6 +37,7 @@
             <div class="main2">
                 <div class="mainimg">
                     <img class="gliveimg" alt="Glive the protogen greeting visitors with a beep!" src='/assets/media/site/glivebeep.webp' />
+                    <p class="text2" style="width: 100%; text-align:center;">Nord, the amphimorpho</p>
                 </div>
                 <div class="maintext">
 
@@ -145,6 +146,8 @@
         height: auto;
         padding-top: auto;
         padding-bottom: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .main3 {
