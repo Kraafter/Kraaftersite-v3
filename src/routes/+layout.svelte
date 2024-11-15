@@ -39,7 +39,9 @@
             <iframe title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;margin-top:20px"></iframe>
             <div class="footlink">
                 <a href='/privacy'><p class='text3'>Privacy Policy</p></a>
+                <p class="text3"> | </p>
                 <a href='/contact'><p class='text3'>Contact Me</p></a>
+                <p class="text3"> | </p>
                 <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3'>Source Code</p></a>
             </div>
             <p class='text3'>Copyright © 2024 Kraafter</p>
