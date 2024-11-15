@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>Links - {config.title}</title>
+    <title>Privacy - {config.title}</title>
 </svelte:head>
 
 <main class="blur full">
@@ -17,12 +17,13 @@
     <p class="text2">
         This website also uses some external service providers. Their names, usage, and privacy policy, are listed below:
         <ul class="text2" style="margin-left: 20px;">
-            <li>Vercel: Hosting</li>
-            <li>Namecheap: Registrar</li>
-            <li>Utterances: Commenting</li>
-            <li>Johnvertisements: Johnvertisements</li>
-            <li>ImageKit: Image hosting</li>
-            <li>Github: Listing project details</li>
+            <li>Vercel:<a class="text2" href="https://vercel.com/legal/privacy-policy">Hosting</a></li>
+            <li>Namecheap:<a class="text2" href="https://www.namecheap.com/legal/general/privacy-policy/">Domain registrar</a></li>
+            <li>Cloudflare:<a class="text2" href="https://www.cloudflare.com/privacypolicy/">DNS management</a></li>
+            <li>Utterances:<a class="text2" href="https://github.com/productinfo/utterances/blob/master/PRIVACY-POLICY.md">Blog commenting</a></li>
+            <li>Johnvertisements:<a class="text2" href="https://john.citrons.xyz/">Johnvertisements</a></li>
+            <li>ImageKit:<a class="text2" href="https://imagekit.io/privacy-policy-new/">Image hosting</a></li>
+            <li>Github:<a class="text2" href="https://docs.github.com/en/site-policy/privacy-policie">Listing project details</a></li>
         </ul>
 </main>
 
