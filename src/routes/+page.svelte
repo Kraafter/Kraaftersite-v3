@@ -15,9 +15,9 @@
                 <span style="height:fit-content;">
                     <h2 class="text1" style="margin:0">Hello, Kraafter here</h2>
                     <p class="text2">I am an Indonesian teenager taking up programming, web development, drumming, localization, videography, photography, and art. I'm currently a localization contributor at Prism Launcher, translating it to my local language.</p>
-                    <p class="text2">You are now viewing the third version to my website. All past versions can be viewed in the <a class="text2" href='placeholder'>version archive</a>.</p>
+                    <p class="text2">You are now viewing the third version to my website. All past versions can be viewed in the <a class="text2 linking" href='placeholder'>version archive</a>.</p>
                     <p class="text2">Here you'll be able to view my blog, my gallery, my contacts, my social links, my projects, or anything I wish to show here really :v</p>
-                    <p class="text2"><a class="text2" href="placeholder">A bit more about myself</a></p>
+                    <p class="text2"><a class="text2 linking" href="placeholder">A bit more about myself</a></p>
                 </span>
             </div>
             <div class="mainimg">
@@ -217,6 +217,10 @@
 
     .header2 {
         font-size: 30px;
+    }
+
+    .linking {
+        background-color: rgba(61, 0, 160, 0.537);
     }
 
 
