@@ -13,8 +13,8 @@
         <div class="main2">
             <div class="maintext">
                 <span style="height:fit-content;">
-                    <h2 class="text1" style="margin:0">Hello, Kraafter here</h2>
-                    <p class="text2">I am an Indonesian teenager taking up programming, web development, drumming, localization, videography, photography, and art. I'm currently a localization contributor at Prism Launcher, translating it to my local language.</p>
+                    <h2 class="text1" style="margin:0">Hello, Kraafter here 👋</h2>
+                    <p class="text2">I am an Indonesian teenager interested in programming, web development, drumming, localisation, videography, photography, and art. I'm currently a high school student and a localisation contributor at <a target="_blank" class="text2 linking" href="https://prismlauncher.org/">Prism Launcher</a></p>
                     <p class="text2">You are now viewing the third version to my website. All past versions can be viewed in the <a class="text2 linking" href='placeholder'>version archive</a>.</p>
                     <p class="text2">Here you'll be able to view my blog, my gallery, my contacts, my social links, my projects, or anything I wish to show here really :v</p>
                     <p class="text2"><a class="text2 linking" href="placeholder">A bit more about myself</a></p>
@@ -31,7 +31,7 @@
         <div class="main3">
             <div class="">
                 <span style="height:fit-content; width:33%">
-                    <p class="text1 header2" style="margin:0">Check out these cool lookin' buttons!</p>
+                    <p class="text1 header2" style="margin:0">🔘 Check out these cool lookin' buttons!</p>
                 </span>
             </div>
             <div class="main2">
@@ -71,7 +71,7 @@
         </div>
         <hr style="width: 98%;">
         <div class=main3>
-            <p class="text1 header2">Recent blog posts</p>
+            <p class="text1 header2">💬 Recent blog posts</p>
             <div class="blogview">
                 {#each data.posts.slice(0,3) as post}
                     <div class="contentview">
@@ -85,7 +85,7 @@
         </div>
         <hr style="width: 98%;">
         <div class="main3" style="width: 100%;">
-            <p class="text1 header2">Webrings</p>
+            <p class="text1 header2">💍 Webrings</p>
             <div class="blogview">
                 <div class="contentview2">
                     <p class="text2" style="text-align:center">
