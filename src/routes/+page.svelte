@@ -45,7 +45,6 @@
                     <span class="rightside" style="width: fit-content; gap:100px">
                         <a href="https://ryj.my.id/"><img src="https://777vipfurrygacor.games/88x31.gif" alt="ryj.my.id button" title="ryu"></a>
                         <a href="https://finiteti.me/"><img src="https://finiteti.me/badge.png" alt="mefinity.eu.org button" title="mefinity"></a>
-                        <a href="https://niko.pages.gay"><img alt="niko.pages.gay button" src="https://niko.pages.gay/assets/images/button.png" title="ivy/niko"></a>
                         <a href="https://daringcuteseal.github.io/"><img width="88px" height="31px" src="https://daringcuteseal.github.io/assets/image/button.png" alt="daringcuteseal.github.io button" title="daringcuteseal"></a>
                         <a href="https://milkyway.moe/"><img alt="milkyway.moe button" title="milkyway" src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a>
                     </span>
