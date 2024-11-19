@@ -11,6 +11,9 @@
 
 <!-- Posts -->
 <section class="main blur full">
+    <p class="text1" style="padding-top: 10px;">💬Blog</p>
+    <p class="text2 pagedesc">This part of the website is where I will be putting my random thougts and development progresses. All views are my own.</p>
+    <hr style="visibility:visible; width: 100%; border-top: 1px solid aliceblue">
 	<ul class="posts" style="list-style-type: none; padding-left:0">
 		{#each data.posts as post}
 			<li class="post">
@@ -83,6 +86,10 @@
         font-size: 20px;
     }
 
+    .pagedesc {
+        margin: 30px 20px 0 0;
+    }
+
 
         /* X-Small devices (portrait phones, less than 576px) */
         @media (max-width: 575.98px) {
@@ -102,6 +109,10 @@
 
             .text2 {
                 font-size: 15px;
+            }
+
+            .pagedesc {
+                margin: 0;
             }
         }
 

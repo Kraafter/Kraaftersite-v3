@@ -29,7 +29,7 @@
 </svelte:head>
 
 <div class="main full">
-    <p class="text1" style="text-align: left;">Gallery</p>
+    <p class="text1" style="text-align: left;text-decoration:unset">🖼️Gallery</p>
     <p class="text2" style="text-align: left;">This is where i showcase my art and my photographs. The gallery is divided into two for easier classification and viewing. Theres also an archive for my older art inside the art gallery.</p>
     <div class="main2">
         <div class="gallery art" style="background-image: url('{ arturl }');">

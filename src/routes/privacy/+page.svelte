@@ -7,7 +7,7 @@
 </svelte:head>
 
 <main class="blur full">
-    <p class="text1">Privacy Policy</p>
+    <p class="text1">📰 Privacy Policy</p>
     <p class="text2">
         This website in no way whatsoever collects data other than server logs (IP address, user agent) only visible to the hosting provider. This data is collected only for operational purposes.
     </p>

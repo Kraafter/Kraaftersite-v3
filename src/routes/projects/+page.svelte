@@ -23,6 +23,9 @@
 
 
 <section class="main blur full">
+    <p class="text1" style="padding-top: 10px;">📁Projects</p>
+    <p class="text2 pagedesc">This part of the website is where I put projects, which either I own, or I take part in. Currently it lists directly from Github but one day I will put up some highlights.</p>
+    <hr style="visibility:visible; width: 100%; border-top: 1px solid aliceblue">
 	<ul class="posts" style="list-style-type: none; padding-left:0">
         {#if repos}
             {#each repos as repo}
@@ -108,6 +111,10 @@
         font-size: 20px;
     }
 
+    .pagedesc {
+        margin: 30px 20px 0 0
+    }
+
 
     /* X-Small devices (portrait phones, less than 576px) */
     @media (max-width: 575.98px) {
@@ -119,7 +126,7 @@
 
         .main {
             margin: 10px;
-            padding: 5px;
+            padding: 25px;
         }
 
         .text1 {
@@ -128,6 +135,10 @@
 
         .text2 {
             font-size: 15px;
+        }
+
+        .pagedesc {
+            margin: 0
         }
     }
 
