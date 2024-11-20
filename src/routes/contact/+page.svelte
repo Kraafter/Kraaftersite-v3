@@ -10,7 +10,7 @@
     <p class="text1">🔊 Contact Me</p>
     <p class="text2">There are multiple ways to contact me. However, I encourage you to use each communication channel according to their defined usage.</p>
     <p class="text2">For business related inquiries, you may contact me through my work email at <a class="text2 linking" href="mailto:&#098;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#064;&#107;&#114;&#097;&#097;&#102;&#116;&#101;&#114;&#046;&#109;&#101;">&#098;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#064;&#107;&#114;&#097;&#097;&#102;&#116;&#101;&#114;&#046;&#109;&#101;</a></p>
-    <p class="text2">For casual or less important inquiries, you may contact me through my Discord at @kraaft or <a class="text2 linking" target="_blank" href="https://furry.engineer/@kraafter">Mastodon</a>.You may also contact through messaging functions available in some services at <a class="text2 linking" href="/link">my social links</a>.</p>
+    <p class="text2">For casual or less important inquiries, you may contact me through either my general usage email <a class="text2 linking" href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#107;&#114;&#097;&#097;&#102;&#116;&#101;&#114;&#046;&#109;&#101;">&#104;&#101;&#108;&#108;&#111;&#064;&#107;&#114;&#097;&#097;&#102;&#116;&#101;&#114;&#046;&#109;&#101;</a>, my Discord at @kraaft, or <a class="text2 linking" target="_blank" href="https://furry.engineer/@kraafter">Mastodon</a>.You may also contact through messaging functions available in some services at <a class="text2 linking" href="/link">my social links</a>.</p>
 </main>
 
 <style>
