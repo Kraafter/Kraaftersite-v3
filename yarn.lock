@@ -50,11 +50,6 @@
     mime "^3.0.0"
     zod "^3.22.3"
 
-"@cloudflare/workers-types@^4.20231121.0":
-  version "4.20241011.0"
-  resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-4.20241011.0.tgz#4e26fda2ab56038f37c221dd725c6184f6dff52e"
-  integrity sha512-emwBnuFB/2lS1z6NXAeBqrSL8Xwnr7YpgdLuchOmgu/igqBsLLNPBb4Qmgh3neFWUe9wbzQyx030836YF3c3Xw==
-
 "@cspotcode/source-map-support@0.8.1":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
@@ -656,15 +651,6 @@
   integrity sha512-27LR+uKccZ62lgq4N/hvyU2G+hTP9fxWEAfnZcl70HnyfAjMSsGk1z/SjAPXNCD1mVJIE7IFu3TQ8cQ/UH3c0A==
   dependencies:
     import-meta-resolve "^4.1.0"
-
-"@sveltejs/adapter-cloudflare@^4.7.3":
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-4.7.3.tgz#775b4a8cee3236327d8894687fc2df6e94e123e5"
-  integrity sha512-mHw0Jvd+74jj8fkduA8jrVXgsCY3+NwDc7FrDUiwU1Qe5QEuqPUab8Lv+np+4afEuMtFNytxUJsiiWlNN2w10w==
-  dependencies:
-    "@cloudflare/workers-types" "^4.20231121.0"
-    esbuild "^0.21.5"
-    worktop "0.8.0-next.18"
 
 "@sveltejs/adapter-vercel@^5.4.7":
   version "5.4.7"
@@ -2459,11 +2445,6 @@ regex@^4.3.2:
   resolved "https://registry.yarnpkg.com/regex/-/regex-4.3.3.tgz#8cda73ccbdfa7c5691881d02f9bb142dba9daa6a"
   integrity sha512-r/AadFO7owAq1QJVeZ/nq9jNS1vyZt+6t1p/E59B56Rn2GCya+gr1KSyOzNL/er+r+B7phv5jG2xU2Nz1YkmJg==
 
-regexparam@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/regexparam/-/regexparam-3.0.0.tgz#1673e09d41cb7fd41eaafd4040a6aa90daa0a21a"
-  integrity sha512-RSYAtP31mvYLkAHrOlh25pCNQ5hWnT106VukGaaFfuJrZFkGRX5GhUAdPqpSDXxOhA2c4akmRuplv1mRqnBn6Q==
-
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
@@ -3052,14 +3033,6 @@ workerd@1.20241004.0:
     "@cloudflare/workerd-linux-64" "1.20241004.0"
     "@cloudflare/workerd-linux-arm64" "1.20241004.0"
     "@cloudflare/workerd-windows-64" "1.20241004.0"
-
-worktop@0.8.0-next.18:
-  version "0.8.0-next.18"
-  resolved "https://registry.yarnpkg.com/worktop/-/worktop-0.8.0-next.18.tgz#546b1ece7b34d01708ac2abec7c1110cd8874bfd"
-  integrity sha512-+TvsA6VAVoMC3XDKR5MoC/qlLqDixEfOBysDEKnPIPou/NvoPWCAuXHXMsswwlvmEuvX56lQjvELLyLuzTKvRw==
-  dependencies:
-    mrmime "^2.0.0"
-    regexparam "^3.0.0"
 
 wrangler@^3.80.4:
   version "3.80.4"
