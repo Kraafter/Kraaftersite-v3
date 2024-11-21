@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-    <title>Photography - {config.title}</title>
+    <title>Art Archive - {config.title}</title>
 </svelte:head>
 
 
