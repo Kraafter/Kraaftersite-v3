@@ -96,6 +96,7 @@
                 </div>
                 <div class=divider style="margin:0"></div>
                 <div class="contentview2">
+                    <img alt="A blue-lightgrey amphimorpho with a bright smile" class="gliveimg" style="height: 170px;" src="/assets/media/site/kraaftnoodletr.webp">
                     <p class="text2" style="text-align:center">
                         <a class="text2" href="hhttps://noodle-r.ing/kraaft/prev">&lt;</a>
                         <a class="text2" href="https://noodle-r.ing/">Amphimorpho Webring</a>
