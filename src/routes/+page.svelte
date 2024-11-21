@@ -36,7 +36,7 @@
             </div>
             <div class="main2">
                 <div class="mainimg">
-                    <img class="gliveimg" alt="Nord the amphimorpho with an 88x31 button in his mouth" src='/assets/media/site/nordbutton2transparent.webp' />
+                    <img class="gliveimg" alt="Nord the amphimorpho with an 88x31 button in his mouth" src='/assets/media/site/nordfloat.webp' />
                     <p class="text2" style="width: 100%; text-align:center;">Nord, the amphimorpho</p>
                 </div>
                 <div class="maintext">
