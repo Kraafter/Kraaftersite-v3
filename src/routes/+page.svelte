@@ -87,9 +87,10 @@
             <p class="text1 header2">💍 Webrings</p>
             <div class="blogview">
                 <div class="contentview2">
+                    <img alt="Rhenerds logo in the style of charli_xcx brat" class="gliveimg" style="height: 170px;" src="/assets/media/site/rhenerds.webp">
                     <p class="text2" style="text-align:center">
                         <a class="text2" href="https://rhendraring.netlify.app/kraaft/previous">&lt;</a>
-                        <a class="text2" href="https://rhendraring.netlify.app/">Rhenerds Webring</a>
+                        <a class="text2" href="https://rhendraring.netlify.app/">Rhenerds Webring (in progress)</a>
                         <a class="text2" href="https://rhendraring.netlify.app/kraaft/next">&gt;</a>
                     </p>
                 </div>
