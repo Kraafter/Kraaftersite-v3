@@ -17,20 +17,20 @@
 <main class="blur full">
     <p class="text1">📰 Privacy Policy</p>
     <p class="text2">
-        This website in no way whatsoever collects data other than server logs (IP address, user agent) only visible to the hosting provider. This data is collected only for operational purposes.
+        This website in no way whatsoever collects data other than server logs (IP address, user agent, geolocation, accessed paths) only visible to the hosting provider and webmaster. This data is collected only for operational purposes and can't be associated with any user (except for GitHub cookies used for Utterances).
     </p>
     <p class="text2">
         This may differ when it comes to embeds as they may need to interact with certain cookies in order to function.
     </p>
     <p class="text2">
-        This website also uses some external service providers. Their names, usage, and privacy policy, are listed below:
+        This website also uses some external service providers. Their names, usage, privacy policy, and metrics I can view, are listed below:
         <ul class="text2" style="margin-left: 20px;">
-            <li>Vercel:<a class="text2" href="https://vercel.com/legal/privacy-policy">Hosting</a></li>
+            <li>Vercel:<a class="text2" href="https://vercel.com/legal/privacy-policy">Hosting (User agent, accessed links/functions)</a></li>
             <li>Namecheap:<a class="text2" href="https://www.namecheap.com/legal/general/privacy-policy/">Domain registrar</a></li>
-            <li>Cloudflare:<a class="text2" href="https://www.cloudflare.com/privacypolicy/">DNS management</a></li>
-            <li>Utterances:<a class="text2" href="https://github.com/productinfo/utterances/blob/master/PRIVACY-POLICY.md">Blog commenting</a></li>
+            <li>Cloudflare:<a class="text2" href="https://www.cloudflare.com/privacypolicy/">DNS management (Region trend, resolve percentage)</a></li>
+            <li>Utterances:<a class="text2" href="https://github.com/productinfo/utterances/blob/master/PRIVACY-POLICY.md">Blog commenting (GitHub cookie)</a></li>
             <li>Johnvertisements:<a class="text2" href="https://john.citrons.xyz/">Johnvertisements</a></li>
-            <li>ImageKit:<a class="text2" href="https://imagekit.io/privacy-policy-new/">Image hosting</a></li>
+            <li>ImageKit:<a class="text2" href="https://imagekit.io/privacy-policy-new/">Image hosting (Accessed images)</a></li>
             <li>Github:<a class="text2" href="https://docs.github.com/en/site-policy/privacy-policie">Listing project details</a></li>
         </ul>
 </main>
