@@ -1,11 +1,6 @@
 User-agent: *
-Disallow: /
-Allow: /gallery/archive
-Allow: /gallery/art
-Allow: /gallery/photo
-Allow: /blog
-
-User-agent: Amazonbot
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /sitever
 
 Sitemap: https://kraafter.me/sitemap.xml
