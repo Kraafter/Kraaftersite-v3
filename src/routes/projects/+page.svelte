@@ -133,7 +133,7 @@
     @media (max-width: 768px) {
 
         .main {
-            margin: 10px;
+            margin: 25px;
             padding: 25px;
         }
 

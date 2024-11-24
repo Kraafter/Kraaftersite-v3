@@ -191,7 +191,7 @@
 
         .full {
             padding: 10px;
-            margin: 5px;
+            margin: 25px;
         }
 
         .text1 {

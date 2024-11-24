@@ -142,7 +142,8 @@
 
         .full {
             padding: 10px;
-            margin: 5px;
+            margin: 25px;
+            width: calc(100% - 50px);
         }
 
         .text1 {
