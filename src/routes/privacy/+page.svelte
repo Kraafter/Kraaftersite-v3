@@ -1,10 +1,17 @@
 <script>
     import * as config from '$lib/config'
+    import { page } from '$app/stores';
 </script>
 
 <svelte:head>
     <title>Privacy - {config.title}</title>
     <meta name='description' content='Privacy policy regarding this website'>
+
+    <meta property="og:title" content="Privacy - {config.title}">
+    <meta property="og:description" content="Privacy policy regarding this website.">
+    <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="website">
 </svelte:head>
 
 <main class="blur full">

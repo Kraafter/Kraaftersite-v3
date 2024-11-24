@@ -1,10 +1,17 @@
 <script>
     import * as config from '$lib/config';
+    import { page } from '$app/stores';
 </script>
 
 <svelte:head>
     <title>Version Archive - {config.title}</title>
-    <meta name='description' content='Historic site versioning from v1 up to v2.'>
+    <meta name='description' content='Historic site versions from v1 up to v2.'>
+
+    <meta property="og:title" content="Version Archive - {config.title}">
+    <meta property="og:description" content="Histroic site versions from v1 to v2">
+    <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="website">
 </svelte:head>
 
 <main class="blur full">

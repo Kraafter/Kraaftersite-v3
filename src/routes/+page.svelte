@@ -2,11 +2,18 @@
     import * as config from '$lib/config';
     export let data
     import { formatDate } from '$lib/utils'
+    import { page } from '$app/stores'
 </script>
 
 <svelte:head>
     <title>Home - {config.title}</title>
     <meta name='description' content='Kraafter&#39;s personal corner on the net'>
+
+    <meta property="og:title" content="Home - {config.title}">
+    <meta property="og:description" content="Kraafter&#39;s personal corner on the net">
+    <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="website">
 </svelte:head>
 
 <main class="blur full">

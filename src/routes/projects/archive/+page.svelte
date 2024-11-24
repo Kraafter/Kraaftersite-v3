@@ -1,6 +1,7 @@
 <script lang="ts">
 	import * as config from '$lib/config'
     import { onMount } from 'svelte';
+    import { page } from '$app/stores';
 
     interface repot {
         archived: boolean;
@@ -20,6 +21,12 @@
 <svelte:head>
 	<title>Projects - {config.title}</title>
     <meta name='description' content='Archived projects from GitHub.'>
+
+    <meta property="og:title" content="Project Archive - {config.title}">
+    <meta property="og:description" content="Archived projects from GitHub">
+    <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="website">
 </svelte:head>
 
 

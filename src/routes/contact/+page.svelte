@@ -1,10 +1,17 @@
 <script>
     import * as config from '$lib/config';
+    import { page } from '$app/stores';
 </script>
 
 <svelte:head>
     <title>Contacts - {config.title}</title>
-    <meta name='description' content='There are multiple ways to contact me. However, I encourage you to use each communication channel according to their defined usage.'>
+    <meta name='description' content='Multiple ways to contact me (email, sns, etc.)'>
+
+    <meta property="og:title" content="Contacts - {config.title}">
+    <meta property="og:description" content="Multiple ways to contact me (email,sns, etc.)">
+    <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="website">
 </svelte:head>
 
 <main class="blur full">

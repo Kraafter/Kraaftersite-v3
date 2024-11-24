@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
+    import { page } from '$app/stores'
 
 	export let data
 </script>
@@ -8,12 +9,18 @@
 <svelte:head>
 	<title>Blog - {config.title}</title>
     <meta name='description' content='This part of the website is where I will be putting my random thougts and development progresses. All views are my own.'>
+
+    <meta property="og:title" content="Blog - {config.title}">
+    <meta property="og:description" content="Blog where I will be putting my random thougts and development progresses. All views are my own.">
+    <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="website">
 </svelte:head>
 
 <!-- Posts -->
 <section class="main blur full">
     <p class="text1" style="padding-top: 10px;">💬Blog</p>
-    <p class="text2 pagedesc">This part of the website is where I will be putting my random thougts and development progresses. All views are my own.</p>
+    <p class="text2 pagedesc">Blog where I will be putting my random thougts and development progresses. All views are my own.</p>
     <hr style="visibility:visible; width: 100%; border-top: 1px solid aliceblue">
 	<ul class="posts" style="list-style-type: none; padding-left:0">
 		{#each data.posts as post}

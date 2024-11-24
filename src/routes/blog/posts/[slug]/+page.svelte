@@ -2,6 +2,7 @@
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
 	export let data
+    import { page } from '$app/stores';
 </script>
 
 <!-- SEO -->
@@ -10,6 +11,12 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
     <meta name='description' content={data.meta.description}>
+
+    <meta property="og:title" content="{data.meta.title} - {config.title}">
+    <meta property="og:description" content="{data.meta.description}">
+    <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="article">
 </svelte:head>
 
 <article class="main blur full">

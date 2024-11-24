@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { page } from '$app/stores';
+
     import * as config from '$lib/config'
     import { onMount } from 'svelte'
 
@@ -18,6 +20,13 @@
 
 <svelte:head>
     <title>Art - {config.title}</title>
+    <meta name="description" content="Where i showcase my art and photography.">
+
+    <meta property="og:title" content="Gallery - {config.title}">
+    <meta property="og:description" content="Where i showcase my art and photography.">
+    <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="website">
 </svelte:head>
 
 

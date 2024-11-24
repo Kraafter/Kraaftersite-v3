@@ -1,5 +1,6 @@
 <script>
     import * as config from '$lib/config'
+    import { page } from '$app/stores';
 
     export let data
     let name = data.slug
@@ -8,7 +9,13 @@
 
 <svelte:head>
     <title>{data.slug} - {config.title}</title>
-    <meta name='description' content='This is where i showcase my art and my photographs. The gallery is divided into two for easier classification and viewing.'>
+    <meta name='description' content='Where i showcase my art and photography.'>
+
+    <meta property="og:title" content="{name} - {config.title}">
+    <meta property="og:description" content="Where i showcase my art and photography.">
+    <meta property="og:image" content="https://ik.imagekit.io/kr4ft/art/{name}?tr=n-ik_ml_thumbnail">
+    <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
+    <meta property="og:type" content="website">
 </svelte:head>
 
 <div class="main full">
