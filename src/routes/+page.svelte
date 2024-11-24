@@ -6,6 +6,7 @@
 
 <svelte:head>
     <title>Home - {config.title}</title>
+    <meta name='description' content='Kraafter&#39;s personal corner on the net'>
 </svelte:head>
 
 <main class="blur full">

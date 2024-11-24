@@ -4,6 +4,7 @@
 
 <svelte:head>
     <title>Links - {config.title}</title>
+    <meta name='description' content='Where you can find and get in touch with me (Mastodon, Twitter, Discord, Bluesky, etc.)'>
 </svelte:head>
 
 <main class="blur full">

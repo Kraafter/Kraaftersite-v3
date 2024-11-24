@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>Blog - {config.title}</title>
+    <meta name='description' content='This part of the website is where I will be putting my random thougts and development progresses. All views are my own.'>
 </svelte:head>
 
 <!-- Posts -->

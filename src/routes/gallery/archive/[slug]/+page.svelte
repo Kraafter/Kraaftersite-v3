@@ -1,8 +1,15 @@
 <script>
+    import * as config from '$lib/config'
+
     export let data
     let name = data.slug
     let url = "https://ik.imagekit.io/kr4ft/artchive/" + name
 </script>
+
+<svelte:head>
+    <title>{data.slug} - {config.title}</title>
+    <meta name='description' content='This is where i showcase my art and my photographs. The gallery is divided into two for easier classification and viewing.'>
+</svelte:head>
 
 <div class="main full">
     <p class="text2"><a class="text2" href="/gallery/archive">← Back to archive</a></p>

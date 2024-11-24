@@ -4,6 +4,7 @@
 
 <svelte:head>
     <title>Contacts - {config.title}</title>
+    <meta name='description' content='There are multiple ways to contact me. However, I encourage you to use each communication channel according to their defined usage.'>
 </svelte:head>
 
 <main class="blur full">

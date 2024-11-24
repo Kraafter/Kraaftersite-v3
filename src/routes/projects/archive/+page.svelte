@@ -19,6 +19,7 @@
 
 <svelte:head>
 	<title>Projects - {config.title}</title>
+    <meta name='description' content='Archived projects from GitHub.'>
 </svelte:head>
 
 

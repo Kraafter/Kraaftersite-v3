@@ -18,6 +18,7 @@
 
 <svelte:head>
     <title>Photography - {config.title}</title>
+    <meta name='description' content='This is where i showcase my art and my photographs. The gallery is divided into two for easier classification and viewing.'>
 </svelte:head>
 
 

@@ -4,6 +4,7 @@
 
 <svelte:head>
     <title>Privacy - {config.title}</title>
+    <meta name='description' content='Privacy policy regarding this website'>
 </svelte:head>
 
 <main class="blur full">

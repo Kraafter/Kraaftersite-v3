@@ -2,6 +2,11 @@
 	import { page } from '$app/stores'
 </script>
 
+<svelte:head>
+    <title>Houston, we got a problem</title>
+    <meta name='description' content='Um, oof'>
+</svelte:head>
+
 <div class="error">
 	<h1 class="text1" style="font-size: 40px;">{$page.status}: {$page.error?.message}</h1>
     <span>

@@ -19,6 +19,7 @@
 
 <svelte:head>
 	<title>Projects - {config.title}</title>
+    <meta name='description' content='Part where code projects are listed from GitHub.'>
 </svelte:head>
 
 

@@ -9,6 +9,7 @@
 	<title>{data.meta.title} - {config.title}</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
+    <meta name='description' content={data.meta.description}>
 </svelte:head>
 
 <article class="main blur full">

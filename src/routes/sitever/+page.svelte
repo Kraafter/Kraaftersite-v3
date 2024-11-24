@@ -4,6 +4,7 @@
 
 <svelte:head>
     <title>Version Archive - {config.title}</title>
+    <meta name='description' content='Historic site versioning from v1 up to v2.'>
 </svelte:head>
 
 <main class="blur full">
