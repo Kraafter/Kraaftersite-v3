@@ -69,7 +69,7 @@
                         <a href="https://dokode.moe/"><img src="https://dokode.moe/media/88x31sites/dokodemobutton3.gif" title="Dokodemo" alt="dokode.moe button"></a>
                     </span>
 
-                    <br>
+                    <br><br class="hiddenbr"><br class="hiddenbr">
 
                     <p class=text2 style="text-align: right; margin-top:50px">Add my button to your site</p>
                     <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a><br><br><textarea style="margin-left: auto;" cols="30" disabled><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea></p>
@@ -232,6 +232,10 @@
         background-color: rgba(61, 0, 160, 0.537);
     }
 
+    .hiddenbr {
+        display: none;
+    }
+
 
     /* X-Small devices (portrait phones, less than 576px) */
     @media (max-width: 575.98px) {
@@ -293,6 +297,10 @@
             margin: 0 0 auto auto;
             border-top: unset;
             border-bottom:1px solid #ffffff;
+        }
+
+        .hiddenbr {
+            display: unset;
         }
     }
 
