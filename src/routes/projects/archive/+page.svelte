@@ -9,7 +9,7 @@
         full_name: string;
         description: string;
     }
-    
+
     let repos: repot[];
 
     onMount(async () => {
@@ -32,14 +32,17 @@
 
 <section class="main blur full">
     <p><a class="text2" href="/projects">← back to projects</a></p>
+    <p class="text1" style="padding-top: 10px;">📁Archive</p>
+    <p class="text2 pagedesc">This part of the website is where I put no longer maintained projects or GitHub Repositories.</p>
+    <hr class="tophr" style="visibility:visible; border-top: 1px solid aliceblue">
 	<ul class="posts" style="list-style-type: none; padding-left:0">
         {#if repos}
             {#each repos as repo}
                 {#if repo.archived == true}
                     <li class="posts">
-                        <a href="{repo.html_url}" class="text1 title" target="_blank"><span style="width: 100%;">{repo.full_name}</span></a>
+                        <a href="{repo.html_url}" class="text1 title" target="_blank">{repo.full_name}</a>
                         {#if repo.description}
-                            <span><p class="text2">{repo.description}</p></span>
+                            <p class="text2 textlist">{repo.description}</p>
                         {:else}
                             <p class="text2">This repository has no description</p>
                         {/if}
@@ -56,13 +59,14 @@
 
 <style>
 
-        li {
-            width: auto;
-        }
+    li {
+        width: auto;
+    }
 
 	.posts {
 		display: grid;
 		gap: 0;
+        width: 100%;
 	}
 
     .posts hr {
@@ -107,12 +111,32 @@
         font-family: monospace;
         color: aliceblue;
         font-size: 30px;
+        text-wrap: wrap;
+        word-wrap: break-word;
+        width: 100%;
+        height: fit-content;
     }
 
     .text2 {
         font-family: monospace;
         color: aliceblue;
         font-size: 20px;
+        text-wrap: wrap;
+        word-break: break-all;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .pagedesc {
+        margin: 30px 20px 0 0
+    }
+
+    .tophr {
+        width: 100%;
+    }
+
+    .bottoma {
+        width: 100%;
     }
 
 
@@ -125,16 +149,55 @@
     @media (max-width: 768px) {
 
         .main {
-            margin: 10px;
-            padding: 5px;
+            margin: 25px;
+            padding: 25px;
         }
 
         .text1 {
             font-size: 25px;
+            width: calc(100% - 50px);
         }
 
         .text2 {
             font-size: 15px;
+        }
+
+        .textlist {
+            width: calc(100% - 50px);
+        }
+
+        .posts hr {
+            width: calc(100% - 50px);
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .pagedesc {
+            margin: 0
+        }
+
+        .full {
+            width: calc(100% - 50px);
+        }
+    }
+
+    @supports (-moz-appearance: none) {
+        @media (max-width: 768px) {
+            .text1 {
+                width: 100% !important;
+            }
+
+            .text2 {
+                width: 100% !important;
+            }
+
+            .textlist {
+                width: 100% !important;
+            }
+
+            .posts hr {
+                width: 100%;
+            }
         }
     }
 
