@@ -18,7 +18,7 @@
 		"@popperjs/core": "^2.11.8",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-vercel": "^5.4.7",
-		"@sveltejs/kit": "^2.7.0",
+		"@sveltejs/kit": "^2.8.3",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^9.6.0",
 		"bootstrap": "^5.3.3",
