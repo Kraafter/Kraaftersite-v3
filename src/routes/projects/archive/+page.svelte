@@ -73,11 +73,16 @@
         visibility: hidden;
         width: 100%;
         border-top: 1px solid aliceblue !important;
-        height: 1px !important;
+        height: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
     }
 
 	.posts hr:not(:last-child) {
         visibility:visible;
+        height: 1px !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem  !important;
 	}
 
 	.title {
