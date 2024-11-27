@@ -150,7 +150,7 @@
 
         .text1 {
             font-size: 25px;
-            width: calc(100% - 50px);
+            width: calc(100% - 25px);
         }
 
         .text2 {
@@ -158,11 +158,11 @@
         }
 
         .textlist {
-            width: calc(100% - 50px);
+            width: calc(100% - 25px);
         }
 
         .posts hr {
-            width: calc(100% - 50px);
+            width: calc(100% - 25px);
             margin-left: 0;
             margin-right: 0;
         }
