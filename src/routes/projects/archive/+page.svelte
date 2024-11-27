@@ -44,7 +44,7 @@
                         {#if repo.description}
                             <p class="text2 textlist">{repo.description}</p>
                         {:else}
-                            <p class="text2">This repository has no description</p>
+                            <p class="text2 textlist">This repository has no description</p>
                         {/if}
                     </li>
                     <hr>
