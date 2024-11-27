@@ -6,12 +6,7 @@
 
     import splashes from '$lib/file/splash.json';
     const splash = splashes.splashes[Math.floor(Math.random() * splashes.splashes.length)];;
-
   </script>
-
-<svelte:head>
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-</svelte:head>
 
 <main class="body">
     <nav class="nav">
@@ -51,7 +46,6 @@
             <p class='text3'>Copyright © 2024 Kraafter</p>
         </div>
     </footer>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </main>
 
 <style>
