@@ -135,11 +135,6 @@
         width: 100%;
     }
 
-    .bottoma {
-        width: 100%;
-    }
-
-
     /* X-Small devices (portrait phones, less than 576px) */
     @media (max-width: 575.98px) {
 
