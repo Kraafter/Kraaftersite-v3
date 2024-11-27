@@ -128,7 +128,7 @@
         color: aliceblue;
         font-size: 20px;
         text-wrap: wrap;
-        word-break: break-all;
+        word-wrap: break-word;
         width: 100%;
         height: fit-content;
     }
