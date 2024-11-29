@@ -7,6 +7,8 @@
     <title>Links - {config.title}</title>
     <meta name='description' content='Where you can find and get in touch with me (Mastodon, Twitter, Discord, Bluesky, etc.)'>
 
+    <meta name='description' content='Where i showcase my art and photography.'>
+
     <meta property="og:title" content="Links - {config.title}">
     <meta property="og:description" content="Where you can find and get in touch with me (Mastodon, Twitter, Discord, Bluesky, etc.)">
     <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
