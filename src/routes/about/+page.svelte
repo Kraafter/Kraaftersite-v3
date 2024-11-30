@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-    <title>Links - {config.title}</title>
+    <title>About - {config.title}</title>
     <meta name='description' content='Information about who Kraaft is.'>
 
     <meta property="og:title" content="About - {config.title}">
@@ -16,21 +16,25 @@
 
 <main class="blur full">
     <div class="main">
-        <p class="text1">⬢ I am...</p>
+        <p class="text1">⬢ I'm Kraafter</p>
+        <p class="text2 textbigger">I'm a...</p>
         <ul>
             <li class="text2">
                 <p class="text2 textbigger">A highschool student</p>
                 <p class="text2">
-                    Right now, I'm only a highschool student graduating next year. As for which school I go to, there's a clue
-                    on one of the many splash texts being displayed near my logo. If you are from that school, hmu pls lets be
-                    friends.
+                    At the moment, I'm only a highschool student graduating next year. As for which school I go to, there's a
+                    clue on one of the many splash texts being displayed near my logo. If you are from that school, hmu pls
+                    lets be friends (genuinely this school is killing me asdadgdsasdiowwefde).
                 </p>
             </li>
             <li class="text2">
                 <p class="text2 textbigger">A massive hobbyist</p>
                 <p class="text2">
-                    Surprise! You've prolly already seen the massive list of hobbies I do on the front page. hobbies are a massive
-                    part of my life (obviously since I'm a teenager). 
+                    Surprise! You've prolly already seen the massive list of hobbies I do on the front page. Hobbies absolutely
+                    feel like a really big part of my life. Most hobbies I do nowadays are a result of me being stuck at home
+                    during a certain period of time, prompting me glare at the computer screen for longer. The two exceptions
+                    are photography and videography, which i got interested in when I volunteered to take photos and videos in
+                    multiple school events, after school reopened.
                 </p>
             </li>
             <li class="text2">
@@ -38,6 +42,7 @@
                 <p class="text2">Surprise yet again! I'm still quite a new furry, only having declared myself as one in 2022
                     (although I've been a tad interested prior to that year). As of now I've made two fursonas, which their
                     information can be checked out at my <a class="text2 linking" href="/about/fursona">fursona page</a>.
+                    (it has genuinely ruined my life lmao)
                 </p>
             </li>
             <li class="text2">
@@ -50,6 +55,24 @@
                     <a class="text2 linking" href="/about/code">code page</a>.
                 </p>
             </li>
+            <li class="text2">
+                <p class="text2 textbigger">A localisation contributor</p>
+                <p class="text2">
+                    I've contributed to a few projects, adding localisation of my native language (Indonesian/Bahasa Indonesia).
+                    Two biggest highlights from where I've contributed to are
+                    <a class="text2 linking" href="https://prismlauncher.org" target="_blank">Prism Launcher</a> and
+                    <a class="text2 linking" href="https://vrchat.com" target="_blank">VRChat</a>. So far I've done the majority
+                    of Indonesian strings for Prism Launcher as at the moment I'm the sole localisation contributor. As for
+                    VRChat, I've done minor string suggestions. Please note that VRChat Indonesian localisations are still in
+                    closed beta.
+                </p>
+            </li>
+        </ul>
+        <p class="text1">Other resources</p>
+        <ul>
+            <li class="text2">Branding</li>
+            <li class="text2">About this website</li>
+            <li class="text2">Tools I use</li>
         </ul>
     </div>
 </main>
