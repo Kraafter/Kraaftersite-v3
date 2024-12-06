@@ -98,9 +98,9 @@
                 <div class="contentview2">
                     <img alt="Rhenerds logo in the style of charli_xcx brat" class="gliveimg" style="height: 170px;" src="/assets/media/site/rhenerds.webp">
                     <p class="text2" style="text-align:center">
-                        <a class="text2" href="https://rhendraring.netlify.app/kraaft/previous">&lt;&lt;</a>
-                        <a class="text2" href="https://rhendraring.netlify.app/">Rhenerds Webring (in progress)</a>
-                        <a class="text2" href="https://rhendraring.netlify.app/kraaft/next">&gt;&gt;</a>
+                        <a class="text2" href="https://ring.nerds.my.id/kraaft/previous">&lt;&lt;</a>
+                        <a class="text2" href="https://ring.nerds.my.id/">Rhenerds Webring (in progress)</a>
+                        <a class="text2" href="https://ring.nerds.my.id/kraaft/next">&gt;&gt;</a>
                     </p>
                 </div>
                 <div class=divider style="margin:0"></div>
