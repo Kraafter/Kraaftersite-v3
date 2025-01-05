@@ -30,8 +30,8 @@
                 </span>
             </div>
             <div class="mainimg">
-                <img class="gliveimg" alt="Glive the protogen greeting visitors with a beep!" src='/assets/media/site/glivebeep.webp' />
-                <p class="text2" style="width: 100%; text-align:center;">Glive, the protogen</p>
+                <a href="/about/fusona/glive"><img class="gliveimg" alt="Glive the protogen greeting visitors with a beep!" src='/assets/media/site/glivebeep.webp' /></a>
+                <p class="text2" style="width: 100%; text-align:center;"><a class="text2 linking" href="/about/fursona/glive">Glive, the protogen</a></p>
             </div>
         </div>
 
@@ -45,8 +45,8 @@
             </div>
             <div class="main2">
                 <div class="mainimg">
-                    <img class="gliveimg" alt="Nord the amphimorpho with an 88x31 button in his mouth" src='/assets/media/site/nordfloat.webp' />
-                    <p class="text2" style="width: 100%; text-align:center;">Nord, the amphimorpho</p>
+                    <a href="/about/fursona/nord"><img class="gliveimg" alt="Nord the amphimorpho with an 88x31 button in his mouth" src='/assets/media/site/nordfloat.webp' /></a>
+                    <p class="text2" style="width: 100%; text-align:center;"><a class="text2 linking" href="/about/fursona/nord">Nord, the amphimorpho</a></p>
                 </div>
                 <div class="maintext">
 
