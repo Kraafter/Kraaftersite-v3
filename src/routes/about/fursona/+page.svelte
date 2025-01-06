@@ -40,7 +40,7 @@
     <meta name='description' content="Kraaft's fursonas.">
 
     <meta property="og:title" content="About - {config.title}">
-    <meta property="og:description" content="Information about who Kraaft is.">
+    <meta property="og:description" content="Kraaft's fursonas.">
     <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
     <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
     <meta property="og:type" content="website">
