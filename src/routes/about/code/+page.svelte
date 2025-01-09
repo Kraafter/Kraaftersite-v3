@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Fursona - {config.title}</title>
+    <title>Code - {config.title}</title>
     <meta name='description' content="Information about my code skills.">
 
     <meta property="og:title" content="Code - {config.title}">
