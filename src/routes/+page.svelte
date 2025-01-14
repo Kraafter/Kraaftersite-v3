@@ -98,7 +98,7 @@
             <p class="text1 header2">💍 Webrings</p>
             <div class="blogview">
                 <div class="contentview2">
-                    <img alt="Rhenerds logo in the style of charli_xcx brat" class="gliveimg" style="height: 170px;" src="/assets/media/site/rhenerds.webp">
+                    <img alt="Rhe Nerds logo in a modern simplistic style resembling an O" class="gliveimg" style="height: 170px;" src="/assets/media/site/NerdsSymbolDark.webp">
                     <p class="text2" style="text-align:center">
                         <a class="text2" href="https://ring.nerds.my.id/kraaft/previous">&lt;&lt;</a>
                         <a class="text2" href="https://ring.nerds.my.id/">Rhenerds Webring (in progress)</a>
