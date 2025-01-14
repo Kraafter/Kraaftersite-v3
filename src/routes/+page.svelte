@@ -22,6 +22,7 @@
             <div class="maintext">
                 <span style="height:fit-content;">
                     <h2 class="text1" style="margin:0">Hello, Kraafter here 👋</h2>
+                    <br>
                     <p class="text2">I am an Indonesian teenager interested in programming, web development, drumming, localisation, videography, photography, and art. I'm currently a high school student and a localisation contributor at <a target="_blank" class="text2 linking" href="https://prismlauncher.org/">Prism Launcher</a></p>
                     <p class="text2">You are now viewing the third version to my website. All past versions can be viewed in the <a class="text2 linking" href='/sitever'>version archive</a>.</p>
                     <p class="text2">Here you'll be able to view my blog, my gallery, my contacts, my social links, my projects, or anything I wish to show here really :v</p>
