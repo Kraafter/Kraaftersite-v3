@@ -56,6 +56,7 @@
                         <a href="https://finiteti.me/"><img src="https://finiteti.me/badge.png" alt="finiteti.me button" title="mefinity"></a>
                         <a href="https://daringcuteseal.github.io/"><img width="88px" height="31px" src="https://daringcuteseal.github.io/assets/image/button.png" alt="daringcuteseal.github.io button" title="daringcuteseal"></a>
                         <a href="https://ichisansfw.me/"><img width="88px" height="31px" src="/assets/img/ichi.gif" alt="ichisansfw.me button" title="ichisansfw"></a>
+                        <a href="https://beepi.ng"><img src="https://beepi.ng/88x31.png" width="88" height="31" title="unnick" alt="unnick beepi.ng button"></a>
                         <!-- <a href="https://milkyway.moe/"><img alt="milkyway.moe button" title="milkyway" src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a> -->
                     </span>
 
@@ -70,7 +71,6 @@
                         <a href="https://neo-neighborhoods.neocities.org/TimesSquare/"><img src="https://neo-neighborhoods.neocities.org/TimesSquare/times88.gif" width="88" height="31" title="neocities times square" alt="neocities times square button"></a>
                         <a href="https://dokode.moe/"><img src="https://dokode.moe/media/88x31sites/dokodemobutton3.gif" title="dokodemo" alt="dokode.moe button"></a>
                         <a href="https://pebble.pet/"><img src="https://pebble.pet/button.gif" title="pebble" alt="pebble.pet button"></a>
-                        <a href="https://beepi.ng"><img src="https://beepi.ng/88x31.png" width="88" height="31" title="unnick" alt="unnick beepi.ng button"></a>
                     </span>
 
                     <br><br class="hiddenbr"><br class="hiddenbr">
