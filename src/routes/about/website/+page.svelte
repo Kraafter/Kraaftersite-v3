@@ -26,9 +26,9 @@
             <div class="sideleft">
                 <p class="textm">Content</p>
                 <ol>
-                    <li class="texttoc"><a class="texttoc linking" href="#logo">Logo</a></li>
-                    <li class="texttoc"><a class="texttoc linking" href="#colorscheme">Color Scheme</a></li>
-                    <li class="texttoc"><a class="texttoc linking" href="#typography">Typography</a></li>
+                    <li class="texttoc"><a class="texttoc linking" href="#technologies">Technologies</a></li>
+                    <li class="texttoc"><a class="texttoc linking" href="#helpers">Helpers</a></li>
+                    <li class="texttoc"><a class="texttoc linking" href="#inspiration">Inspiration</a></li>
                 </ol>
             </div>
             <div class="sideright">
@@ -71,7 +71,7 @@
                         <p class="text2"><a class="text2 linking" href="https://yarnpkg.com/">Yarn</a> - A package manager that doubles down as project manager.</p>
                     </li>
                 </ul>
-                <p class="text1 texthead" id="logo">Helpers</p>
+                <p class="text1 texthead" id="helpers">Helpers</p>
                 <p class="text2">I was assisted by a few people while making this website.</p>
                 <ul>
                     <li class="text2">
@@ -81,7 +81,7 @@
                         <p class="text2"><a href="https://joyofcode.xyz/sveltekit-markdown-blog" class="text2 linking">Joy of Code</a> - An in-depth explanation on how to make a markdown based blog system.</p>
                     </li>
                 </ul>
-                <p class="text1 texthead" id="colorscheme">Inspirations</p>
+                <p class="text1 texthead" id="inspiration">Inspirations</p>
                 <p class="text2">I was inspired by a few websites while making this one.</p>
                 <ul>
                     <li class="text2">
