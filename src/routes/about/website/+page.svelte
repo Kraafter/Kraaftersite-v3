@@ -28,7 +28,7 @@
                 <ol>
                     <li class="texttoc"><a class="texttoc linking" href="#technologies">Technologies</a></li>
                     <li class="texttoc"><a class="texttoc linking" href="#helpers">Helpers</a></li>
-                    <li class="texttoc"><a class="texttoc linking" href="#inspiration">Inspiration</a></li>
+                    <li class="texttoc"><a class="texttoc linking" href="#inspiration">Inspirations</a></li>
                 </ol>
             </div>
             <div class="sideright">
