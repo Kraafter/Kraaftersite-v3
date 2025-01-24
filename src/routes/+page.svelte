@@ -59,6 +59,7 @@
                         <a href="https://ichisansfw.me/"><img width="88px" height="31px" src="/assets/img/ichi.gif" alt="ichisansfw.me button" title="ichisansfw"></a>
                         <a href="https://beepi.ng"><img src="https://beepi.ng/88x31.png" width="88" height="31" title="unnick" alt="unnick beepi.ng button"></a>
                         <a href="https://milkyway.moe/"><img alt="milkyway.moe button" title="milkyway" src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a>
+                        <a href="https://web.archive.org/web/20240829191535/https://nkko.me/"><img alt="nkko.me archive button" title='undrscre' src="https://ik.imagekit.io/kr4ft/misc/niko2.webp"></a>
                     </span>
 
                     <br>
