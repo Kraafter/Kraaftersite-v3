@@ -62,6 +62,7 @@ export async function GET() {
         origin: 'https://kraafter.me',
         excludeRoutePatterns: [
             '^/api.*',
+            '/blog/posts'
         ],
         paramValues: {
             '/blog/posts/[slug]': postSlugs,
