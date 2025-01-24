@@ -58,7 +58,7 @@
                         <a href="https://daringcuteseal.github.io/"><img width="88px" height="31px" src="https://daringcuteseal.github.io/assets/image/button.png" alt="daringcuteseal.github.io button" title="daringcuteseal"></a>
                         <a href="https://ichisansfw.me/"><img width="88px" height="31px" src="/assets/img/ichi.gif" alt="ichisansfw.me button" title="ichisansfw"></a>
                         <a href="https://beepi.ng"><img src="https://beepi.ng/88x31.png" width="88" height="31" title="unnick" alt="unnick beepi.ng button"></a>
-                        <!-- <a href="https://milkyway.moe/"><img alt="milkyway.moe button" title="milkyway" src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a> -->
+                        <a href="https://milkyway.moe/"><img alt="milkyway.moe button" title="milkyway" src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a>
                     </span>
 
                     <br>
