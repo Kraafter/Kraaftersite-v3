@@ -1,11 +1,12 @@
 import { json } from "@sveltejs/kit";
+import { env } from "$env/dynamic/private"
 
 const url = 'https://api.imagekit.io/v1/files?path=photo';
 const options = {
   method: 'GET',
   headers: {
     Accept: 'application/json',
-    Authorization: import.meta.env.VITE_APIKEY // DO NOT PUSH PLAIN API KEY, USE SECRETS
+    Authorization: env.SECRET_IK_KEY // DO NOT PUSH PLAIN API KEY, USE SECRETS
   }
 };
 
