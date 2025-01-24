@@ -2,6 +2,7 @@
 import * as sitemap from 'super-sitemap';
 import type { Post } from '$lib/types'
 import { json } from '@sveltejs/kit'
+import { env } from '$env/dynamic/private';
 
 const urlart = 'https://api.imagekit.io/v1/files?path=art';
 const urlarch = 'https://api.imagekit.io/v1/files?path=artchive';
@@ -10,7 +11,7 @@ const options = {
   method: 'GET',
   headers: {
     Accept: 'application/json',
-    Authorization: import.meta.env.VITE_APIKEY // DO NOT PUSH PLAIN API KEY, USE SECRETS
+    Authorization: env.SECRET_IK_KEY // DO NOT PUSH PLAIN API KEY, USE SECRETS
   }
 }
 
