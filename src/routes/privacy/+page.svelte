@@ -17,10 +17,10 @@
 <main class="blur full">
     <p class="text1">📰 Privacy Policy</p>
     <p class="text2">
-        This website in no way whatsoever collects data other than server logs (IP address, user agent, geolocation, accessed paths) only visible to the hosting provider and webmaster. This data is collected only for operational purposes and can't be associated with any user (except for GitHub cookies used for Utterances).
+        This website in no way whatsoever collects data other than server logs (IP address, user agent, geolocation, accessed paths) only visible to the hosting provider and webmaster. This data is collected only for operational purposes and can't be associated with any user.
     </p>
     <p class="text2">
-        This may differ when it comes to embeds as they may need to interact with certain cookies in order to function.
+        This may differ when it comes to embeds as they may need to interact with certain cookies in order to function. The most notable is Uttertances which interacts with GitHub credential cookies for user identification of commenters. The Utterances used within this site won't interact with your GitHub cookies until you authorize access for this site by logging in.
     </p>
     <p class="text2">
         This website also uses some external service providers. Their names, usage, privacy policy, and metrics I can view, are listed below:
