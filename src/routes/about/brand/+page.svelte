@@ -14,7 +14,6 @@
     <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
     <meta property="og:type" content="website">
 
-    <link rel="stylesheet" href="/assets/font/defined.css" type="text/css" charset="utf-8" />
 </svelte:head>
 
 <main class="blur full">
