@@ -89,7 +89,7 @@
             <div class="blogview">
                 {#each data.posts.slice(0,3) as post}
                     <div class="contentview">
-                        <a href=/blog/posts/{post.slug} class="text2">{post.title}</a>
+                        <a href=/blog/{post.slug} class="text2">{post.title}</a>
                         <p class="text2">{formatDate(post.date)}</p>
                         <p class="text2">{post.description}</p>
                     </div>
