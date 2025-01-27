@@ -114,17 +114,18 @@
     }
 
     .text1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 30px;
         text-wrap: wrap;
         word-wrap: break-word;
         width: 100%;
         height: fit-content;
+        font-weight: 700;
     }
 
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 20px;
         text-wrap: wrap;

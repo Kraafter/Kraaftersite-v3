@@ -20,11 +20,11 @@
             </div>
         </a>
         <div class="navlayout">
-            <a href="/"> <p class="text2">Home</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href="/blog"> <p class="text2">Blog</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href="/projects"> <p class="text2">Projects</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href="/gallery"> <p class="text2">Gallery</p></a><p class="text1" style="font-size: 20px">  |  </p>
-            <a href="/link"> <p class="text2">Links</p></a>
+            <a href="/"> <p class="text2 topbar">Home</p></a><p class="text2" style="font-size: 20px">  |  </p>
+            <a href="/blog"> <p class="text2 topbar">Blog</p></a><p class="text2" style="font-size: 20px">  |  </p>
+            <a href="/projects"> <p class="text2 topbar">Projects</p></a><p class="text2" style="font-size: 20px">  |  </p>
+            <a href="/gallery"> <p class="text2 topbar">Gallery</p></a><p class="text2" style="font-size: 20px">  |  </p>
+            <a href="/link"> <p class="text2 topbar">Links</p></a>
         </div>
     </nav>
     {#key data.url}
@@ -50,6 +50,11 @@
 
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+    .topbar {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
     img {
         width: 100%;
@@ -111,19 +116,20 @@
     }
 
     .text1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 40px;
+        font-weight: 700;
     }
 
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 20px;
     }
 
     .text3 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 20px;
     }

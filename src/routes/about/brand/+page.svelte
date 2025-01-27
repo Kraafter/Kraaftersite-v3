@@ -13,6 +13,7 @@
     <meta property="og:image" content="https://kraafter.me/assets/logo/dark/large.webp">
     <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
     <meta property="og:type" content="website">
+
 </svelte:head>
 
 <main class="blur full">
@@ -193,16 +194,16 @@
                     <a class="text2 linking" href="https://tokotype.github.io/plusjakarta-sans/" target="_blank">Plus Jakarta Sans</a> is the main font used on my site.
                 </p>
                 <div class="quote">
-                    <p class="text2" style="font-family: 'Plus Jakarta Sans', sans-serif;">
+                    <p class="text2" style="font-family: 'plus_jakarta_sansregular', sans-serif;">
                         The quick brown fox jumps over the lazy dog. 1234567890
                     </p>
-                    <p class="text2" style="font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;">
+                    <p class="text2" style="font-family: 'plus_jakarta_sansregular', sans-serif; font-weight: 700;">
                         The quick brown fox jumps over the lazy dog. 1234567890 (Bold)
                     </p>
-                    <p class="text2" style="font-family: 'Plus Jakarta Sans', sans-serif; font-style: italic;">
+                    <p class="text2" style="font-family: 'plus_jakarta_sansitalic', sans-serif; font-style: italic;">
                         The quick brown fox jumps over the lazy dog. 1234567890 (Italic)
                     </p>
-                    <p class="text2" style="font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-style: italic;">
+                    <p class="text2" style="font-family: 'plus_jakarta_sansitalic', sans-serif; font-weight: 700; font-style: italic;">
                         The quick brown fox jumps over the lazy dog. 1234567890 (Bold Italic)
                     </p>
                 </div>
@@ -211,16 +212,16 @@
                     I also use <a class="text2 linking" href="https://github.com/IBM/plex" target="_blank">IBM Plex</a> as the monospace font for showing code bits.
                 </p>
                 <div class="quote">
-                    <p class="text2" style="font-family: 'IBM Plex Mono', monospace;">
+                    <p class="text2" style="font-family: 'ibm_plex_monoregular', monospace;">
                         The quick brown fox jumps over the lazy dog. 1234567890
                     </p>
-                    <p class="text2" style="font-family: 'IBM Plex Mono', monospace; font-weight: 700;">
+                    <p class="text2" style="font-family: 'ibm_plex_monoregular', monospace; font-weight: 700;">
                         The quick brown fox jumps over the lazy dog. 1234567890 (Bold)
                     </p>
-                    <p class="text2" style="font-family: 'IBM Plex Mono', monospace; font-style: italic;">
+                    <p class="text2" style="font-family: 'ibm_plex_monoitalic', monospace; font-style: italic;">
                         The quick brown fox jumps over the lazy dog. 1234567890 (Italic)
                     </p>
-                    <p class="text2" style="font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-style: italic;">
+                    <p class="text2" style="font-family: 'ibm_plex_monoitalic', monospace; font-weight: 700; font-style: italic;">
                         The quick brown fox jumps over the lazy dog. 1234567890 (Bold Italic)
                     </p>
                 </div>
@@ -237,6 +238,7 @@
 </main>
 
 <style>
+    
     tr{
         border-bottom: 1px solid #f0f8ffaf;
     }
@@ -338,14 +340,16 @@
     }
 
     .text1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
+        font-weight: 700;
         color: aliceblue;
         font-size: 30px;
         padding: 10px;
     }
 
     .textm {
-        font-family: monospace;
+        font-weight: 600;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 25px;
         padding: 10px;
@@ -353,7 +357,7 @@
     }
 
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
         padding: 10px;
@@ -361,7 +365,7 @@
     }
 
     .texttoc{
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
         padding: 0;
