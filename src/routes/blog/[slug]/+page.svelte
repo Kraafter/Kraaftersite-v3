@@ -39,7 +39,7 @@
 
 <main class="blur full">
     <div class="main">
-        <p><a class="text2" href="/about" style="padding-left: 0; margin-left: 0">← Back to about</a></p>
+        <p><a class="text2" href="/blog" style="padding-left: 0; margin-left: 0">← Back to blog</a></p>
         <p class="title">{data.meta.title}</p>
         <p>{data.meta.description}</p>
         <p>Published {formatDate(data.meta.date)}</p>
