@@ -25,7 +25,7 @@
 	<ul class="posts" style="list-style-type: none; padding-left:0">
 		{#each data.posts as post}
 			<li class="post">
-				<a href=/blog/posts/{post.slug} class="title text1">{post.title}</a>
+				<a href=/blog/{post.slug} class="title text1">{post.title}</a>
 				<p class="date text2">{formatDate(post.date)}</p>
 				<p class="description text2">{post.description}</p>
 			</li>

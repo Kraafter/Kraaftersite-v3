@@ -1,6 +1,6 @@
 ---
-title: Making a website is a fun type of pain
-description: The ups and downs of website development, for me
+title: Test Blog Entry
+description: This blog entry is to test if components and markdown rendering are working corrently.
 date: '2024-10-09'
 categories:
   - sveltekit
@@ -9,11 +9,46 @@ categories:
 published: true
 ---
 
-Soo as everyone has known, I've already had two past versions of my website. The first one being absolutely barebones and unresponsive while
-the next one being responsive but limited. Now don't get me wrong my past two sites had been really fun to make and I've learnt a lot while
-making them.
+# Heading 1
 
-## The 3rd Regeneration
+Some random text
 
-Now, originally my 3rd iteration of my website (what you are seeing right now) was suppose to be for <https://mc.kraafter.me> (cancelled sadly) so that I can
-try out Svelte before actually applicating it, but my mind decided to just start making this for v3. Soo thats what im doing.
+## Heading 2
+
+what
+
+> bruh this website sucks
+
+```js
+console.log('hello world');
+import(dumbass);
+```
+
+Aaa
+
+- one
+- two
+- three
+
+1. one
+   1. one
+   2. two
+2. two
+3. three
+
+im **bold**
+
+im *italic*
+
+im ***both***
+
+hawk tuah
+
+![my button](/assets/img/button.png)
+
+
+| ths | asda | asd | asd | asd |
+|-----|------|-----|-----|-----|
+| asd | asd  |     | asd |     |
+| asd | d    |     | as  |     |
+|     |      |     |     | ads |

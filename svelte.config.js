@@ -3,6 +3,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 import { mdsvex, escapeSvelte } from 'mdsvex'
 import { createHighlighter } from 'shiki'
+import rehypeSlug from 'rehype-slug'
 
 
 /** @type {import('mdsvex').MdsvexOptions} */
@@ -23,6 +24,7 @@ const mdsvexOptions = {
 			return `{@html \`${html}\` }`
 		}
 	},
+	rehypePlugins: [rehypeSlug]
 }
 
 /** @type {import('@sveltejs/kit').Config} */
