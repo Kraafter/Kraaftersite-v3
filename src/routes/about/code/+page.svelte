@@ -147,6 +147,7 @@
         color: aliceblue;
         font-size: 30px;
         padding: 10px;
+        font-weight: 700;
     }
 
     .text2 {

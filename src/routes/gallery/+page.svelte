@@ -109,16 +109,17 @@
     }
 
     .text1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 30px;
         text-align: end;
         padding: 10px;
         text-decoration: underline;
+        font-weight: 700;
     }
 
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 20px;
         text-align: end;

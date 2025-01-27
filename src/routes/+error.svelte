@@ -26,7 +26,7 @@
 	}
 
     .text1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         width: 100%;
         text-align: center;

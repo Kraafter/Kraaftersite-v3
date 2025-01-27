@@ -42,7 +42,7 @@
 
 <style>
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 20px;
         height: fit-content;

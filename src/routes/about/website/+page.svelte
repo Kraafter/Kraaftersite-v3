@@ -199,22 +199,24 @@
     }
 
     .text1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 30px;
         padding: 10px;
+        font-weight: 700;
     }
 
     .textm {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 25px;
         padding: 10px;
         margin-bottom: 0;
+        font-weight: 600;
     }
 
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
         padding: 10px;
@@ -222,7 +224,7 @@
     }
 
     .texttoc{
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
         padding: 0;
