@@ -3,6 +3,24 @@
 	import * as config from '$lib/config'
 	export let data
     import { page } from '$app/stores';
+    import {onMount} from 'svelte'
+    
+    let toc: { text: string; level: number; id: string }[] = [];
+    let containerClass = 'sideright'; // Change this to your desired class
+
+    onMount(() => {
+
+        const container = document.querySelector(`.${containerClass}`);
+        if (container) {
+            const headings = container.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            toc = Array.from(headings).map(heading => ({
+            text: (heading as HTMLElement).innerText,
+            level: parseInt(heading.tagName[1]),
+            id: heading.id || (heading as HTMLElement).innerText.replace(/\s+/g, '-').toLowerCase()
+            }));
+        }
+
+    });
 </script>
 
 <!-- SEO -->
@@ -37,10 +55,17 @@
         <div class="sidebyside">
             <div class="sideleft">
                 <p class="textm">Content</p>
-                <ol>
-                    <li class="texttoc"><a class="texttoc linking" href="#hardware">Hardware</a></li>
-                    <li class="texttoc"><a class="texttoc linking" href="#software">Software</a></li>
-                </ol>
+                <ul>
+                    {#each toc as { text, level, id }}
+
+                    <li style="margin-left: {level - 1}em;">
+
+                        <a class="linking" href={`#${id}`}>{text}</a>
+
+                    </li>
+
+                    {/each}
+                </ul>
             </div>
             <div class="sideright">
                 <svelte:component this={data.content}/>
