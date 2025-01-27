@@ -87,6 +87,10 @@
 
 <style>
 
+    li {
+        padding: 0;
+    }
+
     .title {
         font-size: 40px !important;
         font-weight: 1000;
