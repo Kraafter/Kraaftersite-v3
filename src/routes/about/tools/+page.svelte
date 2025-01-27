@@ -38,7 +38,7 @@
                     This page is dedicated to list out my wares and their specifications.
                 </p>
                 <h2 id="hardware">Hardware</h2>
-                <img class="text2" src='https://ik.imagekit.io/kr4ft/blogmedia/wares/frontpage.png' alt="An image of my desk setup, containing a laptop, a mouse, a keyboard, and others" width="100%">
+                <img class="text2" src='https://ik.imagekit.io/kr4ft/blogmedia/wares/frontpage.png' alt="My desk setup, containing a laptop, a mouse, a keyboard, and others" width="100%">
                 <p class="textcaption">my setup</p>
                 <ul>
                     <li class="text2">
@@ -200,22 +200,24 @@
     }
 
     h1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 30px;
         padding: 10px;
+        font-weight: 700;
     }
 
     h2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 30px;
         padding: 10px;
         margin-top: 50px;
+        font-weight: 600;
     }
 
     .textm {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 25px;
         padding: 10px;
@@ -223,7 +225,7 @@
     }
 
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
         padding: 10px;
@@ -231,7 +233,7 @@
     }
 
     .texttoc{
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
         padding: 0;
@@ -244,7 +246,7 @@
     
 
     .textcaption {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 17px;
         padding: 10px;

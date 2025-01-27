@@ -97,14 +97,15 @@
     }
 
     .text1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 30px;
         padding: 10px;
+        font-weight: 700;
     }
 
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 20px;
         padding: 10px;
@@ -112,7 +113,7 @@
     }
 
     .text3 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
         font-size: 20px;
         padding: auto;

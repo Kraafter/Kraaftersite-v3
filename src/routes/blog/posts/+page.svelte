@@ -6,6 +6,6 @@
     .text1 {
         font-size: 20px;
         color: aliceblue;
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
     }
 </style>

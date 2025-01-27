@@ -46,11 +46,11 @@
 
 	<!-- Utterances -->
 	<script src="https://utteranc.es/client.js"
-		repo="Kraafter/Kraaftersite-v3"
-		issue-term="url"
-		label="uttered"
-		theme="github-dark"
-		crossorigin="anonymous"
+        data-repo="Kraafter/Kraaftersite-v3"
+		data-issue-term="url"
+		data-label="uttered"
+		data-theme="github-dark"
+		data-crossorigin="anonymous"
 		async>
 	</script>
 </article>
@@ -103,14 +103,15 @@
     }
 
     .text1 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
 		font-size: 30px;
+        font-weight: 700;
     }
 
 	
     .text2 {
-        font-family: monospace;
+        font-family: plus_jakarta_sansregular;
         color: aliceblue;
 		font-size: 20px;
     }
