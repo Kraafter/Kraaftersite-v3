@@ -25,3 +25,23 @@ import(dumbass);
 ```
 
 Aaa
+
+- one
+- two
+- three
+
+1. one
+   1. one
+   2. two
+2. two
+3. three
+
+im **bold**
+
+im *italic*
+
+im ***both***
+
+hawk tuah
+
+![my button](/assets/img/button.png)
