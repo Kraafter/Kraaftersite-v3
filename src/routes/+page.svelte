@@ -79,7 +79,7 @@
                     <br><br class="hiddenbr"><br class="hiddenbr">
 
                     <p class=text2 style="text-align: right; margin-top:50px">Add my button to your site</p>
-                    <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a><br><br><textarea style="margin-left: auto;" cols="30" disabled><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea></p>
+                    <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a><br><br><textarea style="margin-left: auto; color:aliceblue; background-color: rgb(50,50,50)" cols="30" disabled><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea></p>
                 </div>
             </div>
         </div>
