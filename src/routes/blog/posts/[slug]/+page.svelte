@@ -43,6 +43,17 @@
             </div>
             <div class="sideright">
                 <svelte:component this={data.content}/>
+                <br>
+                <hr class="tophr" style="visibility:visible; border-top: 1px solid aliceblue">
+                <!-- Utterances -->
+                <script src="https://utteranc.es/client.js"
+                    data-repo="Kraafter/Kraaftersite-v3"
+                    data-issue-term="url"
+                    data-label="uttered"
+                    data-theme="github-dark"
+                    data-crossorigin="anonymous"
+                    async>
+                </script>
             </div>
         </div>
     </div>
@@ -77,31 +88,9 @@
         background-color: #323232;
     }
 
-    .color-circle {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        border: 2px solid #000;
-        margin-right: 8px;
-        vertical-align: middle;
-    }
-
     table {
         width: 100%;
         border-collapse: collapse;
-    }
-    
-    .articleimg1 {
-        width: 500px;
-    }
-
-    .articleimg2 {
-        width: 200px;
-    }
-
-    .articleimg3 {
-        width: 125px;
     }
 
     .sidebyside {
@@ -181,6 +170,14 @@
     }
 
     :global(p) {
+        font-family: plus_jakarta_sansregular;
+        color: #f0f8ff;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+    :global(li) {
         font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
