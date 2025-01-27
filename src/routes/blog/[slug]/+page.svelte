@@ -92,15 +92,15 @@
         font-weight: 1000;
     }
 
-    tr{
+    :global(tr){
         border-bottom: 1px solid #f0f8ffaf;
     }
 
-    tr:last-child{
+    :global(tr:last-child){
         border-bottom: none;
     }
 
-    tr:first-child{
+    :global(tr:first-child){
         border-bottom: 4px solid #f0f8ffaf;
     }
 
@@ -114,9 +114,25 @@
         background-color: #323232;
     }
 
-    table {
+    :global(table) {
         width: 100%;
         border-collapse: collapse;
+    }
+
+    :global(td) {
+        font-family: plus_jakarta_sansregular;
+        color: #f0f8ff;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+    :global(th) {
+        font-family: plus_jakarta_sansregular;
+        color: #f0f8ff;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 0;
     }
 
     .sidebyside {
