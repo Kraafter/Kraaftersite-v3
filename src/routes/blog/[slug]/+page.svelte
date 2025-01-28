@@ -41,10 +41,10 @@
     <div class="main">
         <p><a class="text2" href="/blog" style="padding-left: 0; margin-left: 0">← Back to blog</a></p>
         <p class="title">{data.meta.title}</p>
-        <p>{data.meta.description}</p>
-        <p>Published {formatDate(data.meta.date)}</p>
+        <p class="blogdesc">{data.meta.description}</p>
+        <p class="blogdesc">Published {formatDate(data.meta.date)}</p>
         <div class="tags">
-            <p>
+            <p class="blogdesc">
                 {#each data.meta.categories as category}
                     &num;{category}&ensp;
                 {/each}
@@ -94,21 +94,33 @@
     .title {
         font-size: 40px !important;
         font-weight: 1000;
+        font-family: plus_jakarta_sansregular;
+        color: #f0f8ff;
+        padding: 10px;
     }
 
-    :global(tr){
+    .blogdesc {
+        font-family: plus_jakarta_sansregular;
+        color: #f0f8ff;
+        font-size: 20px;
+        padding: 10px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    :global(.sideright tr){
         border-bottom: 1px solid #f0f8ffaf;
     }
 
-    :global(tr:last-child){
+    :global(.sideright tr:last-child){
         border-bottom: none;
     }
 
-    :global(tr:first-child){
+    :global(.sideright tr:first-child){
         border-bottom: 4px solid #f0f8ffaf;
     }
 
-    :global(blockquote) {
+    :global(.sideright blockquote) {
         padding: 10px;
         border-radius: 5px;
         width: calc(100% - 20px);
@@ -118,12 +130,12 @@
         background-color: #323232;
     }
 
-    :global(table) {
+    :global(.sideright table) {
         width: 100%;
         border-collapse: collapse;
     }
 
-    :global(td) {
+    :global(.sideright td) {
         font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
@@ -131,7 +143,7 @@
         margin-bottom: 0;
     }
 
-    :global(th) {
+    :global(.sideright th) {
         font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
@@ -190,7 +202,7 @@
         flex-direction: column;
     }
 
-    :global(h1) {
+    :global(.sideright h1) {
         font-family: plus_jakarta_sansregular !important;
         color: aliceblue !important;
         font-size: 30px !important;
@@ -198,7 +210,7 @@
         font-weight: 700 !important;
     }
 
-    :global(h2) {
+    :global(.sideright h2) {
         font-family: plus_jakarta_sansregular !important;
         color: aliceblue !important;
         font-size: 25px !important;
@@ -215,7 +227,7 @@
         margin-bottom: 0;
     }
 
-    :global(p) {
+    :global(.sideright p) {
         font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
@@ -223,7 +235,7 @@
         margin-bottom: 0;
     }
 
-    :global(li) {
+    :global(.sideright li) {
         font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 20px;
@@ -288,15 +300,15 @@
 
     @supports (-moz-appearance: none) {
         @media (max-width: 768px) {
-            :global(h1) {
+            :global(.sideright h1) {
                 width: 100% !important;
             }
 
-            :global(h2) {
+            :global(.sideright h2) {
                 width: 100% !important;
             }
 
-            :global(p) {
+            :global(/.sideright p) {
                 width: 100% !important;
             }
 
@@ -333,7 +345,7 @@
             font-size: 20px;
         }
 
-        :global(p) {
+        :global(.sideright p) {
             font-size: 15px;
             padding-top: 0px;
         }
