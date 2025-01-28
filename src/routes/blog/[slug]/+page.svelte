@@ -108,15 +108,15 @@
         margin-bottom: 0;
     }
 
-    :global(.sideright tr){
+    :global(.sideright tbody tr){
         border-bottom: 1px solid #f0f8ffaf;
     }
 
-    :global(.sideright tr:last-child){
+    :global(.sideright tbody tr:last-child){
         border-bottom: none;
     }
 
-    :global(.sideright tr:first-child){
+    :global(.sideright thead tr){
         border-bottom: 4px solid #f0f8ffaf;
     }
 
