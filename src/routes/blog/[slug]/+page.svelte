@@ -5,7 +5,7 @@
     import { page } from '$app/stores';
     import {onMount} from 'svelte'
     
-    let toc: { text: string; level: number; id: string }[] = [];
+    let toc: { text: string; level: number; id: string; hidelist: string }[] = [];
     let containerClass = 'sideright'; // Change this to your desired class
 
     onMount(() => {
@@ -13,11 +13,15 @@
         const container = document.querySelector(`.${containerClass}`);
         if (container) {
             const headings = container.querySelectorAll('h1, h2, h3, h4, h5, h6');
-            toc = Array.from(headings).map(heading => ({
-            text: (heading as HTMLElement).innerText,
-            level: parseInt(heading.tagName[1]),
-            id: heading.id || (heading as HTMLElement).innerText.replace(/\s+/g, '-').toLowerCase()
-            }));
+            toc = Array.from(headings).map(heading => {
+                const level = parseInt(heading.tagName[1]);
+                return {
+                    text: (heading as HTMLElement).innerText,
+                    level: level,
+                    id: heading.id || (heading as HTMLElement).innerText.replace(/\s+/g, '-').toLowerCase(),
+                    hidelist: level === 1 ? 'none' : ''
+                }
+            })
         }
 
     });
@@ -56,9 +60,9 @@
             <div class="sideleft">
                 <p class="textm">Content</p>
                 <ul>
-                    {#each toc as { text, level, id }}
+                    {#each toc as { text, level, id, hidelist }}
 
-                    <li style="margin-left: {level - 1}em;">
+                    <li style="margin-left: {level - 2.5}em; list-style-type: { hidelist };">
 
                         <a class="linking" href={`#${id}`}>{text}</a>
 
@@ -89,6 +93,7 @@
 
     li {
         padding: 0;
+        color: #f0f8ff;
     }
 
     .title {
