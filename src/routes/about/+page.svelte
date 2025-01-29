@@ -29,11 +29,14 @@
             <li class="text2">
                 <p class="text2 textbigger">Massive hobbyist</p>
                 <p class="text2">
-                    Surprise! You've prolly already seen the massive list of hobbies I do on the front page. Hobbies absolutely
-                    feel like a really big part of my life. Most hobbies I do nowadays are a result of me being stuck at home
-                    during a certain period of time, prompting me glare at the computer screen for longer. The two exceptions
-                    are photography and videography, which i got interested in when I volunteered to take photos and videos in
-                    multiple school events, after school reopened.
+                    I am an Indonesian teenager interested in programming, web development, drumming, localisation, videography,
+                    photography, and art.
+                </p>
+                <p class="text2">
+                    Hobbies absolutely feel like a really big part of my life. Most hobbies I do nowadays
+                    are a result of me being stuck at home during a certain period of time, prompting me glare at the computer
+                    screen for longer. The two exceptions are photography and videography, which i got interested in when I
+                    volunteered to take photos and videos in multiple school events, after school reopened.
                 </p>
             </li>
             <li class="text2">
