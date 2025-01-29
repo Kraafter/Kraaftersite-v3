@@ -35,7 +35,7 @@
                 </span>
             </div>
             <div class="mainimg">
-                <a href="/about/fusona/glive"><img class="gliveimg" alt="Glive the protogen greeting visitors with a beep!" src='/assets/media/site/glivebeep.webp' /></a>
+                <a class="gliveimg" href="/about/fusona/glive"><img class="gliveimg" alt="Glive the protogen greeting visitors with a beep!" src='/assets/media/site/glivebeep.webp' /></a>
                 <p class="text2" style="width: 100%; text-align:center;"><a class="text2 linking" href="/about/fursona/glive">Glive, the protogen</a></p>
             </div>
         </div>
@@ -176,7 +176,7 @@
     }
 
     .maintext {
-        width: 60%;
+        width: calc(60% - 25px);
         height: fit-content;
         padding: 20px;
     }
