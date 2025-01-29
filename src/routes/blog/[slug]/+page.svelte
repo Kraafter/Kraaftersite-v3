@@ -170,6 +170,8 @@
         height: fit-content;
         background: rgba(78, 78, 78, 0.6);
         border-radius: 5px;
+        position: sticky;
+        top: 10px;
     }
 
     .sideright {
