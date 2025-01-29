@@ -22,9 +22,8 @@
             <li class="text2">
                 <p class="text2 textbigger">Highschool student</p>
                 <p class="text2">
-                    At the moment, I'm only a highschool student graduating this year. As for which school I go to, there's a
-                    clue on one of the many splash texts being displayed near my logo. If you are from that school, hmu pls
-                    lets be friends (genuinely this school is killing me asdadgdsasdiowwefde).
+                    At the moment, I'm only a highschool student graduating this year. You may soon see me in either Universitas
+                    Indonesia or Binus University.
                 </p>
             </li>
             <li class="text2">
