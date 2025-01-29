@@ -16,8 +16,10 @@
 
 <main class="blur full">
     <span style="width: 100%;">
+        <p class="text2"><a class="text2" href="/about">← Back to about</a></p>
         <p class="text1">📆 Version Archive</p>
         <p class="text2">This part of the website lists past versions of my website. Basically a little memento on how my skills developed over time.</p>
+        <p class="text2">Unfortunately, I can't list past versions of website v3 at the moment.</p>
         <p class="text2">📰 V2 Pure HTML, CSS, JS (Bootstrap Studio Template)</p>
         <ul>
             <li class="text2" style="padding: 0px;">V3 preview announcement (Last of v2): <a class="linking text2" target="_blank" href="https://8c9e5019.kraaftersite-v2.pages.dev/">https://8c9e5019.kraaftersite-v2.pages.dev/</a></li>
