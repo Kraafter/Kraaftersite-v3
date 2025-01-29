@@ -20,14 +20,18 @@
     <div class="main">
         <div class="main2">
             <div class="maintext">
-                <span style="height:fit-content;">
+                <span style="height:fit-content; padding: 40px">
                     <h2 class="text1" style="margin:0">Hello, Kraafter here 👋</h2>
                     <br>
-                    <p class="text2">I am an Indonesian teenager interested in programming, web development, drumming, localisation, videography, photography, and art. I'm currently a high school student and a localisation contributor at <a target="_blank" class="text2 linking" href="https://prismlauncher.org/">Prism Launcher</a></p>
-                    <p class="text2">You are now viewing the third version to my website. All past versions can be viewed in the <a class="text2 linking" href='/sitever'>version archive</a>.</p>
-                    <p class="text2">Here you'll be able to view my blog, my gallery, my contacts, my social links, my projects, or anything I wish to show here really :v</p>
-                    <p class="text2">I've worked on this site for weeks, I need a break *explod*</p>
-                    <p class="text2"><a class="text2 linking" href="/about">Get to know more about me here!</a></p>
+                    <ul>
+                        <li class="text2">Indonesian</li>
+                        <li class="text2">Certified <a class="text2 linking" href="https://nerds.my.id/" target="_blank">nerd</a></li>
+                        <li class="text2">Amateur programmer</li>
+                        <li class="text2">Hobbyist</li>
+                        <li class="text2">Kinda artist</li>
+                        <li class="text2">Locale contributor</li>
+                        <li class="text2">...and more about me over <a class="text2 linking" href="/about">here</a></li>
+                    </ul>
                 </span>
             </div>
             <div class="mainimg">
@@ -64,7 +68,7 @@
 
                     <br>
 
-                    <p class="text2" style="text-align:right;margin-top:50px">Collection</p>
+                    <p class="text2 collection" style="text-align:right;">Collection</p>
                     <span class="rightside" style="width: fit-content; gap:100px">
                         <img src="https://cyber.dabamos.de/88x31/88x31.gif" alt="88x31" title="88x31">
                         <a href="https://nekoweb.org/"><img alt="Nekoweb.org button" src="https://nekoweb.org/assets/buttons/button5.gif" title="The webhost for cats!"></a>
@@ -76,10 +80,11 @@
                         <a href="https://citrons.xyz/a/memetic-apioform-page.html"><img width="88" height="31" src="https://citrons.xyz/a/static/apiopage.png" alt="memetic apioform" title="memetic apioform"></a>
                     </span>
 
-                    <br><br class="hiddenbr"><br class="hiddenbr">
+                    <br><br><br class="hiddenbr"><br class="hiddenbr">
 
                     <p class=text2 style="text-align: right; margin-top:50px">Add my button to your site</p>
-                    <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a><br><br><textarea style="margin-left: auto; color:aliceblue; background-color: rgb(50,50,50)" cols="30" disabled><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea></p>
+                    <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></p>
+                    <br><textarea style="margin-left: auto; float: right;color:aliceblue; background-color: rgb(50,50,50);" disabled><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea>
                 </div>
             </div>
         </div>
@@ -126,6 +131,24 @@
 
 <style>
 
+    .collection {
+        margin-top:50px
+    }
+
+    textarea {
+        width: calc(100% - 100px)
+    }
+
+    ul li {
+        font-size: 30px !important;
+    }
+
+    ul li a {
+        font-size: 30px !important;
+    }
+
+
+
     .blur{
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -155,6 +178,7 @@
     .maintext {
         width: 60%;
         height: fit-content;
+        padding: 20px;
     }
 
     .mainimg {
@@ -309,6 +333,26 @@
 
         .hiddenbr {
             display: unset;
+        }
+
+        ul li {
+            font-size: unset !important;
+        }
+
+        ul li a {
+            font-size: unset !important;
+        }
+
+        ul {
+            margin-left: -1em !important;
+        }
+
+        textarea {
+            width: calc(100% - 20px)
+        }
+
+        .collection {
+            margin-top:120px
         }
     }
 
