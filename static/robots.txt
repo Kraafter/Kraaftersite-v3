@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /sitever
+Disallow: /about/sitever
 Disallow: /assets/
 
 Sitemap: https://kraafter.me/sitemap.xml
