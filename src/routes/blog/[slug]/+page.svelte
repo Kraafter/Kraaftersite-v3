@@ -374,5 +374,9 @@
             margin-left: 0;
             width: 100%;
         }
+
+        .sideleft {
+            position: unset;
+        }
     }
 </style>
