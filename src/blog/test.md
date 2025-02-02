@@ -1,6 +1,6 @@
 ---
 title: Test Blog Entry
-description: This blog entry is to test if components and markdown rendering are working corrently.
+description: This blog entry is to test if components and markdown rendering are working correctly.
 date: '2024-10-09'
 categories:
   - sveltekit
