@@ -133,11 +133,16 @@
         border-radius: 5px;
         margin-left: 20px;
         background-color: #323232;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     :global(.sideright table) {
-        width: 100%;
+        width: calc(100% - 40px);
         border-collapse: collapse;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     :global(.sideright td) {
@@ -265,6 +270,8 @@
         border-radius: 10px;
         border-style: ridge;
         border-color: #3d00a0;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     :global(.line) {
