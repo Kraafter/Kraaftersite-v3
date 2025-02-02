@@ -285,7 +285,7 @@
     }
     
 
-    .textcaption {
+    :global(.sideright .textcaption) {
         font-family: plus_jakarta_sansregular;
         color: #f0f8ff;
         font-size: 17px;
@@ -296,7 +296,13 @@
         width: calc(100% - 20px);
         padding: 0;
         padding-left: 3px;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    :global(.sideright img) {
+        width: calc(100% - 20px);
+        margin-top: 30px;
     }
 
     @media (max-width: 768px) {
