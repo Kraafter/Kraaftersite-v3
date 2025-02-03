@@ -22,6 +22,8 @@
             <div class="maintext">
                 <span style="height:fit-content; padding: 40px">
                     <h2 class="text1" style="margin:0">Hello, Kraafter here 👋</h2>
+                    <a rel="me" href="https://rhe.nerds.my.id/@kraafter" style="visibility: hidden; font-size:0">rhe.nerds</a>
+                    <a rel="me" href="https://furry.engineer/@kraafter" style="visibility: hidden; font-size:0">Mastodon</a>
                     <br>
                     <ul>
                         <li class="text2">Indonesian</li>
