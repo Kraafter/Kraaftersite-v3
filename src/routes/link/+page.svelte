@@ -17,7 +17,7 @@
 <main class="blur full">
     <div class="main">
         <p class="text1">🔗Social links</p>
-        <p class="text2">Here are where to find and get in touch with me:</p>
+        <p class="text2">Services where you are able to get in touch with me, some more active while some not so much:</p>
     </div>
     <div class="main4 top">
         <a href="https://github.com/Kraafter/" target="_blank" class="linkitem2">
@@ -76,7 +76,7 @@
                 </li>
                 <li class="text2" style="padding: 0;">
                     <p class="text2" style="padding: 0;">
-                        <a href="https://www.facebook.com/profile.php?id=100082218231911" target="_blank" class="text2">🇫 Facebook</a>
+                        <a href="https://www.facebook.com/profile.php?id=100082218231911" target="_blank" class="text2">🇫  Facebook</a>
                     </p>
                 </li>
     </div>
