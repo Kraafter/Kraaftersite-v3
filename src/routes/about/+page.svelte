@@ -76,7 +76,7 @@
             <li class="text2"><a class="text2 linking" href="about/brand">Branding</a></li>
             <li class="text2"><a class="text2 linking" href="about/website">About this website</a></li>
             <li class="text2"><a class="text2 linking" href="about/tools">Wares I use</a></li>
-            <li class="text2"><a class="text2 linking" href="about/sitever">Site versioning</a></li>
+            <li class="text2"><a class="text2 linking" href="about/sitever">Version Archive</a></li>
         </ul>
     </div>
 </main>
