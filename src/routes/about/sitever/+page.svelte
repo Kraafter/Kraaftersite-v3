@@ -20,7 +20,7 @@
         <p class="text1">📆 Version Archive</p>
         <p class="text2">This part of the website lists past versions of my website. Basically a little memento on how my skills developed over time.</p>
         <p class="text2">Unfortunately, I can't list past versions of website v3 at the moment.</p>
-        <p class="text2">📰 V2 Pure HTML, CSS, JS (Bootstrap Studio Template)</p>
+        <p class="text2">📰 V2 Pure HTML, CSS, JS (Bootstrap Studio Template) (kraafter.tech to kraafter.me)</p>
         <ul>
             <li class="text2" style="padding: 0px;">V3 preview announcement (Last of v2): <a class="linking text2" target="_blank" href="https://8c9e5019.kraaftersite-v2.pages.dev/">https://8c9e5019.kraaftersite-v2.pages.dev/</a></li>
             <li class="text2" style="padding: 0px;">Image optimization: <a class="linking text2" target="_blank" href="https://fc72a822.kraaftersite-v2.pages.dev/">https://fc72a822.kraaftersite-v2.pages.dev/</a></li>
@@ -31,7 +31,7 @@
             <li class="text2" style="padding: 0px;">YouTube channel embed added: <a class="linking text2" target="_blank" href="https://2f613697.kraaftersite-v2.pages.dev/">https://2f613697.kraaftersite-v2.pages.dev/</a></li>
             <li class="text2" style="padding: 0px;">Version 2.0 (A new start): <a class="linking text2" target="_blank" href="https://768d35a3.kraaftersite-v2.pages.dev/">https://768d35a3.kraaftersite-v2.pages.dev/</a></li>
         </ul>
-        <p class="text2">📰 V1 Pure experimental and intro (was never actually completed)</p>
+        <p class="text2">📰 V1 Pure experimental and intro (was never actually completed) (kraafter.tech)</p>
         <ul>
             <li class="text2" style="padding: 0px;">Added link to v2 preview (Last of v1): <a class="linking text2" target="_blank" href="https://d49547a8.kraaftersite.pages.dev/">https://d49547a8.kraaftersite.pages.dev/</a></li>
             <li class="text2" style="padding: 0px;">Rework announcement: <a class="linking text2" target="_blank" href="https://98c780f6.kraaftersite.pages.dev/">https://98c780f6.kraaftersite.pages.dev/</a></li>
