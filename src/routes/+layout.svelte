@@ -43,7 +43,7 @@
                 <p class="text3"> | </p>
                 <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3'>Source Code</p></a>
             </div>
-            <p class='text3'>Copyright © 2024 Kraafter</p>
+            <p class='text3'>Copyright © 2025 Kraafter</p>
         </div>
     </footer>
 </main>
