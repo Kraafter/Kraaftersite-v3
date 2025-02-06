@@ -31,7 +31,7 @@
             <li>Utterances:<a class="text2 linking" href="https://github.com/productinfo/utterances/blob/master/PRIVACY-POLICY.md">Blog commenting (GitHub cookie)</a></li>
             <li>Johnvertisements:<a class="text2 linking" href="https://john.citrons.xyz/">Johnvertisements</a></li>
             <li>ImageKit:<a class="text2 linking" href="https://imagekit.io/privacy-policy-new/">Image hosting (Accessed images)</a></li>
-            <li>Github:<a class="text2 linking" href="https://docs.github.com/en/site-policy/privacy-policie">Listing project details through their api, utterances cookie</a></li>
+            <li>Github:<a class="text2 linking" href="https://docs.github.com/en/site-policy/privacy-policies">Listing project details through their api, utterances cookie</a></li>
         </ul>
 </main>
 
