@@ -25,13 +25,13 @@
     <p class="text2">
         This website also uses some external service providers. Their names, usage, privacy policy, and metrics I can view, are listed below:
         <ul class="text2" style="margin-left: 20px;">
-            <li>Vercel:<a class="text2 linking" href="https://vercel.com/legal/privacy-policy">Hosting (User agent, accessed links/functions)</a></li>
-            <li>Namecheap:<a class="text2 linking" href="https://www.namecheap.com/legal/general/privacy-policy/">Domain registrar</a></li>
-            <li>Cloudflare:<a class="text2 linking" href="https://www.cloudflare.com/privacypolicy/">DNS management (Region trend, resolve percentage)</a></li>
-            <li>Utterances:<a class="text2 linking" href="https://github.com/productinfo/utterances/blob/master/PRIVACY-POLICY.md">Blog commenting (GitHub cookie)</a></li>
-            <li>Johnvertisements:<a class="text2 linking" href="https://john.citrons.xyz/">Johnvertisements</a></li>
-            <li>ImageKit:<a class="text2 linking" href="https://imagekit.io/privacy-policy-new/">Image hosting (Accessed images)</a></li>
-            <li>Github:<a class="text2 linking" href="https://docs.github.com/en/site-policy/privacy-policies">Listing project details through their api, utterances cookie</a></li>
+            <li>Vercel: <a class="text2 linking" href="https://vercel.com/legal/privacy-policy">Hosting (User agent, accessed links/functions)</a></li>
+            <li>Namecheap: <a class="text2 linking" href="https://www.namecheap.com/legal/general/privacy-policy/">Domain registrar</a></li>
+            <li>Cloudflare: <a class="text2 linking" href="https://www.cloudflare.com/privacypolicy/">DNS management (Region trend, resolve percentage)</a></li>
+            <li>Utterances: <a class="text2 linking" href="https://github.com/productinfo/utterances/blob/master/PRIVACY-POLICY.md">Blog commenting (GitHub cookie)</a></li>
+            <li>Johnvertisements: <a class="text2 linking" href="https://john.citrons.xyz/">Johnvertisements</a></li>
+            <li>ImageKit: <a class="text2 linking" href="https://imagekit.io/privacy-policy-new/">Image hosting (Accessed images)</a></li>
+            <li>Github: <a class="text2 linking" href="https://docs.github.com/en/site-policy/privacy-policies">Listing project details through their api, utterances cookie</a></li>
         </ul>
 </main>
 
