@@ -143,7 +143,7 @@
     }
 
     @media (max-width: 768px) {
-
+        
     }
 
     /* Medium devices (tablets, less than 992px) */
@@ -162,8 +162,9 @@
         }
 
         .full {
-            padding: 10px;
-            margin: 25px;
+            padding: 0px;
+            margin: 5px;
+            background: transparent;
         }
 
         .text1 {
