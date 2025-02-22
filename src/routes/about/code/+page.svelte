@@ -92,7 +92,7 @@
 
 <style>
     .tophr {
-        width: 100%;
+        width: 98%;
     }
 
     .posts {
@@ -185,7 +185,7 @@
             }
 
             .posts hr {
-                width: 100%;
+                width: calc(100% - 25px);
             }
         }
     }
@@ -194,8 +194,9 @@
     @media (max-width: 991.98px) {
 
         .full {
-            padding: 10px;
-            margin: 25px;
+            padding: 0px;
+            margin: 5px;
+            background: transparent;
         }
 
         .text1 {
@@ -206,6 +207,10 @@
         .text2 {
             font-size: 15px;
             padding-top: 0px;
+        }
+
+        ul {
+            padding-left: 25px !important;
         }
     }
 </style>
