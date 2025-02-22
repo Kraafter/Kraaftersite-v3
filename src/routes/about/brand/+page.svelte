@@ -127,6 +127,12 @@
                     I think I did a pretty okay job.
                 </p>
                 <table>
+                    <colgroup>
+                        <col span="1" style="width: 20%;">
+                        <col span="1" style="width: 40%;">
+                        <col span="1" style="width: 40%;">
+                     </colgroup>
+
                     <tr>
                         <th><p class="text2">Usage</p></th>
                         <th><p class="text2">Dark (HEX)</p></th>
@@ -404,8 +410,9 @@
     @media (max-width: 991.98px) {
 
         .full {
-            padding: 10px;
-            margin: 25px;
+            padding: 0px;
+            margin: 5px;
+            background: transparent;
         }
 
         .text1 {
@@ -438,6 +445,14 @@
 
         .textm {
             font-size: 23px;
+        }
+        
+        .sideleft .textm {
+            font-size: 20px;
+        }
+
+        ol .texttoc {
+            font-size: 19px;
         }
     }
 </style>
