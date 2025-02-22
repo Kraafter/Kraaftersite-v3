@@ -35,7 +35,7 @@
 
     <footer>
         <div class='foot'>
-            <iframe title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;margin-top:20px"></iframe>
+            <iframe class="john" title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me"></iframe>
             <div class="footlink">
                 <a href='/privacy'><p class='text3'>Privacy Policy</p></a>
                 <p class="text3"> | </p>
@@ -50,6 +50,17 @@
 
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+    .john {
+        margin-left:auto;
+        display:block;
+        margin-right:auto;
+        max-width:732px;
+        width:100%;
+        height:94px;
+        border:none;
+        margin-top:20px
+    }
 
     .topbar {
         padding-left: 5px;
