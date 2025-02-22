@@ -185,6 +185,24 @@
             font-size: 10px;
         }
 
+        .footlink a {
+            font-size: 15px;
+        }
+
+        .footlink p {
+            font-size: 15px;
+        }
+
+        .navlayout p {
+            font-size: 15px;
+        }
+
+        .john {
+            max-width:350px;
+            width:100%;
+            height:60px;
+        }
+
     }
 
     /* Medium devices (tablets, less than 992px) */
