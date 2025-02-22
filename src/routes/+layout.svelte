@@ -164,7 +164,7 @@
     @media (max-width: 768px) {
         .textmc {
             margin: 10% 0 0 -20%;
-            font-size: 10px;
+            font-size: 15px;
         }
 
         .logo {
