@@ -20,10 +20,10 @@
             </div>
         </a>
         <div class="navlayout">
-            <a href="/"> <p class="text2 topbar">Home</p></a><p class="text2" style="font-size: 20px">  |  </p>
-            <a href="/blog"> <p class="text2 topbar">Blog</p></a><p class="text2" style="font-size: 20px">  |  </p>
-            <a href="/projects"> <p class="text2 topbar">Projects</p></a><p class="text2" style="font-size: 20px">  |  </p>
-            <a href="/gallery"> <p class="text2 topbar">Gallery</p></a><p class="text2" style="font-size: 20px">  |  </p>
+            <a href="/"> <p class="text2 topbar">Home</p></a><p class="text2">  |  </p>
+            <a href="/blog"> <p class="text2 topbar">Blog</p></a><p class="text2">  |  </p>
+            <a href="/projects"> <p class="text2 topbar">Projects</p></a><p class="text2">  |  </p>
+            <a href="/gallery"> <p class="text2 topbar">Gallery</p></a><p class="text2">  |  </p>
             <a href="/link"> <p class="text2 topbar">Links</p></a>
         </div>
     </nav>
