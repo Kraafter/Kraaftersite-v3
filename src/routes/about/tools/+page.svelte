@@ -293,8 +293,9 @@
     @media (max-width: 991.98px) {
 
         .full {
-            padding: 10px;
-            margin: 25px;
+            padding: 0px;
+            margin: 5px;
+            background: transparent;
         }
 
         h1 {
@@ -328,6 +329,10 @@
         .sideleft {
             width: 100%;
             margin-bottom: 30px;
+        }
+
+        .sideleft .texttoc {
+            font-size: 19px;
         }
 
         .sideright {
