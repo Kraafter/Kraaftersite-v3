@@ -1,3 +1,4 @@
+<!-- @migration-task Error while migrating Svelte code: Expected a valid CSS identifier -->
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'

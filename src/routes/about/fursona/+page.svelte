@@ -11,8 +11,8 @@
 
     let art: respo[] = []
 
-    let nordurl: string
-    let glivurl: string
+    let nordurl: string = $state()
+    let glivurl: string = $state()
 
     let nordimg
     let glivimg

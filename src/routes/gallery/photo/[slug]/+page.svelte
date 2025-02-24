@@ -2,7 +2,8 @@
     import * as config from '$lib/config'
     import { page } from '$app/stores';
 
-    export let data
+    /** @type {{data: any}} */
+    let { data } = $props();
     let name = data.slug
     let url = "https://ik.imagekit.io/kr4ft/photo/" + name
 </script>

@@ -26,13 +26,13 @@
                 <p class="text2">The languages I code in.</p>
                 <div style="margin-left:20px; margin-right:20px; align-items:start">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <!-- svelte-ignore a11y_missing_attribute -->
                     <img width="12" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <!-- svelte-ignore a11y_missing_attribute -->
                     <img width="12" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <!-- svelte-ignore a11y_missing_attribute -->
                     <img width="12" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"  />
                 </div>
@@ -41,7 +41,7 @@
                 <p class="text2">Web-related document formatting I understand.</p>
                 <div style="margin-left:20px; margin-right:20px; align-items:start">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <!-- svelte-ignore a11y_missing_attribute -->
                     <img width="12" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
                 </div>
@@ -50,10 +50,10 @@
                 <p class="text2">Frameworks and tools I am familiar with.</p>
                 <div style="margin-left:20px; margin-right:20px; align-items:start">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <!-- svelte-ignore a11y_missing_attribute -->
                     <img width="12" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" height="40" alt="svelte logo"  />
-                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <!-- svelte-ignore a11y_missing_attribute -->
                     <img width="12" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
 
@@ -63,7 +63,7 @@
                 <p class="text2">IDEs and code editors I use.</p>
                 <div style="margin-left:20px; margin-right:20px; align-items:start">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-                    <!-- svelte-ignore a11y-missing-attribute -->
+                    <!-- svelte-ignore a11y_missing_attribute -->
                     <img width="12" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
                 </div>

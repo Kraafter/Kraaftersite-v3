@@ -1,3 +1,4 @@
+<!-- @migration-task Error while migrating Svelte code: `<a>` is invalid inside `<a>` -->
 <script>
     import * as config from '$lib/config';
     export let data

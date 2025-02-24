@@ -10,7 +10,7 @@
         description: string;
     }
 
-    let repos: repot[];
+    let repos: repot[] = $state();
 
     onMount(async () => {
         const res = await fetch('https://api.github.com/users/kraafter/repos');

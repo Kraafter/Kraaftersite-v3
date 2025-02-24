@@ -3,7 +3,11 @@
 	import * as config from '$lib/config'
     import { page } from '$app/stores'
 
-	export let data
+    interface Props {
+        data: any;
+    }
+
+    let { data }: Props = $props();
 </script>
 
 <svelte:head>
