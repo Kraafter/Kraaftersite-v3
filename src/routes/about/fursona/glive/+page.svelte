@@ -13,7 +13,7 @@
 
     let art: respo[] = []
 
-    let glivimg: respo[] = []
+    let glivimg: respo[] = $state([])
 
     onMount(async () => {
         const artres = await fetch('/api/gallery/art')

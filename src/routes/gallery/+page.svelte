@@ -11,8 +11,8 @@
     let art: respo[] = []
     let photo: respo[] = []
 
-    let arturl: string
-    let phourl: string
+    let arturl: string = $state()
+    let phourl: string = $state()
 
     onMount(async () => {
         const artres = await fetch('api/gallery/art')

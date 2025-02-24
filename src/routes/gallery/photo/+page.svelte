@@ -7,7 +7,7 @@
         name: string
     }
 
-    let photos: respo[] = []
+    let photos: respo[] = $state([])
 
     onMount(async () => {
         const phores = await fetch('/api/gallery/photo')

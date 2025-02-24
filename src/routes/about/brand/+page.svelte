@@ -1,3 +1,4 @@
+<!-- @migration-task Error while migrating Svelte code: `<tr>` is invalid inside `<table>` -->
 <script lang="ts">
     import * as config from '$lib/config'
     import { page } from '$app/stores';
@@ -133,65 +134,70 @@
                         <col span="1" style="width: 40%;">
                      </colgroup>
 
-                    <tr>
-                        <th><p class="text2">Usage</p></th>
-                        <th><p class="text2">Dark (HEX)</p></th>
-                        <th><p class="text2">Light (HEX)</p></th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="text2">Background</p>
-                        </td>
-                        <td>
-                            <p class="text2"><span class="color-circle" style="background-color: #1f1f1f;"></span> #1f1f1f</p>
-                        </td>
-                        <td>
-                            <p class="text2">Unavailable</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="text2">Foreground</p>
-                        </td>
-                        <td>
-                            <p class="text2"><span class="color-circle" style="background-color: #323232;"></span> #323232</p>
-                        </td>
-                        <td>
-                            <p class="text2">Unavailable</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="text2">Text</p>
-                        </td>
-                        <td>
-                            <p class="text2"><span class="color-circle" style="background-color: #f0f8ff;"></span> #f0f8ff</p>
-                        </td>
-                        <td>
-                            <p class="text2">Unavailable</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="text2">Accent and Link</p>
-                        </td>
-                        <td>
-                            <p class="text2"><span class="color-circle" style="background-color: #3d00a0;"></span> #3d00a0</p>
-                        </td>
-                        <td>
-                            <p class="text2">Unavailable</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="text2">Quote and Code Block</p>
-                        </td>
-                        <td>
-                            <p class="text2"><span class="color-circle" style="background-color: #323232;"></span> #323232</p>
-                        </td>
-                        <td>
-                            <p class="text2">Unavailable</p>
-                        </td>
+                    <thead>
+                        <tr>
+                            <th><p class="text2">Usage</p></th>
+                            <th><p class="text2">Dark (HEX)</p></th>
+                            <th><p class="text2">Light (HEX)</p></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="text2">Background</p>
+                            </td>
+                            <td>
+                                <p class="text2"><span class="color-circle" style="background-color: #1f1f1f;"></span> #1f1f1f</p>
+                            </td>
+                            <td>
+                                <p class="text2">Unavailable</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text2">Foreground</p>
+                            </td>
+                            <td>
+                                <p class="text2"><span class="color-circle" style="background-color: #323232;"></span> #323232</p>
+                            </td>
+                            <td>
+                                <p class="text2">Unavailable</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text2">Text</p>
+                            </td>
+                            <td>
+                                <p class="text2"><span class="color-circle" style="background-color: #f0f8ff;"></span> #f0f8ff</p>
+                            </td>
+                            <td>
+                                <p class="text2">Unavailable</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text2">Accent and Link</p>
+                            </td>
+                            <td>
+                                <p class="text2"><span class="color-circle" style="background-color: #3d00a0;"></span> #3d00a0</p>
+                            </td>
+                            <td>
+                                <p class="text2">Unavailable</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text2">Quote and Code Block</p>
+                            </td>
+                            <td>
+                                <p class="text2"><span class="color-circle" style="background-color: #323232;"></span> #323232</p>
+                            </td>
+                            <td>
+                                <p class="text2">Unavailable</p>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
                 <br>
                 <p class="text2">Yeaa I have not came up with a light mode color scheme, wip</p>

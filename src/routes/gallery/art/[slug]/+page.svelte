@@ -2,7 +2,10 @@
     import * as config from '$lib/config'
     import { page } from '$app/stores';
 
-    export let data
+    import { Viewer } from "svelte-image-viewer";
+
+    /** @type {{data: any}} */
+    let { data } = $props();
     let name = data.slug
     let url = "https://ik.imagekit.io/kr4ft/art/" + name
 </script>
@@ -20,10 +23,27 @@
 
 <div class="main full">
     <p class="text2"><a class="text2" href="/gallery/art">← Back to arts</a></p>
-    <img src="{url}" alt="{data.slug}">
+    <div  style="position: relative; height: 512px; user-select: none; border: 1px solid white; background-image: url('/assets/img/TransparencyDark640.png')">
+        <Viewer>
+            <img src="{url}" alt="{data.slug}">
+        </Viewer>
+    </div>
+    <br>
+    <p class="text2">File name: {name}</p>
+    <p class="text2">Download link: <a class="text2 linking" href="{url}" target="_blank" download="{name}">Click here</a></p>
+    <p class="text2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a class="text2 linking" property="dct:title" rel="cc:attributionURL" href="https://kraafter.me{$page.url.pathname}">{ name }</a> by <a class="text2 linking" rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://kraafter.me/">Kraafter</a> is licensed under <a class="text2 linkin"href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+
 </div>
 
 <style>
+    .linking {
+        background-color: rgba(61, 0, 160, 0.537);
+    }
+
+    p img {
+        width: fit-content;
+    }
+
     .text2 {
         font-family: plus_jakarta_sansregular;
         color: aliceblue;
@@ -57,11 +77,16 @@
     @media (max-width: 768px) {
 
         .main {
-            margin: 15px;
+            margin: 0;
+            background: transparent;
         }
 
         .text2 {
             font-size: 15px;
+        }
+
+        .full {
+            padding: 15px;
         }
 
         

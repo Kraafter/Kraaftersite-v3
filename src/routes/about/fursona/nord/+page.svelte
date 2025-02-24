@@ -13,7 +13,7 @@
 
     let art: respo[] = []
 
-    let nordimg: respo[] = []
+    let nordimg: respo[] = $state([])
 
     onMount(async () => {
         const artres = await fetch('/api/gallery/art')
