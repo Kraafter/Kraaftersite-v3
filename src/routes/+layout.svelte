@@ -13,9 +13,7 @@
     <nav class="nav">
         <a href="/" style="text-decoration: none;">
             <div style="display: flex; align-items:center; gap:10px">
-                <a href="/">
-                    <div class="logo"><img alt="kraafter logo" src="/assets/logo/dark/medium_300.webp"></div>
-                </a>
+                <div class="logo"><img alt="kraafter logo" src="/assets/logo/dark/medium_300.webp"></div>
                 <h1 class="text1">Kraaftersite</h1>
                 <p class="textmc">{String(splash)}</p>
             </div>
