@@ -67,8 +67,9 @@
     @media (max-width: 991.98px) {
 
         .full {
-            padding: 10px;
-            margin: 25px;
+            padding: 0;
+            margin: 5px;
+            background: transparent;
         }
 
         .text1 {
