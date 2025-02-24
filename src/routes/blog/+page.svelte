@@ -109,7 +109,8 @@
         @media (max-width: 768px) {
 
             .main {
-                margin: 20px;
+                margin: 0px;
+                background: transparent;
             }
 
             .text1 {
@@ -122,6 +123,10 @@
 
             .pagedesc {
                 margin: 0;
+            }
+
+            .full {
+                padding: 20px;
             }
         }
 

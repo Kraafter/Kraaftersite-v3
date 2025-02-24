@@ -147,9 +147,10 @@
         }
 
         .full {
-            padding: 10px;
-            margin: 25px;
-            width: calc(100% - 50px);
+            padding: 0px;
+            margin: 5px;
+            width: 100%;
+            background: transparent;
         }
 
         .text1 {

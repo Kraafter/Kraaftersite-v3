@@ -150,8 +150,9 @@
     @media (max-width: 768px) {
 
         .main {
-            margin: 25px;
-            padding: 25px;
+            margin: 0px;
+            padding: 15px;
+            background: transparent;
         }
 
         .text1 {
@@ -178,7 +179,7 @@
         }
 
         .full {
-            width: calc(100% - 50px);
+            width: 100%;
         }
     }
 

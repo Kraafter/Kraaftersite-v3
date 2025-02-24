@@ -179,14 +179,26 @@
             width: 50%;
             margin: 0;
         }
+        
+        .full {
+            padding: 0px;
+            margin: 5px;
+            background: transparent;
+        }
+
+        .gliveimg {
+            width: unset;
+            height: 250px;
+        }
     }
 
     /* Medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
 
         .full {
-            padding: 10px;
-            margin: 25px;
+            padding: 0px;
+            margin: 15px;
+            background: transparent;
         }
 
         .text1 {

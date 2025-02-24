@@ -281,7 +281,8 @@
     @media (max-width: 768px) {
 
         .main {
-            margin: 0;
+            margin: 0 !important;
+            background: transparent;
         }
         
         .header2 {
@@ -295,6 +296,19 @@
         .text2 {
             font-size: 15px;
         }
+
+        .main2 {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .full {
+            padding: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+
 
         
     }

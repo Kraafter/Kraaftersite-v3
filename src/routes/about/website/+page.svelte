@@ -263,8 +263,9 @@
     @media (max-width: 991.98px) {
 
         .full {
-            padding: 10px;
-            margin: 25px;
+            padding: 0px;
+            margin: 5px;
+            background: transparent;
         }
 
         .text1 {
@@ -297,6 +298,10 @@
 
         .textm {
             font-size: 23px;
+        }
+
+        .sideleft .textm {
+            font-size: 20px;
         }
     }
 </style>

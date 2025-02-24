@@ -134,8 +134,13 @@
         }
 
         .main {
-            margin: 30px !important;
+            margin: 5px !important;
             margin-top: 10px !important;
+            background: transparent;
+        }
+
+        .full {
+            padding: 0px;
         }
     }
 
@@ -145,10 +150,6 @@
             margin: 80px;
             margin-top: 10px;
             flex-direction: column;
-        }
-
-        .full {
-            padding: 10px;
         }
 
         .gallery{

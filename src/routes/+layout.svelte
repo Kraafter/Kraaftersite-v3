@@ -20,10 +20,10 @@
             </div>
         </a>
         <div class="navlayout">
-            <a href="/"> <p class="text2 topbar">Home</p></a><p class="text2" style="font-size: 20px">  |  </p>
-            <a href="/blog"> <p class="text2 topbar">Blog</p></a><p class="text2" style="font-size: 20px">  |  </p>
-            <a href="/projects"> <p class="text2 topbar">Projects</p></a><p class="text2" style="font-size: 20px">  |  </p>
-            <a href="/gallery"> <p class="text2 topbar">Gallery</p></a><p class="text2" style="font-size: 20px">  |  </p>
+            <a href="/"> <p class="text2 topbar">Home</p></a><p class="text2">  |  </p>
+            <a href="/blog"> <p class="text2 topbar">Blog</p></a><p class="text2">  |  </p>
+            <a href="/projects"> <p class="text2 topbar">Projects</p></a><p class="text2">  |  </p>
+            <a href="/gallery"> <p class="text2 topbar">Gallery</p></a><p class="text2">  |  </p>
             <a href="/link"> <p class="text2 topbar">Links</p></a>
         </div>
     </nav>
@@ -35,7 +35,7 @@
 
     <footer>
         <div class='foot'>
-            <iframe title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;margin-top:20px"></iframe>
+            <iframe class="john" title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me"></iframe>
             <div class="footlink">
                 <a href='/privacy'><p class='text3'>Privacy Policy</p></a>
                 <p class="text3"> | </p>
@@ -50,6 +50,17 @@
 
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+    .john {
+        margin-left:auto;
+        display:block;
+        margin-right:auto;
+        max-width:732px;
+        width:100%;
+        height:94px;
+        border:none;
+        margin-top:20px
+    }
 
     .topbar {
         padding-left: 5px;
@@ -164,7 +175,7 @@
     @media (max-width: 768px) {
         .textmc {
             margin: 10% 0 0 -20%;
-            font-size: 10px;
+            font-size: 15px;
         }
 
         .logo {
@@ -183,6 +194,24 @@
 
         .text3 {
             font-size: 10px;
+        }
+
+        .footlink a {
+            font-size: 15px;
+        }
+
+        .footlink p {
+            font-size: 15px;
+        }
+
+        .navlayout p {
+            font-size: 15px;
+        }
+
+        .john {
+            max-width:350px;
+            width:100%;
+            height:60px;
         }
 
     }

@@ -115,7 +115,8 @@
         @media (max-width: 768px) {
 
             .main {
-                margin: 15px;
+                margin: 0px;
+                background: transparent;
             }
 
             .text2 {
@@ -126,7 +127,10 @@
                 width: 50%;
             }
 
-            
+            .full {
+                padding: 15px;
+            }
+
         }
 
         /* Medium devices (tablets, less than 992px) */
