@@ -11,7 +11,7 @@
 
 <main class="body">
     <nav class="nav">
-        <a href="/" style="text-decoration: none;">
+        <a href="/" style="text-decoration: none; width: 100%">
             <div style="display: flex; align-items:center; gap:10px">
                 <div class="logo"><img alt="kraafter logo" src="/assets/logo/dark/medium_300.webp"></div>
                 <h1 class="text1">Kraaftersite</h1>
