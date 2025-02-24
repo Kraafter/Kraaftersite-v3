@@ -2181,6 +2181,11 @@ svelte-eslint-parser@^0.43.0:
     postcss "^8.4.39"
     postcss-scss "^4.0.9"
 
+svelte-image-viewer@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/svelte-image-viewer/-/svelte-image-viewer-4.0.0.tgz#24cbf2642962520c66302beb243943ddfe90083e"
+  integrity sha512-oZs1Zd8XJKeQXkLKoy/zbqlq4kRsVB6OB+1hfiy2QeD4JzmVrhPDyd3mdfD3Wxwr3zI9UZtHCzMxb2FtF9WsuQ==
+
 svelte@^5.0.0:
   version "5.20.3"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.20.3.tgz#4e6255b88b661eee7fc0fed44b516d98340b016e"
