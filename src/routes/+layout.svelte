@@ -42,7 +42,7 @@
                 <p class="text3"> | </p>
                 <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3'>Source Code</p></a>
             </div>
-            <p class='text3'>Copyright © 2025 Kraafter</p>
+            <p class='text3'>Copyright © 2025 Kraafter | <a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3">See License</a></p>
         </div>
     </footer>
 </main>
