@@ -354,7 +354,7 @@
                 width: 100% !important;
             }
 
-            :global(/.sideright p) {
+            :global(.sideright p) {
                 width: 100% !important;
             }
 
