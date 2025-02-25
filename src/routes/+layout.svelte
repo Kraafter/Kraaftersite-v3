@@ -42,7 +42,8 @@
                 <p class="text3"> | </p>
                 <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3'>Source Code</p></a>
             </div>
-            <p class='text3'>Copyright © 2025 Kraafter | <a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3">See License</a></p>
+            <p class='text3'>Copyright © 2025 Kraafter</p>
+            <p class="text3"><a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3">Code licensed under the MIT license</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" class="text3">Contents licensed under CC BY-NC-SA 4.0</a></p>
         </div>
     </footer>
 </main>
