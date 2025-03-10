@@ -60,7 +60,7 @@
 
                     <p class="text2" style="text-align:right;margin-top:50px">Friends</p>
                     <span class="rightside" style="width: fit-content; gap:100px">
-                        <a href="https://ryj.my.id/"><img src="https://777vipfurrygacor.games/88x31.gif" alt="ryj.my.id button" title="ryu"></a>
+                        <a href="https://ryj.my.id/"><img src="https://ik.imagekit.io/kr4ft/misc/88x31.gif" alt="ryj.my.id button" title="ryu"></a>
                         <a href="https://finiteti.me/"><img src="https://finiteti.me/badge.png" alt="finiteti.me button" title="mefinity"></a>
                         <a href="https://daringcuteseal.github.io/"><img width="88px" height="31px" src="https://daringcuteseal.github.io/assets/image/button.png" alt="daringcuteseal.github.io button" title="daringcuteseal"></a>
                         <a href="https://ichisansfw.me/"><img width="88px" height="31px" src="/assets/img/ichi.gif" alt="ichisansfw.me button" title="ichisansfw"></a>
