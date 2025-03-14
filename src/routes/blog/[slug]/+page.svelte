@@ -2,11 +2,11 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
-	export let data
     import { page } from '$app/stores';
     import {onMount} from 'svelte'
+    let { data } = $props();
     
-    let toc: { text: string; level: number; id: string; hidelist: string }[] = [];
+    let toc: { text: string; level: number; id: string; hidelist: string }[] = $state([]);
     let containerClass = 'sideright'; // Change this to your desired class
 
     onMount(() => {
@@ -73,7 +73,7 @@
                 </ul>
             </div>
             <div class="sideright">
-                <svelte:component this={data.content}/>
+                <data.content/>
                 <br>
                 <hr class="tophr" style="visibility:visible; border-top: 1px solid aliceblue">
                 <!-- Utterances -->

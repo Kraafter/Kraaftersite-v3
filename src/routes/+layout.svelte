@@ -1,11 +1,11 @@
 <!-- @migration-task Error while migrating Svelte code: `<a>` is invalid inside `<a>` -->
-<script>
-    export let data;
+<script lang="ts">
   
     import { fly } from "svelte/transition";
     import { cubicIn, cubicOut } from "svelte/easing";
 
     import splashes from '$lib/file/splash.json';
+  let { data, children } = $props();
     const splash = splashes.splashes[Math.floor(Math.random() * splashes.splashes.length)];;
   </script>
 
@@ -28,7 +28,7 @@
     </nav>
     {#key data.url}
         <div class="slotcontain" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
-            <slot />
+            {@render children?.()}
         </div>
     {/key}
 

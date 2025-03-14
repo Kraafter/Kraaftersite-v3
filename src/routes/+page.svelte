@@ -1,9 +1,9 @@
 <!-- @migration-task Error while migrating Svelte code: `<a>` is invalid inside `<a>` -->
-<script>
+<script lang="ts">
     import * as config from '$lib/config';
-    export let data
     import { formatDate } from '$lib/utils'
     import { page } from '$app/stores'
+    let { data } = $props();
 </script>
 
 <svelte:head>
@@ -98,7 +98,7 @@
             <div class="blogview">
                 {#each data.posts.slice(0,3) as post}
                     <div class="contentview">
-                        <a href=/blog/{post.slug} class="text2">{post.title}</a>
+                        <a href='/blog/{post.slug}' class="text2">{post.title}</a>
                         <p class="text2">{formatDate(post.date)}</p>
                         <p class="text2">{post.description}</p>
                     </div>
