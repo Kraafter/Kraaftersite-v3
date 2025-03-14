@@ -70,6 +70,9 @@
                     <li class="text2">
                         <p class="text2"><a class="text2 linking" href="https://yarnpkg.com/">Yarn</a> - A package manager that doubles down as project manager.</p>
                     </li>
+                    <li class="text2">
+                        <p class="text2"><a class="text2 linking" href="https://github.com/abdelfattahradwan/svelte-image-viewer">Svelte Image Viewer</a> - A couple of simple components for displaying content with pan and zoom capabilities.</p>
+                    </li>
                 </ul>
                 <p class="text1 texthead" id="helpers">Helpers</p>
                 <p class="text2">I was assisted by a few people while making this website.</p>
