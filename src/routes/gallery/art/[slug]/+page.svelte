@@ -8,6 +8,16 @@
     let { data } = $props();
     let name = data.slug
     let url = "https://ik.imagekit.io/kr4ft/art/" + name
+
+    let viewerOffsetXTarget = $state(0)
+    let viewerOffsetYTarget = $state(0)
+    let viewerScaleTarget = $state(0.8)
+
+    function resetViewer() {
+        viewerOffsetXTarget = 0;
+        viewerOffsetYTarget = 0;
+        viewerScaleTarget = 0.8;
+    }
 </script>
 
 <svelte:head>
@@ -23,10 +33,17 @@
 
 <div class="main full">
     <p class="text2"><a class="text2" href="/gallery/art">← Back to arts</a></p>
-    <div  style="position: relative; height: 512px; user-select: none; border: 1px solid white; background-image: url('/assets/img/TransparencyDark640.png')">
-        <Viewer>
+    <div class="viewerdiv">
+        <Viewer
+            bind:targetOffsetX={viewerOffsetXTarget}
+            bind:targetOffsetY={viewerOffsetYTarget}
+            bind:targetScale={viewerScaleTarget}
+        >
             <img src="{url}" alt="{data.slug}">
         </Viewer>
+        <div class="resetbutton" onclick={resetViewer} role="button" tabindex="0" onkeydown={(event) => (event.key === 'Enter' || event.key === ' ') && resetViewer()}>
+            <p class="text2" style="margin: 3px;">Reset zoom</p>
+        </div>
     </div>
     <br>
     <p class="text2">File name: {name}</p>
@@ -36,6 +53,27 @@
 </div>
 
 <style>
+    .resetbutton {
+        position: absolute;
+        z-index: 5;
+        height: fit-content;
+        width: fit-content;
+        margin: 5px;
+        bottom: 0px;
+        right: 0px;
+        background: rgb(50,50,50);
+        border-radius: 5px;
+        outline: 1px rgb(150, 150, 150) outset;
+    }
+
+    .viewerdiv {
+        position: relative; 
+        height:800px; 
+        user-select: none; 
+        border: 1px solid white; 
+        background-image: url('/assets/img/TransparencyDark640.png')
+    }
+
     .linking {
         background-color: rgba(61, 0, 160, 0.537);
     }
@@ -87,6 +125,9 @@
 
         .full {
             padding: 15px;
+        }
+        .viewerdiv {
+            height: 400px;
         }
 
         
