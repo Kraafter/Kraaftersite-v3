@@ -18,6 +18,22 @@
         viewerOffsetYTarget = 0;
         viewerScaleTarget = 0.8;
     }
+        
+    function zoomViewer() {
+        if ((viewerScaleTarget + 0.15) >= 3) {
+            viewerScaleTarget = 3
+        } else if (viewerScaleTarget < 3) {
+            viewerScaleTarget += 0.15
+        }
+    }
+
+    function shrinkViewer() {
+        if ((viewerScaleTarget - 0.15) <= 0.5) {
+            viewerScaleTarget = 0.5
+        } else if (viewerScaleTarget > 0.5) {
+            viewerScaleTarget -= 0.15
+        }
+    }
 </script>
 
 <svelte:head>
@@ -44,6 +60,15 @@
         <div class="resetbutton" onclick={resetViewer} role="button" tabindex="0" onkeydown={(event) => (event.key === 'Enter' || event.key === ' ') && resetViewer()}>
             <p class="text2" style="margin: 3px;">Reset zoom</p>
         </div>
+        <div class="zoombutton">
+            <div onclick={zoomViewer} role="button" tabindex="0" onkeydown={(event) => (event.key === 'Enter' || event.key === ' ') && zoomViewer()}>
+                <p class="text2" style="margin: 3px; margin-right: 12px;">+</p>
+            </div>
+            <div style="width: 1px; height: automatic; background: rgb(150,150,150)"></div>
+            <div onclick={shrinkViewer} role="button" tabindex="0" onkeydown={(event) => (event.key === 'Enter' || event.key === ' ') && shrinkViewer()}>
+                <p class="text2" style="margin: 3px; margin-left: 12px">-</p>
+            </div>
+        </div>
     </div>
     <br>
     <p class="text2">File name: {name}</p>
@@ -65,6 +90,23 @@
         border-radius: 5px;
         outline: 1px rgb(150, 150, 150) outset;
     }
+
+    .zoombutton {
+        position: absolute;
+        z-index: 5;
+        height: fit-content;
+        width: fit-content;
+        margin: 5px;
+        bottom: 0px;
+        left: 0px;
+        background: rgb(50,50,50);
+        border-radius: 5px;
+        outline: 1px rgb(150, 150, 150) outset;
+        display: inline-flex;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
 
     .viewerdiv {
         position: relative; 
