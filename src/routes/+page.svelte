@@ -22,7 +22,7 @@
         <div class="main2">
             <div class="maintext">
                 <span style="height:fit-content; padding: 40px">
-                    <h2 class="text1" style="margin:0">Hello, Kraafter here 👋</h2>
+                    <h1 class="text1" style="margin:0">Hello, Kraafter here 👋</h1>
                     <a rel="me" href="https://rhe.nerds.my.id/@kraafter" style="visibility: hidden; font-size:0">rhe.nerds</a>
                     <a rel="me" href="https://furry.engineer/@kraafter" style="visibility: hidden; font-size:0">Mastodon</a>
                     <br>
@@ -48,7 +48,7 @@
         <div class="main3">
             <div class="">
                 <span style="height:fit-content; width:33%">
-                    <p class="text1 header2" style="margin:0">🔘 Check out these cool lookin' buttons!</p>
+                    <h1 class="text1 header2" style="margin:0">🔘 Check out these cool lookin' buttons!</h1>
                 </span>
             </div>
             <div class="main2">
@@ -58,8 +58,8 @@
                 </div>
                 <div class="maintext">
 
-                    <p class="text2" style="text-align:right;margin-top:50px">Friends</p>
-                    <span class="rightside" style="width: fit-content; gap:100px">
+                    <h2 class="text2" style="text-align:right;">Friends</h2>
+                    <span class="rightside" style="width: fit-content; gap:100px; height: fit-content; display:inline-block; float: none">
                         <a href="https://ryj.my.id/"><img src="https://ik.imagekit.io/kr4ft/misc/88x31.gif" alt="ryj.my.id button" title="ryu"></a>
                         <a href="https://finiteti.me/"><img src="https://finiteti.me/badge.png" alt="finiteti.me button" title="mefinity"></a>
                         <a href="https://daringcuteseal.github.io/"><img width="88px" height="31px" src="https://daringcuteseal.github.io/assets/image/button.png" alt="daringcuteseal.github.io button" title="daringcuteseal"></a>
@@ -70,10 +70,8 @@
                         <a href="https://synth.download"><img src="https://synth.download/assets/buttons/sneexy.svg" alt="Sneexy button" title="Sneexy"></a>
                     </span>
 
-                    <br>
-
-                    <p class="text2 collection" style="text-align:right;">Collection</p>
-                    <span class="rightside" style="width: fit-content; gap:100px">
+                    <h2 class="text2 collection" style="text-align:right;">Collection</h2>
+                    <span class="rightside" style="width: fit-content; gap:100px; height: fit-content; display:inline-block; float: none">
                         <img src="https://cyber.dabamos.de/88x31/88x31.gif" alt="88x31" title="88x31">
                         <a href="https://nekoweb.org/"><img alt="Nekoweb.org button" src="https://nekoweb.org/assets/buttons/button5.gif" title="The webhost for cats!"></a>
                         <a href="https://beeps.website"><img src="https://beeps.website/assets/images/88x31-d.gif" alt="Beeps.website button | Dark blue and green animated button with Ash the amphimorpho" title="Dark blue and green animated button with Ash the amphimorpho" width="88" height="31" loading="lazy"></a>
@@ -84,9 +82,7 @@
                         <a href="https://citrons.xyz/a/memetic-apioform-page.html"><img width="88" height="31" src="https://citrons.xyz/a/static/apiopage.png" alt="memetic apioform" title="memetic apioform"></a>
                     </span>
 
-                    <br><br><br class="hiddenbr"><br class="hiddenbr">
-
-                    <p class=text2 style="text-align: right; margin-top:50px">Add my button to your site</p>
+                    <h2 class="text2 collection" style="text-align: right">Add my button to your site</h2>
                     <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></p>
                     <br><textarea style="margin-left: auto; float: right;color:aliceblue; background-color: rgb(50,50,50);" disabled><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea>
                 </div>
@@ -94,7 +90,7 @@
         </div>
         <hr style="width: 98%;">
         <div class=main3>
-            <p class="text1 header2">💬 Recent blog posts</p>
+            <h1 class="text1 header2">💬 Recent blog posts</h1>
             <div class="blogview">
                 {#each data.posts.slice(0,3) as post}
                     <div class="contentview">
@@ -108,7 +104,7 @@
         </div>
         <hr style="width: 98%;">
         <div class="main3" style="width: 100%;">
-            <p class="text1 header2">💍 Webrings</p>
+            <h1 class="text1 header2">💍 Webrings</h1>
             <div class="blogview">
                 <div class="contentview2">
                     <img alt="Rhe Nerds logo in a modern simplistic style resembling an O" class="gliveimg" style="height: 170px;" src="/assets/media/site/NerdsSymbolDark.webp">
