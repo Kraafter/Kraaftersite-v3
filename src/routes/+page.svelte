@@ -132,7 +132,7 @@
 <style>
 
     .collection {
-        margin-top:50px
+        padding-top:50px;
     }
 
     textarea {
@@ -305,6 +305,10 @@
             padding-bottom: 10px;
         }
 
+        .collection {
+            padding-top:0px;
+        }
+
 
 
         
@@ -366,7 +370,7 @@
         }
 
         .collection {
-            margin-top:120px
+            margin-top:40px
         }
     }
 
