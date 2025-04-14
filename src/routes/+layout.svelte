@@ -19,11 +19,13 @@
             </div>
         </a>
         <nav class="navlayout">
-            <a href="/"> <p class="text2 topbar">Home</p></a><p class="text2">  |  </p>
-            <a href="/blog"> <p class="text2 topbar">Blog</p></a><p class="text2">  |  </p>
-            <a href="/projects"> <p class="text2 topbar">Projects</p></a><p class="text2">  |  </p>
-            <a href="/gallery"> <p class="text2 topbar">Gallery</p></a><p class="text2">  |  </p>
-            <a href="/link"> <p class="text2 topbar">Links</p></a>
+            <ul>
+                <li><a href="/"> <p class="text2 topbar">Home</p></a></li>
+                <li><a href="/blog"> <p class="text2 topbar">Blog</p></a></li>
+                <li><a href="/projects"> <p class="text2 topbar">Projects</p></a></li>
+                <li><a href="/gallery"> <p class="text2 topbar">Gallery</p></a></li>
+                <li><a href="/link"> <p class="text2 topbar">Links</p></a></li>
+            </ul>
         </nav>
     </header>
 
@@ -51,6 +53,27 @@
 
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li:not(:last-child) {
+        border-right: 2px aliceblue solid;
+    }
+
+    nav ul li a p{
+        margin-bottom: 0;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 
     .john {
         margin-left:auto;
