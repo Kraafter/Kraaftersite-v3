@@ -9,23 +9,24 @@
     const splash = splashes.splashes[Math.floor(Math.random() * splashes.splashes.length)];;
   </script>
 
-<main class="body">
-    <nav class="nav">
+<div class="body">
+    <header class="nav">
         <a href="/" style="text-decoration: none;">
             <div style="display: flex; align-items:center; gap:10px">
                 <div class="logo"><img alt="kraafter logo" src="/assets/logo/dark/medium_300.webp"></div>
-                <h1 class="text1">Kraaftersite</h1>
+                <p class="text1" style="margin-bottom: 0;">Kraaftersite</p>
                 <p class="textmc">{String(splash)}</p>
             </div>
         </a>
-        <div class="navlayout">
+        <nav class="navlayout">
             <a href="/"> <p class="text2 topbar">Home</p></a><p class="text2">  |  </p>
             <a href="/blog"> <p class="text2 topbar">Blog</p></a><p class="text2">  |  </p>
             <a href="/projects"> <p class="text2 topbar">Projects</p></a><p class="text2">  |  </p>
             <a href="/gallery"> <p class="text2 topbar">Gallery</p></a><p class="text2">  |  </p>
             <a href="/link"> <p class="text2 topbar">Links</p></a>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
     {#key data.url}
         <div class="slotcontain" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
             {@render children?.()}
@@ -46,7 +47,7 @@
             <p class="text3"><a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3">Code licensed under the MIT license</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" class="text3">Contents licensed under CC BY-NC-SA 4.0</a></p>
         </div>
     </footer>
-</main>
+</div>
 
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
