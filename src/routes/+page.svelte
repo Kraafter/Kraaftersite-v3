@@ -356,10 +356,6 @@
             border-bottom:1px solid #ffffff;
         }
 
-        .hiddenbr {
-            display: unset;
-        }
-
         ul li {
             font-size: unset !important;
         }
