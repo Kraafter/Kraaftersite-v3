@@ -11,7 +11,7 @@
   </script>
 
 <div class="body">
-    <header class="nav">
+    <header class="nav" id="top">
         <a class="skip-link" href='#main'>Skip to content</a>
         <a href="/" style="text-decoration: none;">
             <div style="display: flex; align-items:center; gap:10px">
@@ -46,6 +46,8 @@
                 <a href='/contact'><p class='text3 linking'>Contact Me</p></a>
                 <p class="text3"> | </p>
                 <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3 linking'>Source Code</p></a>
+                <p class="text3"> | </p>
+                <a href='#top'><p class='text3 linking'>Back to Top</p></a>
             </div>
             <p class="text3"><a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3 linking">Code licensed under the MIT license</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" class="text3 linking">Contents licensed under CC BY-NC-SA 4.0</a></p>
             <p class='text3'>Copyright © 2025 Kraafter</p>
