@@ -11,6 +11,7 @@
 
 <div class="body">
     <header class="nav">
+        <a class="skip-link" href='#main'>Skip to content</a>
         <a href="/" style="text-decoration: none;">
             <div style="display: flex; align-items:center; gap:10px">
                 <div class="logo"><img alt="kraafter logo" src="/assets/logo/dark/medium_300.webp"></div>
@@ -53,6 +54,21 @@
 
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+    .skip-link {
+        background: #ffffff;
+        color: #000000;
+        font-weight: 700;
+        left: 50%;
+        padding: 4px;
+        position: absolute;
+        transform: translateY(-500%);
+        font-family: plus_jakarta_sansregular;
+    }
+
+        .skip-link:focus {
+        transform: translateY(0%);
+    }
 
     nav ul {
         list-style-type: none;
