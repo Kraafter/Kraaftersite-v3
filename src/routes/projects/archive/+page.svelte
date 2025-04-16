@@ -31,7 +31,7 @@
 
 
 <section class="main blur full">
-    <p><a class="text2" href="/projects">← back to projects</a></p>
+    <p><a class="text2 linking" href="/projects">← back to projects</a></p>
     <p class="text1" style="padding-top: 10px;">📁Archive</p>
     <p class="text2 pagedesc">This part of the website is where I put no longer maintained projects or GitHub Repositories.</p>
     <hr class="tophr" style="visibility:visible; border-top: 1px solid aliceblue">
@@ -40,7 +40,7 @@
             {#each repos as repo}
                 {#if repo.archived == true}
                     <li class="posts">
-                        <a href="{repo.html_url}" class="text1 title" target="_blank">{repo.full_name}</a>
+                        <a href="{repo.html_url}" class="text1 title linking" target="_blank">{repo.full_name}</a>
                         {#if repo.description}
                             <p class="text2 textlist">{repo.description}</p>
                         {:else}
@@ -58,6 +58,22 @@
 </section>
 
 <style>
+
+.linking {
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+        padding: 0 !important
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
+    }
 
     li {
         width: auto;

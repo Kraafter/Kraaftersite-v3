@@ -39,7 +39,7 @@
             {#each repos as repo}
                 {#if repo.archived == false}
                     <li class="posts">
-                        <a href="{repo.html_url}" class="text1 title" target="_blank">{repo.full_name}</a>
+                        <a href="{repo.html_url}" class="text1 title linking" target="_blank">{repo.full_name}</a>
                         {#if repo.description}
                             <p class="text2 textlist">{repo.description}</p>
                         {:else}
@@ -55,10 +55,26 @@
             
 	</ul>
 
-    <a class="bottoma" href='/projects/archive'><p class='text1' style="font-size: 20px;">Archive →</p></a>
+    <a class="bottoma" href='/projects/archive'><p class='text1 linking' style="font-size: 20px;">Archive →</p></a>
 </section>
 
 <style>
+
+    .linking {
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+        padding: 0 !important
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
+    }
 
     li {
         width: auto;
