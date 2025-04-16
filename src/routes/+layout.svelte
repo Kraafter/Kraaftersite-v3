@@ -5,7 +5,7 @@
     import { cubicIn, cubicOut } from "svelte/easing";
 
     import splashes from '$lib/file/splash.json';
-  let { data, children } = $props();
+    let { data, children } = $props();
     const splash = splashes.splashes[Math.floor(Math.random() * splashes.splashes.length)];;
   </script>
 
