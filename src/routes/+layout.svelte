@@ -41,20 +41,35 @@
         <div class='foot'>
             <iframe class="john" title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me"></iframe>
             <div class="footlink">
-                <a href='/privacy'><p class='text3'>Privacy Policy</p></a>
+                <a href='/privacy'><p class='text3 linking'>Privacy Policy</p></a>
                 <p class="text3"> | </p>
-                <a href='/contact'><p class='text3'>Contact Me</p></a>
+                <a href='/contact'><p class='text3 linking'>Contact Me</p></a>
                 <p class="text3"> | </p>
-                <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3'>Source Code</p></a>
+                <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3 linking'>Source Code</p></a>
             </div>
+            <p class="text3"><a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3 linking">Code licensed under the MIT license</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" class="text3 linking">Contents licensed under CC BY-NC-SA 4.0</a></p>
             <p class='text3'>Copyright © 2025 Kraafter</p>
-            <p class="text3"><a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3">Code licensed under the MIT license</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" class="text3">Contents licensed under CC BY-NC-SA 4.0</a></p>
         </div>
     </footer>
 </div>
 
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+    .linking {
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
+    }
 
     .skip-link {
         background: #ffffff;
