@@ -29,17 +29,32 @@
 	<ul class="posts" style="list-style-type: none; padding-left:0">
 		{#each data.posts as post}
 			<li class="post">
-				<a href="/blog/{post.slug}" class="title text1">{post.title}</a>
+				<a href="/blog/{post.slug}" class="title text1 linking">{post.title}</a>
 				<p class="date text2">{formatDate(post.date)}</p>
 				<p class="description text2">{post.description}</p>
 			</li>
             <hr>
 		{/each}
 	</ul>
-    <a style="margin-top: auto;" href='/blog/rss.xml'><p class='text2'>RSS</p></a>
+    <a style="margin-top: auto;" href='/blog/rss.xml'><p class='text2 linking'>RSS</p></a>
 </section>
 
 <style>
+    .linking {
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
+    }
+
 	.posts {
 		display: grid;
 		gap: 0;
