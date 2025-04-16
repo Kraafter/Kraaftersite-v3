@@ -102,6 +102,20 @@
         background-size: 150%;
     }
 
+    @media (prefers-reduced-motion) {
+        .gallery {
+            transition: unset;
+            -webkit-transition: unset;
+            -moz-transition: unset;
+            -ms-transition: unset;
+            -o-transition: unset;
+        }
+
+        .gallery:hover {
+            background-size: 115%;
+        }
+    }
+
     .darken {
         background-color: rgba(0,0,0,0.3);
         width: 100%;

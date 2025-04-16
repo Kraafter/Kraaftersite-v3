@@ -116,6 +116,20 @@
         transform: scale(200%);
     }
 
+    @media (prefers-reduced-motion) {
+        img {
+            transition: unset;
+            -webkit-transition: unset;
+            -moz-transition: unset;
+            -ms-transition: unset;
+            -o-transition: unset;
+        }
+
+        img:hover {
+            transform: scale(170%);
+        }
+    }
+
 
         /* X-Small devices (portrait phones, less than 576px) */
         @media (max-width: 575.98px) {
