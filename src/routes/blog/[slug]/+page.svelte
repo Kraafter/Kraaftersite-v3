@@ -307,18 +307,6 @@
         font-size: 15px;
     }
 
-    .texttoc{
-        font-family: plus_jakarta_sansregular;
-        color: #f0f8ff;
-        font-size: 20px;
-        padding: 0;
-        margin-left: 10px;
-    }
-
-    .texthead {
-        margin-top: 50px;
-    }
-    
 
     :global(.sideright .textcaption) {
         font-family: plus_jakarta_sansregular;
@@ -341,9 +329,6 @@
     }
 
     @media (max-width: 768px) {
-        .texttoc {
-            font-size: 15px;
-        }
 
         :global(.sideright p) {
             font-size: 17px !important;
@@ -384,32 +369,11 @@
             :global(.sideright p) {
                 width: 100% !important;
             }
-
-            .textlist {
-                width: 100% !important;
-            }
-
-            .posts hr {
-                width: 100%;
-            }
         }
     }
 
     /* Medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
-
-
-
-        h1 {
-            font-size: 25px;
-            padding-bottom: 0px;
-        }
-
-        h2 {
-            font-size: 20px;
-            padding-top: 0px;
-            margin-top: 20px;
-        }
 
         .textm {
             font-size: 20px;
@@ -418,10 +382,6 @@
         :global(.sideright p) {
             font-size: 15px;
             padding-top: 0px;
-        }
-
-        .textcaption {
-            font-size: 15px;
         }
 
         .sidebyside {
