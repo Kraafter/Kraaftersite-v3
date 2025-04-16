@@ -5,6 +5,7 @@
     import { cubicIn, cubicOut } from "svelte/easing";
 
     import splashes from '$lib/file/splash.json';
+	import { prefersReducedMotion } from "svelte/motion";
     let { data, children } = $props();
     const splash = splashes.splashes[Math.floor(Math.random() * splashes.splashes.length)];;
   </script>
@@ -31,9 +32,9 @@
     </header>
 
     {#key data.url}
-        <div class="slotcontain" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
-            {@render children?.()}
-        </div>
+    <div class="slotcontain" in:fly={{duration: prefersReducedMotion.current ? 0 : 500, x:-100, delay:  prefersReducedMotion.current ? 0 : 500, easing:cubicOut}} out:fly={{duration:  prefersReducedMotion.current ? 0 : 500, x:100, easing:cubicIn}}>
+        {@render children?.()}
+    </div>
     {/key}
 
     <footer>
@@ -196,6 +197,12 @@
         position: relative;
         font-size: 20px;
         overflow-wrap:anywhere;
+    }
+
+    @media (prefers-reduced-motion) {
+        .textmc {
+            animation: unset !important;
+        }
     }
 
     .slotcontain {
