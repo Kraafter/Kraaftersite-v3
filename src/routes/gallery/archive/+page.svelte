@@ -31,7 +31,7 @@
 
 
 <div class="main full">
-    <p class="text2"><a class="text2" href="/gallery/art">← Back to art</a></p>
+    <p class="text2"><a class="text2 linking" href="/gallery/art">← Back to art</a></p>
     <span id="images">
         {#each photos as photo}
             <a class=hrefb
@@ -49,6 +49,20 @@
 
 
 <style>
+    .linking {
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
+    }
     .text2 {
         font-family: plus_jakarta_sansregular;
         color: aliceblue;
