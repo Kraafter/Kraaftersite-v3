@@ -17,7 +17,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<main class="blur full">
+<main class="blur full" id="main">
     <div class="main">
         <div class="main2">
             <div class="maintext">
