@@ -94,7 +94,7 @@
             <div class="blogview">
                 {#each data.posts.slice(0,3) as post}
                     <div class="contentview">
-                        <a href='/blog/{post.slug}' class="text2">{post.title}</a>
+                        <a href='/blog/{post.slug}' class="text2 linking">{post.title}</a>
                         <p class="text2">{formatDate(post.date)}</p>
                         <p class="text2">{post.description}</p>
                     </div>
@@ -109,18 +109,18 @@
                 <div class="contentview2">
                     <img alt="Rhe Nerds logo in a modern simplistic style resembling an O" class="gliveimg" style="height: 170px;" src="/assets/media/site/NerdsSymbolDark.webp">
                     <p class="text2" style="text-align:center">
-                        <a class="text2" href="https://ring.nerds.my.id/kraaft/previous">&lt;&lt;</a>
-                        <a class="text2" href="https://ring.nerds.my.id/">Rhenerds Webring (in progress)</a>
-                        <a class="text2" href="https://ring.nerds.my.id/kraaft/next">&gt;&gt;</a>
+                        <a class="text2 linking" href="https://ring.nerds.my.id/kraaft/previous">&lt;&lt;</a>
+                        <a class="text2 linking" href="https://ring.nerds.my.id/">Rhenerds Webring (in progress)</a>
+                        <a class="text2 linking" href="https://ring.nerds.my.id/kraaft/next">&gt;&gt;</a>
                     </p>
                 </div>
                 <div class=divider style="margin:0"></div>
                 <div class="contentview2">
                     <img alt="A blue-lightgrey amphimorpho with a bright smile" class="gliveimg" style="height: 170px;" src="/assets/media/site/kraaftnoodletr.webp">
                     <p class="text2" style="text-align:center">
-                        <a class="text2" href="https://noodle-r.ing/kraaft/prev">&lt;&lt;</a>
-                        <a class="text2" href="https://noodle-r.ing/">Amphimorpho Webring</a>
-                        <a class="text2" href="https://noodle-r.ing/kraaft/next">&gt;&gt;</a>
+                        <a class="text2 linking" href="https://noodle-r.ing/kraaft/prev">&lt;&lt;</a>
+                        <a class="text2 linking" href="https://noodle-r.ing/">Amphimorpho Webring</a>
+                        <a class="text2 linking" href="https://noodle-r.ing/kraaft/next">&gt;&gt;</a>
                     </p>
                 </div>
             </div>
@@ -261,11 +261,18 @@
     }
 
     .linking {
-        background-color: rgba(61, 0, 160, 0.537);
+        color: #1CE9D4;
+        text-decoration: underline;
     }
 
-    .hiddenbr {
-        display: none;
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
     }
 
 
