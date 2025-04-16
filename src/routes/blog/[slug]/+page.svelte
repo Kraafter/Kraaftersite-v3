@@ -190,9 +190,36 @@
         width: 100%;
     }
 
+    :global(.sideright a) {
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+        padding: 0 !important
+    }
+
+    :global(.sideright a:visited) {
+        color: #2cc9ba;
+    }
+
+    :global(.sideright a:hover) {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
+    }
+
     .linking {
-        background-color: #3d00a089;
-        padding: 0 !important;
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+        padding: 0 !important
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
     }
     
     .blur{
