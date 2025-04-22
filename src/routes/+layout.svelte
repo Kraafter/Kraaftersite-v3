@@ -207,13 +207,13 @@
         font-family: 'Minecraft';
         text-align: center;
         color: rgb(221, 255, 0);
-        margin: 0 0 0 -10%;
+        margin: 6% 0 0 -10%;
         transform: rotate(-10deg) skew(10deg);
         animation: FlashingText ease-in-out 0.5s infinite;
         z-index:3;
         position: relative;
         font-size: 20px;
-        overflow-wrap:anywhere;
+        overflow-wrap:break-word;
     }
 
     @media (prefers-reduced-motion) {
