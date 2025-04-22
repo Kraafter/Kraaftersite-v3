@@ -56,33 +56,48 @@
             <ul>
                 <li class="text2" style="padding: 0;">
                     <p class="text2" style="padding: 0;">
-                        <a href="https://www.reddit.com/user/profacecrafted/" target="_blank" class="text2">⛄ Reddit</a>
+                        <a href="https://www.reddit.com/user/profacecrafted/" target="_blank" class="text2 linking">⛄ Reddit</a>
                     </p>
                 </li>
                 <li class="text2" style="padding: 0;">
                     <p class="text2" style="padding: 0;">
-                        <a href="https://www.instagram.com/kraafters/" target="_blank" class="text2">📷 Instagram Alt</a>
+                        <a href="https://www.instagram.com/kraafters/" target="_blank" class="text2 linking">📷 Instagram Alt</a>
                     </p>
                 </li>
                 <li class="text2" style="padding: 0;">
                     <p class="text2" style="padding: 0;">
-                        <a href="https://bsky.app/profile/kraafter.me/" target="_blank" class="text2">⛅ Bluesky Alt</a>
+                        <a href="https://bsky.app/profile/kraafter.me/" target="_blank" class="text2 linking">⛅ Bluesky Alt</a>
                     </p>
                 </li>
                 <li class="text2" style="padding: 0;">
                     <p class="text2" style="padding: 0;">
-                        <a href="https://twitter.com/kraafter" target="_blank" class="text2">🐤 Xitter Alt</a>
+                        <a href="https://twitter.com/kraafter" target="_blank" class="text2 linking">🐤 Xitter Alt</a>
                     </p>
                 </li>
                 <li class="text2" style="padding: 0;">
                     <p class="text2" style="padding: 0;">
-                        <a href="https://www.facebook.com/profile.php?id=100082218231911" target="_blank" class="text2">🇫  Facebook</a>
+                        <a href="https://www.facebook.com/profile.php?id=100082218231911" target="_blank" class="text2 linking">👍 Facebook</a>
                     </p>
                 </li>
     </div>
 </main>
 
 <style>
+
+    .linking {
+        color: #1CE9D4 !important;
+    }
+
+    .linking:visited {
+        color: rgb(24, 180, 164) !important;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration: underline;
+        text-decoration-color: #1CE9D4;
+        text-decoration-thickness: 2px;
+    }
     
     .blur{
         backdrop-filter: blur(10px);
@@ -161,7 +176,7 @@
 
     .text3 {
         font-family: plus_jakarta_sansregular;
-        color: aliceblue;
+        color: #1CE9D4 !important;
         font-size: 20px;
         padding: auto;
         text-align: center;
