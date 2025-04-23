@@ -36,7 +36,7 @@
             <hr>
 		{/each}
 	</ul>
-    <a style="margin-top: auto;" href='/blog/rss.xml'><p class='text2 linking'>RSS</p></a>
+    <a style="margin-top: auto;" href='/blog/rss.xml' class="linking"><p class='text2 linking'>RSS</p></a>
 </section>
 
 <style>
@@ -45,13 +45,13 @@
     }
 
     .linking:visited {
-        color: rgb(24, 180, 164) !important;
+        color: #2cc9ba;
     }
 
     .linking:hover {
         color: #37fce8;
         text-decoration: underline;
-        text-decoration-color: #1CE9D4;
+        text-decoration-color: #37fce8;
         text-decoration-thickness: 2px;
     }
 

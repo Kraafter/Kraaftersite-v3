@@ -60,10 +60,9 @@
 
 <style>
 
-    .linking {
+.linking {
         color: #1CE9D4 !important;
-        text-decoration: underline;
-        padding: 0 !important
+        padding: 0 !important;
     }
 
     .linking:visited {
@@ -72,7 +71,8 @@
 
     .linking:hover {
         color: #37fce8;
-        text-decoration-color: #ffffff;
+        text-decoration: underline;
+        text-decoration-color: #37fce8;
         text-decoration-thickness: 2px;
     }
 

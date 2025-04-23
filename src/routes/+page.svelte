@@ -261,17 +261,17 @@
     }
 
     .linking {
-        color: #1CE9D4;
-        text-decoration: underline;
+        color: #1CE9D4 !important;
     }
 
     .linking:visited {
-        color: #2cc9ba;
+        color: rgb(24, 180, 164) !important;
     }
 
     .linking:hover {
         color: #37fce8;
-        text-decoration-color: #ffffff;
+        text-decoration: underline;
+        text-decoration-color: #1CE9D4;
         text-decoration-thickness: 2px;
     }
 

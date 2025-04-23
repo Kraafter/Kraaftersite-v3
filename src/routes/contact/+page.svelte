@@ -55,8 +55,19 @@
     }
 
     .linking {
-        background-color: rgba(61, 0, 160, 0.537);
-        padding: 0;
+        color: #1CE9D4 !important;
+        padding: 0 !important;
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration: underline;
+        text-decoration-color: #37fce8;
+        text-decoration-thickness: 2px;
     }
 
     @media (max-width: 768px) {
