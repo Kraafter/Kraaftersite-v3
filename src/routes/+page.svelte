@@ -82,9 +82,10 @@
                         <a href="https://citrons.xyz/a/memetic-apioform-page.html"><img width="88" height="31" src="https://citrons.xyz/a/static/apiopage.png" alt="memetic apioform" title="memetic apioform"></a>
                     </span>
 
-                    <h2 class="text2 collection" style="text-align: right">Add my button to your site</h2>
+                    <h2 id="button-code-heading" class="text2 collection" style="text-align: right">Add my button to your site</h2>
                     <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></p>
-                    <br><textarea style="margin-left: auto; float: right;color:aliceblue; background-color: rgb(50,50,50);" readonly><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea>
+                    <label for="html-code">Add my button to your site</label>
+                    <textarea id="html-code" aria-labelledby="button-code-heading" style="margin-left: auto; float: right;color:aliceblue; background-color: rgb(50,50,50);" readonly><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea>
                 </div>
             </div>
         </div>
