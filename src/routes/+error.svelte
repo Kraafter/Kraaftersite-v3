@@ -7,14 +7,14 @@
     <meta name='description' content='Um, oof'>
 </svelte:head>
 
-<div class="error">
+<main class="error">
 	<h1 class="text1" style="font-size: 40px;">{$page.status}: {$page.error?.message}</h1>
     <span>
         <a href='/'><p class='text1'>Go Home</p></a>
         <!-- svelte-ignore a11y_invalid_attribute -->
         <a href='javascript:history.back()'><p class='text1'>Last page</p></a>
     </span>
-</div>
+</main>
 
 <style>
 	.error {
