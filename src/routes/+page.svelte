@@ -110,18 +110,18 @@
                 <div class="contentview2">
                     <img alt="Rhe Nerds logo in a modern simplistic style resembling an O" class="gliveimg" style="height: 170px;" src="/assets/media/site/NerdsSymbolDark.webp">
                     <p class="text2" style="text-align:center">
-                        <a class="text2 linking" href="https://ring.nerds.my.id/kraaft/previous">&lt;&lt;</a>
-                        <a class="text2 linking" href="https://ring.nerds.my.id/">Rhenerds Webring (in progress)</a>
-                        <a class="text2 linking" href="https://ring.nerds.my.id/kraaft/next">&gt;&gt;</a>
+                        <a aria-label="Nerds webring previous" class="text2 linking" href="https://ring.nerds.my.id/kraaft/previous">&lt;&lt;</a>
+                        <a aria-label="Amphimorpho webring website" class="text2 linking" href="https://ring.nerds.my.id/">Rhenerds Webring (in progress)</a>
+                        <a aria-label="Nerds webring next" class="text2 linking" href="https://ring.nerds.my.id/kraaft/next">&gt;&gt;</a>
                     </p>
                 </div>
                 <div class=divider style="margin:0"></div>
                 <div class="contentview2">
                     <img alt="A blue-lightgrey amphimorpho with a bright smile" class="gliveimg" style="height: 170px;" src="/assets/media/site/kraaftnoodletr.webp">
                     <p class="text2" style="text-align:center">
-                        <a class="text2 linking" href="https://noodle-r.ing/kraaft/prev">&lt;&lt;</a>
-                        <a class="text2 linking" href="https://noodle-r.ing/">Amphimorpho Webring</a>
-                        <a class="text2 linking" href="https://noodle-r.ing/kraaft/next">&gt;&gt;</a>
+                        <a aria-label="Amphimorpho webring previous" class="text2 linking" href="https://noodle-r.ing/kraaft/prev">&lt;&lt;</a>
+                        <a aria-label="Amphimorpho webring website" class="text2 linking" href="https://noodle-r.ing/">Amphimorpho Webring</a>
+                        <a aria-label="Amphimorpho webring next" class="text2 linking" href="https://noodle-r.ing/kraaft/next">&gt;&gt;</a>
                     </p>
                 </div>
             </div>
