@@ -42,7 +42,7 @@
     <meta property="og:type" content="article">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <div class="main">
         <p><a class="text2 linking" href="/blog" style="padding-left: 0; margin-left: 0">← Back to blog</a></p>
         <p class="title">{data.meta.title}</p>

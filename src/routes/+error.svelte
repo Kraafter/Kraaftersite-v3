@@ -7,7 +7,7 @@
     <meta name='description' content='Um, oof'>
 </svelte:head>
 
-<main class="error">
+<main id="main" class="error">
 	<h1 class="text1" style="font-size: 40px;">{$page.status}: {$page.error?.message}</h1>
     <span>
         <a href='/'><p class='text1'>Go Home</p></a>

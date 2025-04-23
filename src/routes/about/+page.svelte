@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <div class="main">
         <p class="text1">⬢ I'm Kraafter</p>
         <p class="text2 textbigger">I'm a...</p>

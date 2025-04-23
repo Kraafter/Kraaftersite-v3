@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <p class="text1">📰 Privacy Policy</p>
     <p class="text2">
         This website in no way whatsoever collects data other than server logs (IP address, user agent, geolocation, accessed paths) only visible to the hosting provider and webmaster. This data is collected only for operational purposes and can't be associated with any user.

@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <div class="main">
         <p class="text1">🔗Social links</p>
         <p class="text2">Services where you are able to get in touch with me, some more active while some not so much:</p>

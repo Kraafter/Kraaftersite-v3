@@ -17,7 +17,7 @@
 
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <div class="main">
         <p class="text2"><a class="text2" href="/about">← Back to about</a></p>
         <p class="text1">🆔 Brand</p>
