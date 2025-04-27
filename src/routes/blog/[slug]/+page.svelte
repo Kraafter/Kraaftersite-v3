@@ -130,7 +130,7 @@
         padding: 10px;
         border-radius: 5px;
         width: calc(100% - 20px);
-        border-left: 15px solid #3d00a0;
+        border-left: 15px solid #18b4a4;
         border-radius: 5px;
         margin-left: 20px;
         background-color: #323232;
@@ -297,7 +297,7 @@
         padding: 20px;
         border-radius: 10px;
         border-style: ridge;
-        border-color: #3d00a0;
+        border-color: #18b4a4;
         margin-top: 30px;
         margin-bottom: 30px;
     }

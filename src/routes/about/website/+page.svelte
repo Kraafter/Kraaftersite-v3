@@ -117,7 +117,7 @@
         padding: 10px;
         border-radius: 5px;
         width: fit-content;
-        border-left: 15px solid #3d00a0;
+        border-left: 15px solid #18b4a4;
         border-radius: 5px;
         margin-left: 20px;
         background-color: #323232;
