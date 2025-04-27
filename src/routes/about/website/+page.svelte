@@ -83,6 +83,9 @@
                     <li class="text2">
                         <p class="text2"><a href="https://joyofcode.xyz/sveltekit-markdown-blog" class="text2 linking">Joy of Code</a> - An in-depth explanation on how to make a markdown based blog system.</p>
                     </li>
+                    <li class="text2">
+                        <p class="text2"><a href="https://beeps.website" class="text2 linking">Beeps</a> - Assisting me in making my website more accessible. <a href="https://beeps.website/accessibility-for-furries/audits/kraaftersite/#add-labels-to-form-controls" class="text2 linking">Accessibility report</a></p>
+                    </li>
                 </ul>
                 <p class="text1 texthead" id="inspiration">Inspirations</p>
                 <p class="text2">I was inspired by a few websites while making this one.</p>
