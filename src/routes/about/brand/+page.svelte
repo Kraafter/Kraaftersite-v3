@@ -180,7 +180,18 @@
                                 <p class="text2">Accent and Link</p>
                             </td>
                             <td>
-                                <p class="text2"><span class="color-circle" style="background-color: #3d00a0;"></span> #3d00a0</p>
+                                <p class="text2"><span class="color-circle" style="background-color: #1CE9D4;"></span> #1ce9d4</p>
+                            </td>
+                            <td>
+                                <p class="text2">Unavailable</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text2">Visited Links</p>
+                            </td>
+                            <td>
+                                <p class="text2"><span class="color-circle" style="background-color: #18b4a4;"></span> #18b4a4</p>
                             </td>
                             <td>
                                 <p class="text2">Unavailable</p>
@@ -267,7 +278,7 @@
         padding: 10px;
         border-radius: 5px;
         width: fit-content;
-        border-left: 15px solid #3d00a0;
+        border-left: 15px solid #18b4a4;
         border-radius: 5px;
         margin-left: 20px;
         background-color: #323232;
