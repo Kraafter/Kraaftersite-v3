@@ -157,7 +157,7 @@
     }
 
     .linking:visited {
-        color: rgb(24, 180, 164) !important;
+        color: #18b4a4 !important;
     }
 
     .linking:hover {
