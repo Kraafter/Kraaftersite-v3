@@ -48,7 +48,7 @@
 </svelte:head>
 
 <main class="main full" id="main">
-    <p class="text2"><a class="text2" href="/gallery/photo">← Back to photos</a></p>
+    <p class="text2 linking"><a class="text2 linking" href="/gallery/photo">← Back to photos</a></p>
     <div class="viewerdiv">
         <Viewer
             bind:targetOffsetX={viewerOffsetXTarget}
