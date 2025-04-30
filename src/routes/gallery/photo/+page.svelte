@@ -22,7 +22,7 @@
 </svelte:head>
 
 
-<div class="main full">
+<main class="main full" id="main">
     <p class="text2"><a class="text2 linking" href="/gallery">← Back to gallery</a></p>
     <span id="images">
         {#each photos as photo}
@@ -37,7 +37,7 @@
             </a>
         {/each}
     </span>
-</div>
+</main>
 
 
 <style>

@@ -37,7 +37,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<div class="main full">
+<main class="main full" id="main">
     <p class="text1" style="text-align: left;text-decoration:unset">🖼️Gallery</p>
     <p class="text2" style="text-align: left;">This is where i showcase my art and my photographs. The gallery is divided into two for easier classification and viewing. Theres also an archive for my older art inside the art gallery.</p>
     <div class="main2">
@@ -58,7 +58,7 @@
             </a>
         </div>
     </div>
-</div>
+</main>
 
 <style>
     .linking {
