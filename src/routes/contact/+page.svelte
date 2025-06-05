@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <p class="text1">🔊 Contact Me</p>
     <p class="text2">There are multiple ways to contact me, giving you a lot of flexibility. However, I encourage you to use each communication channel according to their defined usage.</p>
     <p class="text2">For business related inquiries, you may contact me through my work email at <a class="text2 linking" href="mailto:&#098;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#064;&#107;&#114;&#097;&#097;&#102;&#116;&#101;&#114;&#046;&#109;&#101;">&#098;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#064;&#107;&#114;&#097;&#097;&#102;&#116;&#101;&#114;&#046;&#109;&#101;</a></p>
@@ -55,8 +55,19 @@
     }
 
     .linking {
-        background-color: rgba(61, 0, 160, 0.537);
-        padding: 0;
+        color: #1CE9D4 !important;
+        padding: 0 !important;
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration: underline;
+        text-decoration-color: #37fce8;
+        text-decoration-thickness: 2px;
     }
 
     @media (max-width: 768px) {

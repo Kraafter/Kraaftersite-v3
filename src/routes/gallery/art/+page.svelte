@@ -30,8 +30,8 @@
 </svelte:head>
 
 
-<div class="main full">
-    <p class="text2"><a class="text2" href="/gallery">← Back to gallery</a></p>
+<main class="main full" id="main">
+    <p class="text2"><a class="text2 linking" href="/gallery">← Back to gallery</a></p>
     <span id="images">
         {#each photos as photo}
             <a class=hrefb
@@ -45,11 +45,26 @@
             </a>
         {/each}
     </span>
-    <p class="text2"><a class="text2" href="/gallery/archive">Art Archive →</a></p>
-</div>
+    <p class="text2"><a class="text2 linking" href="/gallery/archive">Art Archive →</a></p>
+</main>
 
 
 <style>
+    .linking {
+        color: #1CE9D4 !important;
+    }
+
+    .linking:visited {
+        color: rgb(24, 180, 164) !important;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration: underline;
+        text-decoration-color: #1CE9D4;
+        text-decoration-thickness: 2px;
+    }
+
     .text2 {
         font-family: plus_jakarta_sansregular;
         color: aliceblue;
@@ -114,6 +129,20 @@
 
     img:hover {
         transform: scale(200%);
+    }
+
+    @media (prefers-reduced-motion) {
+        img {
+            transition: unset;
+            -webkit-transition: unset;
+            -moz-transition: unset;
+            -ms-transition: unset;
+            -o-transition: unset;
+        }
+
+        img:hover {
+            transform: scale(170%);
+        }
     }
 
 

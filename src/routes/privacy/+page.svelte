@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <p class="text1">📰 Privacy Policy</p>
     <p class="text2">
         This website in no way whatsoever collects data other than server logs (IP address, user agent, geolocation, accessed paths) only visible to the hosting provider and webmaster. This data is collected only for operational purposes and can't be associated with any user.
@@ -38,8 +38,19 @@
 <style>
 
     .linking {
-        background-color: rgba(61, 0, 160, 0.537);
+        color: #1CE9D4 !important;
         padding: 0 !important;
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration: underline;
+        text-decoration-color: #37fce8;
+        text-decoration-thickness: 2px;
     }
     
     .blur{

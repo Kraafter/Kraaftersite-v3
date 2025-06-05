@@ -5,51 +5,109 @@
     import { cubicIn, cubicOut } from "svelte/easing";
 
     import splashes from '$lib/file/splash.json';
-  let { data, children } = $props();
+	import { prefersReducedMotion } from "svelte/motion";
+    let { data, children } = $props();
     const splash = splashes.splashes[Math.floor(Math.random() * splashes.splashes.length)];;
   </script>
 
-<main class="body">
-    <nav class="nav">
+<div class="body">
+    <header class="nav" id="top">
+        <a class="skip-link" href='#main'>Skip to content</a>
         <a href="/" style="text-decoration: none;">
             <div style="display: flex; align-items:center; gap:10px">
                 <div class="logo"><img alt="kraafter logo" src="/assets/logo/dark/medium_300.webp"></div>
-                <h1 class="text1">Kraaftersite</h1>
+                <p class="text1" style="margin-bottom: 0;">Kraaftersite</p>
                 <p class="textmc">{String(splash)}</p>
             </div>
         </a>
-        <div class="navlayout">
-            <a href="/"> <p class="text2 topbar">Home</p></a><p class="text2">  |  </p>
-            <a href="/blog"> <p class="text2 topbar">Blog</p></a><p class="text2">  |  </p>
-            <a href="/projects"> <p class="text2 topbar">Projects</p></a><p class="text2">  |  </p>
-            <a href="/gallery"> <p class="text2 topbar">Gallery</p></a><p class="text2">  |  </p>
-            <a href="/link"> <p class="text2 topbar">Links</p></a>
-        </div>
-    </nav>
+        <nav class="navlayout">
+            <ul>
+                <li><a href="/"> <p class="text2 topbar">Home</p></a></li>
+                <li><a href="/blog"> <p class="text2 topbar">Blog</p></a></li>
+                <li><a href="/projects"> <p class="text2 topbar">Projects</p></a></li>
+                <li><a href="/gallery"> <p class="text2 topbar">Gallery</p></a></li>
+                <li><a href="/link"> <p class="text2 topbar">Links</p></a></li>
+            </ul>
+        </nav>
+    </header>
+
     {#key data.url}
-        <div class="slotcontain" in:fly={{duration: 500, x:-100, delay: 500, easing:cubicOut}} out:fly={{duration: 500, x:100, easing:cubicIn}}>
-            {@render children?.()}
-        </div>
+    <div class="slotcontain" in:fly={{duration: prefersReducedMotion.current ? 0 : 500, x:-100, delay:  prefersReducedMotion.current ? 0 : 500, easing:cubicOut}} out:fly={{duration:  prefersReducedMotion.current ? 0 : 500, x:100, easing:cubicIn}}>
+        {@render children?.()}
+    </div>
     {/key}
 
     <footer>
         <div class='foot'>
             <iframe class="john" title="Johnvertisement!" src="https://john.citrons.xyz/embed?ref=https://kraafter.me"></iframe>
             <div class="footlink">
-                <a href='/privacy'><p class='text3'>Privacy Policy</p></a>
+                <a href='/privacy'><p class='text3 linking'>Privacy Policy</p></a>
                 <p class="text3"> | </p>
-                <a href='/contact'><p class='text3'>Contact Me</p></a>
+                <a href='/contact'><p class='text3 linking'>Contact Me</p></a>
                 <p class="text3"> | </p>
-                <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3'>Source Code</p></a>
+                <a target="_blank" href='https://github.com/Kraafter/Kraaftersite-v3'><p class='text3 linking'>Source Code</p></a>
+                <p class="text3"> | </p>
+                <a href='#top'><p class='text3 linking'>Back to Top</p></a>
             </div>
+            <p class="text3"><a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3 linking">Code licensed under the MIT license</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" class="text3 linking">Contents licensed under CC BY-NC-SA 4.0</a></p>
             <p class='text3'>Copyright © 2025 Kraafter</p>
-            <p class="text3"><a href="https://github.com/Kraafter/Kraaftersite-v3/blob/main/LICENSE" target="_blank" class="text3">Code licensed under the MIT license</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" class="text3">Contents licensed under CC BY-NC-SA 4.0</a></p>
         </div>
     </footer>
-</main>
+</div>
 
 <style>
     @import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+    .linking {
+        color: #1CE9D4 !important;
+    }
+
+    .linking:visited {
+        color: rgb(24, 180, 164) !important;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration: underline;
+        text-decoration-color: #1CE9D4;
+        text-decoration-thickness: 2px;
+    }
+
+    .skip-link {
+        background: #ffffff;
+        color: #000000;
+        font-weight: 700;
+        left: 50%;
+        padding: 4px;
+        position: absolute;
+        transform: translateY(-500%);
+        font-family: plus_jakarta_sansregular;
+    }
+
+        .skip-link:focus {
+        transform: translateY(0%);
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li:not(:last-child) {
+        border-right: 2px aliceblue solid;
+    }
+
+    nav ul li a p{
+        margin-bottom: 0;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 
     .john {
         margin-left:auto;
@@ -149,13 +207,19 @@
         font-family: 'Minecraft';
         text-align: center;
         color: rgb(221, 255, 0);
-        margin: 0 0 0 -10%;
+        margin: 6% 0 0 -10%;
         transform: rotate(-10deg) skew(10deg);
         animation: FlashingText ease-in-out 0.5s infinite;
         z-index:3;
         position: relative;
         font-size: 20px;
-        overflow-wrap:anywhere;
+        overflow-wrap:break-word;
+    }
+
+    @media (prefers-reduced-motion) {
+        .textmc {
+            animation: unset !important;
+        }
     }
 
     .slotcontain {
