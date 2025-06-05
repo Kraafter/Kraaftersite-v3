@@ -9,6 +9,8 @@
 <svelte:head>
     <title>Home - {config.title}</title>
     <meta name='description' content='Kraafter&#39;s personal corner on the net'>
+    <link rel="me" href="https://rhe.nerds.my.id/@kraafter">
+    <link rel="me" href="https://furry.engineer/@kraafter">
 
     <meta property="og:title" content="Home - {config.title}">
     <meta property="og:description" content="Kraafter&#39;s personal corner on the net">
