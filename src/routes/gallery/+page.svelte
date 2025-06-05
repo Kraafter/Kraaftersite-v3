@@ -37,30 +37,45 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<div class="main full">
+<main class="main full" id="main">
     <p class="text1" style="text-align: left;text-decoration:unset">🖼️Gallery</p>
     <p class="text2" style="text-align: left;">This is where i showcase my art and my photographs. The gallery is divided into two for easier classification and viewing. Theres also an archive for my older art inside the art gallery.</p>
     <div class="main2">
         <div class="gallery art" style="background-image: url('{ arturl }');">
-            <a href="gallery/art">
+            <a href="gallery/art" class="linking">
                 <div class="darken">
-                    <p class="text1">Art</p>
-                    <p class="text2">Art I drew in my spare time</p>
+                    <p class="text1 linking">Art</p>
+                    <p class="text2 linking">Art I drew in my spare time</p>
                 </div>
             </a>
         </div>
         <div class="gallery photo" style="background-image: url('{ phourl }');">
-            <a href="gallery/photo">
+            <a href="gallery/photo" class="linking">
                 <div class="darken">
-                    <p class="text1">Photography</p>
-                    <p class="text2">Photographs I took and color graded</p>
+                    <p class="text1 linking">Photography</p>
+                    <p class="text2 linking">Photographs I took and color graded</p>
                 </div>
             </a>
         </div>
     </div>
-</div>
+</main>
 
 <style>
+    .linking {
+        color: #1CE9D4 !important;
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration: underline;
+        text-decoration-color: #37fce8;
+        text-decoration-thickness: 2px;
+    }
+
     .main{
         display: flex;
         flex-direction: column;
@@ -100,6 +115,20 @@
 
     .gallery:hover {
         background-size: 150%;
+    }
+
+    @media (prefers-reduced-motion) {
+        .gallery {
+            transition: unset;
+            -webkit-transition: unset;
+            -moz-transition: unset;
+            -ms-transition: unset;
+            -o-transition: unset;
+        }
+
+        .gallery:hover {
+            background-size: 115%;
+        }
     }
 
     .darken {

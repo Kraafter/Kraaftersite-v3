@@ -36,7 +36,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <div class="main">
         <p class="text2"><a class="text2" href="/about/fursona">← Back to fursonas</a></p>
         <p class="text1">🍜 Nord</p>

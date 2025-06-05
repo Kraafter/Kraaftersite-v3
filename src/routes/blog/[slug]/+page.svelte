@@ -42,9 +42,9 @@
     <meta property="og:type" content="article">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <div class="main">
-        <p><a class="text2" href="/blog" style="padding-left: 0; margin-left: 0">← Back to blog</a></p>
+        <p><a class="text2 linking" href="/blog" style="padding-left: 0; margin-left: 0">← Back to blog</a></p>
         <p class="title">{data.meta.title}</p>
         <p class="blogdesc">{data.meta.description}</p>
         <p class="blogdesc">Published {formatDate(data.meta.date)}</p>
@@ -130,7 +130,7 @@
         padding: 10px;
         border-radius: 5px;
         width: calc(100% - 20px);
-        border-left: 15px solid #3d00a0;
+        border-left: 15px solid #18b4a4;
         border-radius: 5px;
         margin-left: 20px;
         background-color: #323232;
@@ -190,9 +190,36 @@
         width: 100%;
     }
 
+    :global(.sideright a) {
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+        padding: 0 !important
+    }
+
+    :global(.sideright a:visited) {
+        color: #2cc9ba;
+    }
+
+    :global(.sideright a:hover) {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
+    }
+
     .linking {
-        background-color: #3d00a089;
-        padding: 0 !important;
+        color: #1CE9D4 !important;
+        text-decoration: underline;
+        padding: 0 !important
+    }
+
+    .linking:visited {
+        color: #2cc9ba;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 2px;
     }
     
     .blur{
@@ -270,7 +297,7 @@
         padding: 20px;
         border-radius: 10px;
         border-style: ridge;
-        border-color: #3d00a0;
+        border-color: #18b4a4;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -280,18 +307,6 @@
         font-size: 15px;
     }
 
-    .texttoc{
-        font-family: plus_jakarta_sansregular;
-        color: #f0f8ff;
-        font-size: 20px;
-        padding: 0;
-        margin-left: 10px;
-    }
-
-    .texthead {
-        margin-top: 50px;
-    }
-    
 
     :global(.sideright .textcaption) {
         font-family: plus_jakarta_sansregular;
@@ -314,9 +329,6 @@
     }
 
     @media (max-width: 768px) {
-        .texttoc {
-            font-size: 15px;
-        }
 
         :global(.sideright p) {
             font-size: 17px !important;
@@ -357,32 +369,11 @@
             :global(.sideright p) {
                 width: 100% !important;
             }
-
-            .textlist {
-                width: 100% !important;
-            }
-
-            .posts hr {
-                width: 100%;
-            }
         }
     }
 
     /* Medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
-
-
-
-        h1 {
-            font-size: 25px;
-            padding-bottom: 0px;
-        }
-
-        h2 {
-            font-size: 20px;
-            padding-top: 0px;
-            margin-top: 20px;
-        }
 
         .textm {
             font-size: 20px;
@@ -391,10 +382,6 @@
         :global(.sideright p) {
             font-size: 15px;
             padding-top: 0px;
-        }
-
-        .textcaption {
-            font-size: 15px;
         }
 
         .sidebyside {

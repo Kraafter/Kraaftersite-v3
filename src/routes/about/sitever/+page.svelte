@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
 </svelte:head>
 
-<main class="blur full">
+<main id="main" class="blur full">
     <div class="main">
         <p class="text2"><a class="text2" href="/about">← Back to about</a></p>
         <h1>📆 Version Archive</h1>
@@ -77,7 +77,7 @@
         padding: 10px;
         border-radius: 5px;
         width: fit-content;
-        border-left: 15px solid #3d00a0;
+        border-left: 15px solid #18b4a4;
         border-radius: 5px;
         margin-left: 20px;
         background-color: #323232;
@@ -137,8 +137,19 @@
     }
 
     .linking {
-        background-color: #3d00a089;
+        color: #1CE9D4 !important;
         padding: 0 !important;
+    }
+
+    .linking:visited {
+        color: rgb(24, 180, 164) !important;
+    }
+
+    .linking:hover {
+        color: #37fce8;
+        text-decoration: underline;
+        text-decoration-color: #1CE9D4;
+        text-decoration-thickness: 2px;
     }
     
     .blur{
