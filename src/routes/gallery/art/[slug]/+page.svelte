@@ -42,7 +42,7 @@
 
     <meta property="og:title" content="{name} - {config.title}">
     <meta property="og:description" content="Where i showcase my art and photography.">
-    <meta property="og:image" content="https://ik.imagekit.io/kr4ft/tr:w-700/art/{name}">
+    <meta property="og:image" content="https://ik.imagekit.io/kr4ft/tr:w-1200/art/{name}">
     <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
     <meta property="og:type" content="website">
 </svelte:head>
