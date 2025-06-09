@@ -42,11 +42,13 @@
 
     <meta property="og:title" content="{name} - {config.title}">
     <meta property="og:description" content="Where i showcase my art and photography.">
-    <meta property="og:image" content="https://ik.imagekit.io/kr4ft/tr:w-1200/photo/{name}">
+    <meta property="og:image" content="https://ik.imagekit.io/kr4ft/tr:w-1200,h-627,cm-pad_resize,bg-DDDDDD/photo/{name}">
     <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
     <meta property="og:type" content="website">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="627">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ik.imagekit.io/kr4ft/tr:w-1200,h-627,cm-pad_resize,bg-DDDDDD/photo/{name}">
 </svelte:head>
 
 <main class="main full" id="main">
