@@ -45,6 +45,8 @@
     <meta property="og:image" content="https://ik.imagekit.io/kr4ft/tr:w-1200/artchive/{name}">
     <meta property="og:url" content="https://kraafter.me{$page.url.pathname}">
     <meta property="og:type" content="website">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
 </svelte:head>
 
 <main class="main full" id="main">
