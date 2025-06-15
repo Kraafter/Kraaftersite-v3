@@ -20,10 +20,10 @@
         <p class="text2 textbigger">I'm a...</p>
         <ul>
             <li class="text2">
-                <p class="text2 textbigger">Highschool student</p>
+                <p class="text2 textbigger">College student</p>
                 <p class="text2">
-                    At the moment, I'm only a highschool student graduating this year. You may soon see me in either Universitas
-                    Indonesia or Binus University.
+                    At the moment, I'm waiting for my university term at Binus University to start. If you're at Binus Kemanggisan
+                    do say hi.
                 </p>
             </li>
             <li class="text2">
