@@ -10,8 +10,8 @@ published: true
 
 # Why I've Decided on It
 
-After years of neglect to my personal website, I've decided that a much needed fresh restart on my site is much needed. I've
-originally planned this for quite some time but i believe the time is near.
+After years of neglect to my personal website, I've decided to plan for V4, which will be a fresh new start. I've
+originally planned this for quite some time but I've been busy with a lot of matters.
 
 There are four main reasons why i believe a restart is much needed.
 
