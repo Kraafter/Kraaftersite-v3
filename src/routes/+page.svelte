@@ -72,7 +72,7 @@
                         <a href="https://synth.download"><img src="https://synth.download/assets/buttons/sneexy.svg" alt="Sneexy button" title="Sneexy"></a>
                         <a href="https://enxorbyte.neocities.org/"><img loading="lazy" alt="enxorbyte button" title="enxorbyte" src="https://enxorbyte.neocities.org/badge.gif"></a>
                         <a href="https://caramell.gay"><img src="https://caramell.gay/assets/caragay.gif" title="caramell.gay" alt="caramell.gay button"></a>
-                        <a href="7sary.neocities.org"><img alt="7sary.neocities.org button" title="7Sary_" src="https://7sary.neocities.org/images/badges/7sary.png"></a>
+                        <a href="https://7sary.neocities.org"><img alt="7sary.neocities.org button" title="7Sary_" src="https://7sary.neocities.org/images/badges/7sary.png"></a>
                     </span>
 
                     <h2 class="text2 collection" style="text-align:right;">Collection</h2>
