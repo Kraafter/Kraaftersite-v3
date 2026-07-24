@@ -18,7 +18,7 @@
         viewerOffsetYTarget = 0;
         viewerScaleTarget = 0.8;
     }
-        
+
     function zoomViewer() {
         if ((viewerScaleTarget + 0.15) >= 3) {
             viewerScaleTarget = 3
@@ -77,7 +77,7 @@
     <br>
     <p class="text2">File name: {name}</p>
     <p class="text2">Download link: <a class="text2 linking" href="{url}" target="_blank" download="{name}">Click here</a></p>
-    <p class="text2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a class="text2 linking" property="dct:title" rel="cc:attributionURL" href="https://kraafter.me{$page.url.pathname}">{ name }</a> by <a class="text2 linking" rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://kraafter.me/">Kraafter</a> is licensed under <a class="text2 linking"href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+    <p class="text2">All rights reserved, contact me for permissions and licensing.</p>
 
 </main>
 
@@ -112,10 +112,10 @@
     }
 
     .viewerdiv {
-        position: relative; 
-        height:800px; 
-        user-select: none; 
-        border: 1px solid white; 
+        position: relative;
+        height:800px;
+        user-select: none;
+        border: 1px solid white;
         background-image: url('/assets/img/TransparencyDark640.png')
     }
 
@@ -132,10 +132,6 @@
         text-decoration: underline;
         text-decoration-color: #1CE9D4;
         text-decoration-thickness: 2px;
-    }
-
-    p img {
-        width: fit-content;
     }
 
     .text2 {
@@ -187,7 +183,7 @@
             height: 400px;
         }
 
-        
+
     }
 
     /* Medium devices (tablets, less than 992px) */
