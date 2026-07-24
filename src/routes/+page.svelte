@@ -70,6 +70,9 @@
                         <a href="https://milkyway.moe/"><img alt="milkyway.moe button" title="milkyway" src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a>
                         <a href="https://ivrry.nekoweb.org"><img alt="ivrry nekoweb button" title='ivory' src="https://ivrry.nekoweb.org/assets/images/button.png"></a>
                         <a href="https://synth.download"><img src="https://synth.download/assets/buttons/sneexy.svg" alt="Sneexy button" title="Sneexy"></a>
+                        <a href="https://enxorbyte.neocities.org/"><img loading="lazy" alt="enxorbyte button" title="enxorbyte" src="https://enxorbyte.neocities.org/badge.gif"></a>
+                        <a href="https://caramell.gay"><img src="https://caramell.gay/assets/caragay.gif" title="caramell.gay" alt="caramell.gay button"></a>
+                        <a href="7sary.neocities.org"><img alt="7sary.neocities.org button" title="7Sary_" src="https://7sary.neocities.org/images/badges/7sary.png"></a>
                     </span>
 
                     <h2 class="text2 collection" style="text-align:right;">Collection</h2>
@@ -78,8 +81,6 @@
                         <a href="https://nekoweb.org/"><img alt="Nekoweb.org button" src="https://nekoweb.org/assets/buttons/button5.gif" title="The webhost for cats!"></a>
                         <a href="https://beeps.website"><img src="https://beeps.website/assets/images/88x31-d.gif" alt="Beeps.website button | Dark blue and green animated button with Ash the amphimorpho" title="Dark blue and green animated button with Ash the amphimorpho" width="88" height="31" loading="lazy"></a>
                         <a href="https://tuxedodragon.art"><img alt="tuxedodragon button" title="tuxedodragon" src="https://tuxedodragon.art/tuxedodragon 88x31.gif"></a>
-                        <a href="https://neo-neighborhoods.neocities.org/TimesSquare/"><img src="https://neo-neighborhoods.neocities.org/TimesSquare/times88.gif" width="88" height="31" title="neocities times square" alt="neocities times square button"></a>
-                        <a href="https://dokode.moe/"><img src="https://dokode.moe/media/88x31sites/dokodemobutton3.gif" title="dokodemo" alt="dokode.moe button"></a>
                         <a href="https://pebble.pet/"><img src="https://pebble.pet/button.gif" title="pebble" alt="pebble.pet button"></a>
                         <a href="https://citrons.xyz/a/memetic-apioform-page.html"><img width="88" height="31" src="https://citrons.xyz/a/static/apiopage.png" alt="memetic apioform" title="memetic apioform"></a>
                     </span>
@@ -110,16 +111,7 @@
             <h1 class="text1 header2">💍 Webrings</h1>
             <div class="blogview">
                 <div class="contentview2">
-                    <img alt="Rhe Nerds logo in a modern simplistic style resembling an O" class="gliveimg" style="height: 170px;" src="/assets/media/site/NerdsSymbolDark.webp">
-                    <p class="text2" style="text-align:center">
-                        <a aria-label="Nerds webring previous" class="text2 linking" href="https://ring.nerds.my.id/kraaft/previous">&lt;&lt;</a>
-                        <a aria-label="Amphimorpho webring website" class="text2 linking" href="https://ring.nerds.my.id/">Rhenerds Webring (in progress)</a>
-                        <a aria-label="Nerds webring next" class="text2 linking" href="https://ring.nerds.my.id/kraaft/next">&gt;&gt;</a>
-                    </p>
-                </div>
-                <div class=divider style="margin:0"></div>
-                <div class="contentview2">
-                    <img alt="A blue-lightgrey amphimorpho with a bright smile" class="gliveimg" style="height: 170px;" src="/assets/media/site/kraaftnoodletr.webp">
+                    <img role="presentation" alt="amphimorphos huddled together" class="gliveimg" style="height: 170px;" src="https://noodle-r.ing/assets/bowl.png">
                     <p class="text2" style="text-align:center">
                         <a aria-label="Amphimorpho webring previous" class="text2 linking" href="https://noodle-r.ing/kraaft/prev">&lt;&lt;</a>
                         <a aria-label="Amphimorpho webring website" class="text2 linking" href="https://noodle-r.ing/">Amphimorpho Webring</a>
@@ -129,7 +121,7 @@
             </div>
         </div>
     </div>
-    
+
 </main>
 
 <style>
@@ -215,6 +207,7 @@
     .rightside {
         float:right;
         text-align: right;
+        width: 100% !important;
     }
 
     hr {
@@ -291,7 +284,7 @@
             margin: 0 !important;
             background: transparent;
         }
-        
+
         .header2 {
             font-size: 25px;
         }
@@ -321,7 +314,7 @@
 
 
 
-        
+
     }
 
     /* Medium devices (tablets, less than 992px) */
@@ -389,5 +382,5 @@
     @media (max-width: 1399.98px) {
 
     }
-    
+
 </style>
