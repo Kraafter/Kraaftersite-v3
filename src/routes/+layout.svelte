@@ -1,6 +1,6 @@
 <!-- @migration-task Error while migrating Svelte code: `<a>` is invalid inside `<a>` -->
 <script lang="ts">
-  
+
     import { fly } from "svelte/transition";
     import { cubicIn, cubicOut } from "svelte/easing";
 
@@ -30,6 +30,9 @@
             </ul>
         </nav>
     </header>
+    <div class="nav" style="padding: 0; align-items: center; display: flex; gap: 10px;">
+        <p style="width: 100%; justify-content: center; display: flex; align-items: center; margin-top: 1rem;" class="text2">Version 4 is Coming! &nbsp; <a href="/blog/2026-7-24-end-credits" class="text2 linking">Read the Blog Post</a></p>
+    </div>
 
     {#key data.url}
     <div class="slotcontain" in:fly={{duration: prefersReducedMotion.current ? 0 : 500, x:-100, delay:  prefersReducedMotion.current ? 0 : 500, easing:cubicOut}} out:fly={{duration:  prefersReducedMotion.current ? 0 : 500, x:100, easing:cubicIn}}>
