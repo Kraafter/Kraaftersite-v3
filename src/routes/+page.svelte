@@ -55,7 +55,7 @@
             </div>
             <div class="main2">
                 <div class="mainimg">
-                    <a href="/about/fursona/nord"><img class="gliveimg" alt="Nord the amphimorpho with an 88x31 button in his mouth" src='/assets/media/site/nordfloat.webp' /></a>
+                    <a href="/about/fursona/nord"><img class="gliveimg" alt="Nord the amphimorpho with an 88x31 button in his mouth" src='/assets/media/site/nordfloat.webp'/></a>
                     <p class="text2" style="width: 100%; text-align:center;"><a class="text2 linking" href="/about/fursona/nord">Nord, the amphimorpho</a></p>
                 </div>
                 <div class="maintext">
@@ -85,10 +85,9 @@
                         <a href="https://citrons.xyz/a/memetic-apioform-page.html"><img width="88" height="31" src="https://citrons.xyz/a/static/apiopage.png" alt="memetic apioform" title="memetic apioform"></a>
                     </span>
 
-                    <h2 id="button-code-heading" class="text2 collection" style="text-align: right">Add my button to your site</h2>
-                    <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></p>
-                    <label for="html-code">Add my button to your site</label>
-                    <textarea id="html-code" aria-labelledby="button-code-heading" style="margin-left: auto; float: right;color:aliceblue; background-color: rgb(50,50,50);" readonly><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite"></a></textarea>
+                    <label id="button-code-heading" class="text2 collection" style="text-align: right; width: 100%;" for="html-code">Add my button to your site</label>
+                    <p class=text2 style="text-align: right; margin-left:auto"><a href="https://kraafter.me/"><img src="/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite" style="image-rendering: pixelated;"></a></p>
+                    <textarea id="html-code" aria-labelledby="button-code-heading" style="margin-left: auto; float: right;color:aliceblue; background-color: rgb(50,50,50);" readonly><a href="https://kraafter.me/"><img src="https://kraafter.me/assets/img/button.png" alt="Kraafter.me button" title="kraaftersite" style="image-rendering: pixelated;"></a></textarea>
                 </div>
             </div>
         </div>
