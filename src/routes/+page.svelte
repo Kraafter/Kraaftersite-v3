@@ -62,27 +62,27 @@
 
                     <h2 class="text2" style="text-align:right;">Friends</h2>
                     <span class="rightside" style="width: fit-content; gap:100px; height: fit-content; display:inline-block; float: none">
-                        <a href="https://ryj.my.id/"><img src="https://ik.imagekit.io/kr4ft/misc/88x31.gif" alt="ryj.my.id button" title="ryu"></a>
-                        <a href="https://finiteti.me/"><img src="https://finiteti.me/badge.png" alt="finiteti.me button" title="mefinity"></a>
+                        <a href="https://ryj.my.id/"><img src="https://ik.imagekit.io/kr4ft/misc/88x31.gif" alt="ryj.my.id button" title="ryu" style="image-rendering: pixelated;"></a>
+                        <a href="https://finiteti.me/"><img src="https://finiteti.me/badge.png" alt="finiteti.me button" title="mefinity" style="image-rendering: pixelated;"></a>
                         <a href="https://daringcuteseal.github.io/"><img width="88px" height="31px" src="https://daringcuteseal.github.io/assets/image/button.png" alt="daringcuteseal.github.io button" title="daringcuteseal"></a>
-                        <a href="https://ichisansfw.me/"><img width="88px" height="31px" src="/assets/img/ichi.gif" alt="ichisansfw.me button" title="ichisansfw"></a>
-                        <a href="https://beepi.ng"><img src="https://beepi.ng/88x31.png" width="88" height="31" title="unnick" alt="unnick beepi.ng button"></a>
-                        <a href="https://milkyway.moe/"><img alt="milkyway.moe button" title="milkyway" src="https://milkyway.moe/milkybuttons/milkybtn.gif"></a>
-                        <a href="https://ivrry.nekoweb.org"><img alt="ivrry nekoweb button" title='ivory' src="https://ivrry.nekoweb.org/assets/images/button.png"></a>
+                        <a href="https://ichisansfw.me/"><img width="88px" height="31px" src="/assets/img/ichi.gif" alt="ichisansfw.me button" title="ichisansfw" style="image-rendering: pixelated;"></a>
+                        <a href="https://beepi.ng"><img src="https://beepi.ng/88x31.png" width="88" height="31" title="unnick" alt="unnick beepi.ng button" style="image-rendering: pixelated;"></a>
+                        <a href="https://milkyway.moe/"><img alt="milkyway.moe button" title="milkyway" src="https://milkyway.moe/milkybuttons/milkybtn.gif" style="image-rendering: pixelated;"></a>
+                        <a href="https://ivrry.nekoweb.org"><img alt="ivrry nekoweb button" title='ivory' src="https://ivrry.nekoweb.org/assets/images/button.png" style="image-rendering: pixelated;"></a>
                         <a href="https://synth.download"><img src="https://synth.download/assets/buttons/sneexy.svg" alt="Sneexy button" title="Sneexy"></a>
-                        <a href="https://enxorbyte.neocities.org/"><img loading="lazy" alt="enxorbyte button" title="enxorbyte" src="https://enxorbyte.neocities.org/badge.gif"></a>
-                        <a href="https://caramell.gay"><img src="https://caramell.gay/assets/caragay.gif" title="caramell.gay" alt="caramell.gay button"></a>
-                        <a href="https://7sary.neocities.org"><img alt="7sary.neocities.org button" title="7Sary_" src="https://7sary.neocities.org/images/badges/7sary.png"></a>
+                        <a href="https://enxorbyte.neocities.org/"><img loading="lazy" alt="enxorbyte button" title="enxorbyte" src="https://enxorbyte.neocities.org/badge.gif" style="image-rendering: pixelated;"></a>
+                        <a href="https://caramell.gay"><img src="https://caramell.gay/assets/caragay.gif" title="caramell.gay" alt="caramell.gay button" style="image-rendering: pixelated;"></a>
+                        <a href="https://7sary.neocities.org"><img alt="7sary.neocities.org button" title="7Sary_" src="https://7sary.neocities.org/images/badges/7sary.png" style="image-rendering: pixelated;"></a>
                     </span>
 
                     <h2 class="text2 collection" style="text-align:right;">Collection</h2>
                     <span class="rightside" style="width: fit-content; gap:100px; height: fit-content; display:inline-block; float: none">
-                        <img src="https://cyber.dabamos.de/88x31/88x31.gif" alt="88x31" title="88x31">
-                        <a href="https://nekoweb.org/"><img alt="Nekoweb.org button" src="https://nekoweb.org/assets/buttons/button5.gif" title="The webhost for cats!"></a>
-                        <a href="https://beeps.website"><img src="https://beeps.website/assets/images/88x31-d.gif" alt="Beeps.website button | Dark blue and green animated button with Ash the amphimorpho" title="Dark blue and green animated button with Ash the amphimorpho" width="88" height="31" loading="lazy"></a>
-                        <a href="https://tuxedodragon.art"><img alt="tuxedodragon button" title="tuxedodragon" src="https://tuxedodragon.art/tuxedodragon 88x31.gif"></a>
-                        <a href="https://pebble.pet/"><img src="https://pebble.pet/button.gif" title="pebble" alt="pebble.pet button"></a>
-                        <a href="https://citrons.xyz/a/memetic-apioform-page.html"><img width="88" height="31" src="https://citrons.xyz/a/static/apiopage.png" alt="memetic apioform" title="memetic apioform"></a>
+                        <img src="https://cyber.dabamos.de/88x31/88x31.gif" alt="88x31" title="88x31" style="image-rendering: pixelated;">
+                        <a href="https://nekoweb.org/"><img alt="Nekoweb.org button" src="https://nekoweb.org/assets/buttons/button5.gif" title="The webhost for cats!" style="image-rendering: pixelated;"></a>
+                        <a href="https://beeps.website"><img src="https://beeps.website/assets/images/88x31-d.gif" alt="Beeps.website button | Dark blue and green animated button with Ash the amphimorpho" title="Dark blue and green animated button with Ash the amphimorpho" width="88" height="31" loading="lazy" style="image-rendering: pixelated;"></a>
+                        <a href="https://tuxedodragon.art"><img alt="tuxedodragon button" title="tuxedodragon" src="https://tuxedodragon.art/tuxedodragon 88x31.gif" style="image-rendering: pixelated;"></a>
+                        <a href="https://pebble.pet/"><img src="https://pebble.pet/button.gif" title="pebble" alt="pebble.pet button" style="image-rendering: pixelated;"></a>
+                        <a href="https://citrons.xyz/a/memetic-apioform-page.html"><img width="88" height="31" src="https://citrons.xyz/a/static/apiopage.png" alt="memetic apioform" title="memetic apioform" style="image-rendering: pixelated;"></a>
                     </span>
 
                     <label id="button-code-heading" class="text2 collection" style="text-align: right; width: 100%;" for="html-code">Add my button to your site</label>
